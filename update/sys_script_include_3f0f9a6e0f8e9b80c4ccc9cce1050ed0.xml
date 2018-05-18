@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cph_sec.bnowupdaterecord_sec2202</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>bnowupdaterecord_sec2202</name>
+        <script><![CDATA[var bnowupdaterecord_sec2202 = Class.create();
+bnowupdaterecord_sec2202.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	updateRecord: function() {
+
+		var sysID = this.getParameter('sysparm_sys_id');
+		var udlaantValue = this.getParameter('sysparm_udlaant');
+
+
+
+		var gr = new GlideRecord('x_cph_sec_2202');
+		gr.addQuery('sys_id',sysID);
+		gr.query();
+
+		if(gr.next()){
+
+			if(udlaantValue == 'true'){
+				
+				gr.modtaget = 'true';
+				gr.modtaget_af = this.getParameter('sysparm_modtaget_af');
+				gr.modtaget_date_time = this.getParameter('sysparm_modtaget_date_time');
+
+			}
+			else{
+				gr.udlaant = 'true';
+				gr.udlaant_af = this.getParameter('sysparm_udlaant_af');
+				gr.udlaan_date_time = this.getParameter('sysparm_udlaan_date_time');
+				gr.udlaanssted = this.getParameter('sysparm_udlaanssted');
+				gr.vilkaar_bagageomraade = this.getParameter('sysparm_vilkaar_bagageomraade');
+				gr.vilkaar_crew = this.getParameter('sysparm_vilkaar_crew');
+				gr.id_card_type = this.getParameter('sysparm_id_card_type');
+				gr.id_card_number = this.getParameter('sysparm_id_card_number');
+				gr.zonekortnr = this.getParameter('sysparm_zonekortnr');
+				gr.remarks = this.getParameter('sysparm_remarks');
+
+			}
+			gr.update();
+		}
+	}
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-05-16 14:36:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3f0f9a6e0f8e9b80c4ccc9cce1050ed0</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>bnowupdaterecord_sec2202</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_script_include_3f0f9a6e0f8e9b80c4ccc9cce1050ed0</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-05-17 10:06:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

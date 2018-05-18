@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="id_card_type" table="x_cph_sec_2202" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPH</label>
+            <language>en</language>
+            <name>x_cph_sec_2202</name>
+            <sequence>0</sequence>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-05-17 09:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>594e96fa0fc21f80c4ccc9cce1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
+            <value>CPH</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visitor</label>
+            <language>en</language>
+            <name>x_cph_sec_2202</name>
+            <sequence>1</sequence>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-05-17 09:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>514e96fa0fc21f80c4ccc9cce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
+            <value>Visitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Staff</label>
+            <language>en</language>
+            <name>x_cph_sec_2202</name>
+            <sequence>2</sequence>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-05-17 09:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>914e5efa0fc21f80c4ccc9cce1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
+            <value>Staff</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Særkort</label>
+            <language>en</language>
+            <name>x_cph_sec_2202</name>
+            <sequence>3</sequence>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-05-17 09:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d14e5efa0fc21f80c4ccc9cce1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
+            <value>Særkort</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Crew</label>
+            <language>en</language>
+            <name>x_cph_sec_2202</name>
+            <sequence>4</sequence>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-05-17 09:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>154e5efa0fc21f80c4ccc9cce1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
+            <value>Crew</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Airline</label>
+            <language>en</language>
+            <name>x_cph_sec_2202</name>
+            <sequence>5</sequence>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-05-17 09:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>554e5efa0fc21f80c4ccc9cce1050e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
+            <value>Airline</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>id_card_type</element>
+            <name>x_cph_sec_2202</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-05-17 09:05:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1d4e96fa0fc21f80c4ccc9cce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>id_card_type</sys_name>
+            <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+            <sys_update_name>sys_choice_x_cph_sec_2202_id_card_type</sys_update_name>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

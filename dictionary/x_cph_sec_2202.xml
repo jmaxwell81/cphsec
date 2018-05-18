@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cph_sec_app" label="Zonerekvisition" max_length="40" name="x_cph_sec_2202" type="collection">
+        <element label="Accepteret Vilkår" max_length="40" name="accept_demands" type="boolean"/>
+        <element label="Firma" max_length="100" name="company" type="string"/>
+        <element label="ID-kortnr." max_length="100" name="id_card_number" type="string"/>
+        <element choice="1" label="ID-kort type" max_length="40" name="id_card_type" type="choice">
+            <choice>
+                <element label="CPH" sequence="0" value="CPH"/>
+                <element label="Visitor" sequence="1" value="Visitor"/>
+                <element label="Staff" sequence="2" value="Staff"/>
+                <element label="Særkort" sequence="3" value="Særkort"/>
+                <element label="Crew" sequence="4" value="Crew"/>
+                <element label="Airline" sequence="5" value="Airline"/>
+            </choice>
+        </element>
+        <element label="Modtaget" max_length="40" name="modtaget" type="boolean"/>
+        <element label="Modtaget af" max_length="32" name="modtaget_af" reference="sys_user" type="reference"/>
+        <element label="Modtaget dato/tid" max_length="40" name="modtaget_date_time" type="glide_date_time"/>
+        <element label="Modtaget Tj.nr." max_length="100" name="modtaget_tj_nr" type="string"/>
+        <element label="Navn" max_length="100" name="name" type="string"/>
+        <element label="Kontakt tlf.nr." max_length="100" name="phonenumber" type="string"/>
+        <element label="Bemærkninger" max_length="1000" name="remarks" type="string"/>
+        <element choice="1" label="Udlånssted" max_length="40" name="udlaanssted" type="choice">
+            <choice>
+                <element label="Hovedvagt" sequence="0" value="Hovedvagt"/>
+                <element label="Syd" sequence="1" value="Syd"/>
+                <element label="A-Reg" sequence="2" value="A-Reg"/>
+                <element label="Maglebylille" sequence="3" value="Maglebylille"/>
+                <element label="Nord" sequence="4" value="Nord"/>
+            </choice>
+        </element>
+        <element label="Udlånt" max_length="40" name="udlaant" type="boolean"/>
+        <element label="Udlånt af" max_length="32" name="udlaant_af" reference="sys_user" type="reference"/>
+        <element label="Udlån Dato, tid" max_length="40" name="udlaan_date_time" type="glide_date_time"/>
+        <element label="Udlån Tj.nr." max_length="100" name="udlan_tj_nr" type="string"/>
+        <element label="Udleveret Vilkår for Bagageområde" max_length="40" name="vilkaar_bagageomraade" type="boolean"/>
+        <element label="Udleveret Crew vilkår" max_length="40" name="vilkaar_crew" type="boolean"/>
+        <element label="Zonekortnr." max_length="100" name="zonekortnr" type="string"/>
+        <index name="index">
+            <element name="udlaant_af"/>
+        </index>
+        <index name="index2">
+            <element name="modtaget_af"/>
+        </index>
+    </element>
+</database>

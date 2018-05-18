@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sys_db_object" relationship="4344f6f5bf1320001875647fcf0739ad" sys_domain="global" table="sys_dictionary" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>column_label</element>
+            <list_id display_value="sys_dictionary" element="NULL" name="sys_dictionary" parent="sys_db_object" relationship="4344f6f5bf1320001875647fcf0739ad" sys_domain="global" view="Default view">8eb1fcd8ef423000a61d5a3615c0fb55</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>bnow-sl</sys_created_by>
+            <sys_created_on>2016-11-14 11:50:19</sys_created_on>
+            <sys_id>30337f4e0fcfa2001a5fc453e2050e9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-sl</sys_updated_by>
+            <sys_updated_on>2016-11-14 11:50:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>internal_type</element>
+            <list_id display_value="sys_dictionary" element="NULL" name="sys_dictionary" parent="sys_db_object" relationship="4344f6f5bf1320001875647fcf0739ad" sys_domain="global" view="Default view">8eb1fcd8ef423000a61d5a3615c0fb55</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>bnow-sl</sys_created_by>
+            <sys_created_on>2016-11-14 11:50:19</sys_created_on>
+            <sys_id>b433338e0fcfa2001a5fc453e2050e86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-sl</sys_updated_by>
+            <sys_updated_on>2016-11-14 11:50:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reference</element>
+            <list_id display_value="sys_dictionary" element="NULL" name="sys_dictionary" parent="sys_db_object" relationship="4344f6f5bf1320001875647fcf0739ad" sys_domain="global" view="Default view">8eb1fcd8ef423000a61d5a3615c0fb55</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>bnow-sl</sys_created_by>
+            <sys_created_on>2016-11-14 11:50:19</sys_created_on>
+            <sys_id>3833338e0fcfa2001a5fc453e2050e86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-sl</sys_updated_by>
+            <sys_updated_on>2016-11-14 11:50:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>max_length</element>
+            <list_id display_value="sys_dictionary" element="NULL" name="sys_dictionary" parent="sys_db_object" relationship="4344f6f5bf1320001875647fcf0739ad" sys_domain="global" view="Default view">8eb1fcd8ef423000a61d5a3615c0fb55</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>bnow-sl</sys_created_by>
+            <sys_created_on>2016-11-14 11:50:19</sys_created_on>
+            <sys_id>b833338e0fcfa2001a5fc453e2050e86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-sl</sys_updated_by>
+            <sys_updated_on>2016-11-14 11:50:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>default_value</element>
+            <list_id display_value="sys_dictionary" element="NULL" name="sys_dictionary" parent="sys_db_object" relationship="4344f6f5bf1320001875647fcf0739ad" sys_domain="global" view="Default view">8eb1fcd8ef423000a61d5a3615c0fb55</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>bnow-sl</sys_created_by>
+            <sys_created_on>2016-11-14 11:50:19</sys_created_on>
+            <sys_id>3c33338e0fcfa2001a5fc453e2050e86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-sl</sys_updated_by>
+            <sys_updated_on>2016-11-14 11:50:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>display</element>
+            <list_id display_value="sys_dictionary" element="NULL" name="sys_dictionary" parent="sys_db_object" relationship="4344f6f5bf1320001875647fcf0739ad" sys_domain="global" view="Default view">8eb1fcd8ef423000a61d5a3615c0fb55</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>bnow-sl</sys_created_by>
+            <sys_created_on>2016-11-14 11:50:19</sys_created_on>
+            <sys_id>bc33338e0fcfa2001a5fc453e2050e86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-sl</sys_updated_by>
+            <sys_updated_on>2016-11-14 11:50:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>element</element>
+            <list_id display_value="sys_dictionary" element="NULL" name="sys_dictionary" parent="sys_db_object" relationship="4344f6f5bf1320001875647fcf0739ad" sys_domain="global" view="Default view">8eb1fcd8ef423000a61d5a3615c0fb55</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>bnow-sl</sys_created_by>
+            <sys_created_on>2016-11-14 11:50:19</sys_created_on>
+            <sys_id>3033338e0fcfa2001a5fc453e2050e87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-sl</sys_updated_by>
+            <sys_updated_on>2016-11-14 11:50:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="sys_dictionary" element="NULL" name="sys_dictionary" parent="sys_db_object" relationship="4344f6f5bf1320001875647fcf0739ad" sys_domain="global" view="Default view">8eb1fcd8ef423000a61d5a3615c0fb55</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>bnow-sl</sys_created_by>
+            <sys_created_on>2016-11-14 11:50:19</sys_created_on>
+            <sys_id>b033338e0fcfa2001a5fc453e2050e87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-sl</sys_updated_by>
+            <sys_updated_on>2016-11-14 11:50:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_dictionary</name>
+            <parent>sys_db_object</parent>
+            <position/>
+            <relationship display_value="Table Columns">4344f6f5bf1320001875647fcf0739ad</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-05-16 12:09:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>b0eeb5e20f0e9b80c4ccc9cce1050ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-05-16 12:09:46</sys_updated_on>
+            <sys_user display_value="Rasmus Stentoft">ba18d76a0f399300f074f77ce1050ea7</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

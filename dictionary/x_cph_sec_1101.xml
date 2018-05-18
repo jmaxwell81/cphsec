@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cph_sec_app" label="Optælling af overdragne effekter" max_length="40" name="x_cph_sec_1101" type="collection">
+        <element default="0" label="Farligt gods" max_length="40" name="dangerous_goods" type="integer"/>
+        <element default="0" label="Knive / dolke" max_length="40" name="knives" type="integer"/>
+        <element default="0" label="Andet" max_length="40" name="other" type="integer"/>
+        <element label="Bemærkning" max_length="4000" name="remark" type="string"/>
+        <element default="0" label="Våben efterligninger" max_length="40" name="replica_weapon" type="integer"/>
+        <element default="0" label="Sakse" max_length="40" name="scissors" type="integer"/>
+        <element default="0" label="Værktøj" max_length="40" name="tools" type="integer"/>
+    </element>
+</database>
