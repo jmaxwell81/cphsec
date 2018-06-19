@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Bilpas" max_length="40" name="x_cph_sec_2203_vehicle_passport" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Printeradresse" max_length="80" name="printer_address" type="string"/>
+        <element label="Vagt" max_length="15" name="security" type="string"/>
+        <element label="Vagthavende mailadresse" max_length="50" name="security_emailaddress" type="string"/>
+        <element label="Bilpasnr." max_length="15" name="vehicle_passport_number" type="string"/>
+    </element>
+</database>

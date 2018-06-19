@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>BNOWRS - TESTER</name>
+        <run_once>true</run_once>
+        <script><![CDATA[var parm1 = '2';
+
+var lookup = new GlideRecord('x_cph_sec_1102_sec_function_test');
+lookup.addQuery('completed','false');
+lookup.query();
+
+while(lookup.next()){
+parm1 =+ lookup.getValue('number')+' - ';
+
+}
+
+gs.info(parm1);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-05-30 13:39:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3e995e4b0f921f00f074f77ce1050e99</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>BNOWRS - TESTER</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_script_fix_3e995e4b0f921f00f074f77ce1050e99</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-06-13 09:18:52</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

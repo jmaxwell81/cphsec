@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="first_name" label="First name" language="en" table="x_cph_sec_2203">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <help/>
+            <hint/>
+            <label>First name</label>
+            <language>en</language>
+            <name>x_cph_sec_2203</name>
+            <plural>First names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-06-14 07:49:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a56992bf0fe69f40c4ccc9cce1050ec9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>First name</sys_name>
+            <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+            <sys_update_name>sys_documentation_x_cph_sec_2203_first_name_en</sys_update_name>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-06-14 07:49:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

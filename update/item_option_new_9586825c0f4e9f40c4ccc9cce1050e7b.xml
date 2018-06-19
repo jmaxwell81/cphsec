@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Zonerekvisition - Rekvirent">a34e61ea0f42df00f074f77ce1050eba</cat_item>
+        <cat_item display_value="Zonerekvisition - Rekvirent - Anmodning om kort">a34e61ea0f42df00f074f77ce1050eba</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -39,7 +39,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>crew_text</name>
-        <order>200</order>
+        <order>900</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text> </question_text>
@@ -62,7 +62,7 @@
         <sys_created_on>2018-05-09 12:57:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9586825c0f4e9f40c4ccc9cce1050e7b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name> </sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -70,7 +70,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_9586825c0f4e9f40c4ccc9cce1050e7b</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-05-16 11:04:30</sys_updated_on>
+        <sys_updated_on>2018-06-04 07:25:56</sys_updated_on>
         <table/>
         <tooltip/>
         <type>17</type>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cph_sec_app" label="Bilpas kontroldokument" max_length="40" name="x_cph_sec_2203" type="collection">
+        <element label="Accepted terms" max_length="40" name="accept_terms" read_only="true" type="boolean"/>
+        <element label="Airline" max_length="30" name="airline" read_only="true" type="string"/>
+        <element label="Company" max_length="30" name="company" read_only="true" type="string"/>
+        <element label="Udlånt" max_length="40" name="delivered" read_only="true" type="boolean"/>
+        <element label="Udlånt af" max_length="32" name="delivered_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Udlånt Tj.nr." max_length="100" name="delivered_by_employee_number" read_only="true" type="string"/>
+        <element label="Udlånt tidspunkt" max_length="40" name="delivered_date_time" read_only="true" type="glide_date_time"/>
+        <element label="Udlånt bemærkning" max_length="250" name="deliver_remarks" read_only="true" type="string"/>
+        <element label="First name" max_length="60" name="first_name" read_only="true" type="string"/>
+        <element label="ID-kortnr." max_length="15" name="id_card_number" read_only="true" type="string"/>
+        <element choice="1" label="ID-kort type" max_length="40" name="id_card_type" read_only="true" type="choice">
+            <choice>
+                <element label="CPH" sequence="10" value="cph"/>
+                <element label="Visitor" sequence="20" value="visitor"/>
+                <element label="Staff" sequence="30" value="staff"/>
+                <element label="Særkort" sequence="40" value="særkort"/>
+                <element label="Crew / BesætningsID" sequence="50" value="Crew / BesætningsID"/>
+            </choice>
+        </element>
+        <element label="Last name" max_length="60" name="last_name" read_only="true" type="string"/>
+        <element label="Mail address" max_length="50" name="mail_address" read_only="true" type="string"/>
+        <element label="Phone number" max_length="20" name="phone_number" read_only="true" type="string"/>
+        <element label="Place of interest" max_length="60" name="place_of_interest" read_only="true" type="string"/>
+        <element label="Modtaget" max_length="40" name="received" read_only="true" type="boolean"/>
+        <element label="Modtaget af" max_length="32" name="received_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Modtaget Tj.nr." max_length="50" name="received_by_employee_number" read_only="true" type="string"/>
+        <element label="Modtaget tidspunkt" max_length="40" name="received_date_time" read_only="true" type="glide_date_time"/>
+        <element label="Modtaget bemærkninger" max_length="250" name="received_remarks" read_only="true" type="string"/>
+        <element label="Requested for date/time" max_length="40" name="requested_date_time" read_only="true" type="glide_date_time"/>
+        <element choice="1" label="Vagt" max_length="40" name="security_location" read_only="true" type="choice">
+            <choice>
+                <element label="Hovedvagt" value="hovedvagt"/>
+                <element label="Maglebylille" value="maglebylille"/>
+                <element label="Syd" value="syd"/>
+            </choice>
+        </element>
+        <element label="Vehicle reg. number" max_length="15" name="vehicle_reg_number" read_only="true" type="string"/>
+        <index name="index">
+            <element name="delivered_by"/>
+        </index>
+        <index name="index2">
+            <element name="received_by"/>
+        </index>
+    </element>
+</database>

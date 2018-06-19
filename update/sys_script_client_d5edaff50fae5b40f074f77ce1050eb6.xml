@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>select_all_days</field>
+        <global>true</global>
+        <messages/>
+        <name>Select all days</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading) {
+		return;
+	}
+
+	if(newValue == 'true'){
+
+		g_form.setValue('monday','true');
+		g_form.setValue('tuesday','true');
+		g_form.setValue('wednesday','true');
+		g_form.setValue('thursday','true');
+		g_form.setValue('friday','true');
+		g_form.setValue('saturday','true');
+		g_form.setValue('sunday','true');
+
+	}
+	else{
+
+		g_form.setValue('monday','false');
+		g_form.setValue('tuesday','false');
+		g_form.setValue('wednesday','false');
+		g_form.setValue('thursday','false');
+		g_form.setValue('friday','false');
+		g_form.setValue('saturday','false');
+		g_form.setValue('sunday','false');
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-06-08 08:51:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d5edaff50fae5b40f074f77ce1050eb6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Select all days</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_script_client_d5edaff50fae5b40f074f77ce1050eb6</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-06-08 08:53:03</sys_updated_on>
+        <table>x_cph_sec_1102_sec_check_lookup</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

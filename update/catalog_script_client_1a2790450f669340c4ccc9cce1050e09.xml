@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Daglig funktionstest: Detektorkarme">f3b52d900fca9f40c4ccc9cce1050ee7</cat_item>
+        <cat_variable>IO:35351cc90f269340c4ccc9cce1050ec5</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>Update Employee Number</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading) {
+		return;
+	}
+
+	if( newValue == ''){
+		g_form.clearValue('employee_number');
+		return;
+	}
+	
+	var gr = new GlideRecord('sys_user');
+	gr.addQuery('sys_id',newValue);
+	gr.query(function (gr){
+
+		if(gr.next()){
+
+			g_form.setValue('employee_number',gr.getValue('employee_number'));
+		}
+	});
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-06-05 09:17:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1a2790450f669340c4ccc9cce1050e09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Employee Number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>catalog_script_client_1a2790450f669340c4ccc9cce1050e09</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-06-05 09:17:47</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

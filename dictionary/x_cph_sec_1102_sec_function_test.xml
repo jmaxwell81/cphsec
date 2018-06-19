@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cph_sec_app" label="Daglig funktionstest: Detektorkarme - Funktionstest" max_length="40" name="x_cph_sec_1102_sec_function_test" type="collection">
+        <element display="true" label="Checktype" max_length="100" name="checktype" read_only="true" type="string"/>
+        <element label="Udført" max_length="40" name="completed" read_only="true" type="boolean"/>
+        <element label="Udfyldt af" max_length="32" name="filled_out_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Udfyldt tidspunkt" max_length="40" name="filled_out_date_time" read_only="true" type="glide_date_time"/>
+        <element label="Placering" max_length="100" name="location" read_only="true" type="string"/>
+        <element label="Årsag" max_length="100" name="new_remarks" read_only="true" type="string"/>
+        <element label="Note" max_length="8000" name="note" read_only="true" type="html"/>
+        <element label="Order" max_length="20" name="order" read_only="true" type="decimal"/>
+        <element label="Bemærkninger" max_length="250" name="remarks" read_only="true" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element label="Aktiv" sequence="10" value="active"/>
+                <element label="Ude af drift" sequence="20" value="inoperative"/>
+                <element label="Nedtaget" sequence="30" value="dismantled"/>
+            </choice>
+        </element>
+        <element choice="1" label="Testtype" max_length="40" name="testtype" read_only="true" type="choice">
+            <choice>
+                <element label="Daglig" sequence="0" value="Daglig"/>
+                <element label="Ad-hoc" sequence="1" value="Ad-hoc"/>
+                <element label="Gentest" sequence="2" value="Gentest"/>
+                <element label="Opstartstest" sequence="3" value="Opstartstest"/>
+            </choice>
+        </element>
+        <element label="Test 1: Antal grønne stjerner" max_length="40" name="test_1_number_of_green_stars" read_only="true" type="integer"/>
+        <element choice="1" label="Test A: Nakken (1)" max_length="40" name="test_a_neck_1" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test A: Nakken (2)" max_length="40" name="test_a_neck_2" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test B: Bukselinning, højre (1)" max_length="40" name="test_b_pants_right_1" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test B: Bukselinning, højre (2)" max_length="40" name="test_b_pants_right_2" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test C: Bukselinning, midt (1)" max_length="40" name="test_c_pants_middle_1" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test C: Bukselinning, midt (2)" max_length="40" name="test_c_pants_middle_2" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test D: Bukselinning, venstre (1)" max_length="40" name="test_d_pants_left_1" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test D: Bukselinning, venstre (2)" max_length="40" name="test_d_pants_left_2" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test E: Ankel, højre (1)" max_length="40" name="test_e_ankle_right_1" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test E: Ankel, højre (2)" max_length="40" name="test_e_ankle_right_2" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test F: Ankel, venstre (1)" max_length="40" name="test_f_ankle_left_1" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test F: Ankel, venstre (2)" max_length="40" name="test_f_ankle_left_2" read_only="true" type="choice">
+            <choice>
+                <element label="OK" sequence="10" value="ok"/>
+                <element label="Fejlet" sequence="20" value="failed"/>
+            </choice>
+        </element>
+        <element label="Test ikke mulig" max_length="40" name="test_not_possible" read_only="true" type="boolean"/>
+        <index name="index">
+            <element name="filled_out_by"/>
+        </index>
+    </element>
+</database>

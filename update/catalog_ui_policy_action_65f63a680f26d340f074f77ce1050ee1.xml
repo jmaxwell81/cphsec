@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Zonerekvisition - Rekvirent - Anmodning om kort">a34e61ea0f42df00f074f77ce1050eba</catalog_item>
+        <catalog_variable>IO:91164e500f8e9f40c4ccc9cce1050e29</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-06-04 07:38:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>65f63a680f26d340f074f77ce1050ee1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>accept_crew</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_65f63a680f26d340f074f77ce1050ee1</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-06-04 10:26:23</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Crew Terms if Crew / BesætningsID is selected">41b67aa80f26d340f074f77ce1050e33</ui_policy>
+        <variable>accept_crew</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

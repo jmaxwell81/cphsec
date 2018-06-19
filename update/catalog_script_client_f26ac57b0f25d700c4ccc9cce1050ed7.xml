@@ -8,7 +8,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Postkasseseddel">ba7181bb0fe1d700c4ccc9cce1050eba</cat_item>
+        <cat_item display_value="Optælling af overdragne effekter">ba7181bb0fe1d700c4ccc9cce1050eba</cat_item>
         <cat_variable>IO:f5f885770f25d700c4ccc9cce1050e5a</cat_variable>
         <condition/>
         <description/>

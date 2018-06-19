@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>BNOW - CPH SEC - Daily Detektorkarme Daily Test</name>
+        <run_as display_value="Rasmus Stentoft">ba18d76a0f399300f074f77ce1050ea7</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-06-08 08:39:53</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var day = new Date().getDay();
+var dayname = '';
+
+switch(day){
+
+	case 1:
+		dayname = 'monday';
+		break;
+	case 2:
+		dayname = 'tuesday';
+		break;
+	case 3:
+		dayname = 'wednesday';
+		break;
+	case 4:
+		dayname = 'thursday';
+		break;
+	case 5:
+		dayname = 'friday';
+		break;
+	case 6:
+		dayname = 'saturday';
+		break;
+	case 7:
+		dayname = 'sunday';
+		break;
+}
+
+
+
+var lookup = new GlideRecord('x_cph_sec_1102_sec_check_lookup');
+lookup.addQuery('status','!=','dismantled');
+lookup.addQuery(dayname,true);
+lookup.query();
+
+
+while(lookup.next()){
+
+	var createTest = new GlideRecord('x_cph_sec_1102_sec_function_test');
+	createTest.initialize();
+	createTest.checktype = lookup.checktype;
+	createTest.location = lookup.location;
+	createTest.order = lookup.order;
+	createTest.testtype = 'Daglig';
+	createTest.note = lookup.note;
+	createTest.status = lookup.status;
+	createTest.insert();
+
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-06-08 08:41:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>226b63350fae5b40f074f77ce1050e0d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>BNOW - CPH SEC - Daily Detektorkarme Daily Test</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sysauto_script_226b63350fae5b40f074f77ce1050e0d</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-06-13 08:53:13</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

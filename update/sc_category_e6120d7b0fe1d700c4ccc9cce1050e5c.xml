@@ -15,7 +15,7 @@
         <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
         <module/>
         <order>0</order>
-        <parent display_value="SEC">d50281fb0fe1d700c4ccc9cce1050e6e</parent>
+        <parent display_value="CPH Security">d50281fb0fe1d700c4ccc9cce1050e6e</parent>
         <roles/>
         <sc_catalog display_value="Services">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <show_in_cms>false</show_in_cms>
@@ -45,14 +45,14 @@
         <file_name>homepage_image</file_name>
         <image_height/>
         <image_width/>
-        <size_bytes>1077</size_bytes>
-        <size_compressed>615</size_compressed>
+        <size_bytes>1091</size_bytes>
+        <size_compressed>610</size_compressed>
         <sys_created_by>bnow-ph</sys_created_by>
-        <sys_created_on>2018-04-26 09:24:23</sys_created_on>
-        <sys_id>4739da880fb99700f074f77ce1050e3d</sys_id>
+        <sys_created_on>2018-05-31 10:10:46</sys_created_on>
+        <sys_id>cc837a1b0fda5b00c4ccc9cce1050e27</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-04-26 09:24:23</sys_updated_on>
+        <sys_updated_on>2018-05-31 10:10:46</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>e6120d7b0fe1d700c4ccc9cce1050e5c</table_sys_id>
     </sys_attachment>
@@ -60,18 +60,18 @@
         <data>H4sIAAAAAAAAAA==</data>
         <length>16</length>
         <position>0</position>
-        <sys_attachment display_value="homepage_image" sys_id="4739da880fb99700f074f77ce1050e3d">4739da880fb99700f074f77ce1050e3d</sys_attachment>
+        <sys_attachment display_value="homepage_image" sys_id="cc837a1b0fda5b00c4ccc9cce1050e27">cc837a1b0fda5b00c4ccc9cce1050e27</sys_attachment>
         <sys_created_by>bnow-ph</sys_created_by>
-        <sys_created_on>2018-04-26 09:24:23</sys_created_on>
-        <sys_id>4f39da880fb99700f074f77ce1050e3d</sys_id>
+        <sys_created_on>2018-05-31 10:10:46</sys_created_on>
+        <sys_id>00837a1b0fda5b00c4ccc9cce1050e28</sys_id>
     </sys_attachment_doc>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
-        <data>dVNda9tAEHxOIP/hqj4VdKf70HfihqaUOJBAoaDXosiKJaJKRpJlO6X/vbMn102hwaz2bmb2dvYkX13vfzRsKvuh7tqFo4R0WNkW3apu1wtnOz7x2Ln+eHF+9Y5zdlu2ZZ+PXZ+yT6vusWR3TbMdRgsxrQWqXfYtu2Vf9puuH9nXZrvmdy0TFszmJikLhZTsZls3KyY/MMY5nT9M69c2lMPq1cK5z9ffsYTHdlg41ThuUs/b7XZiZ0TXrz0tpfRQepSk+6Zun/8nVEmSeJaFdOHIzd5hhzlfnJ+xqS53Nx0RTDLlIwwuYhgPTblwyjZ/bEr+mBfP677btqu0LXfslfLStk+HTV5AvunLoeyn0rFj0RFsPGxAjOV+9IphIOJMDKP8+VQ3TfpeRkr55vIX5J7VU+EmHytWNPmAuSF1GG7jQSnp6uQ+MSJ2lRZxwaUwCB8RI0Ku7D6sCCywU64UCjlBTmzWkwqFKaQ7kwDoVxEIW4VFXc0tw3UhsQKCp7ZP00hXfoYREcIK+cDSp6XvzvZeHO/tAWSMOhOKcJlouOAGZZKH8KhFZDMiU76YO0dH+xBhSL00hsbS1osPXwpjU0ZMSSQCmgAewINxjwxFFRmhCltIW36kqTiDHU0TkS8MIRNhrEX3r9sX9mBwvKuDSvvCz3SypH2mgz8MVAm6VyoQURUjlBHBhOOXIW694oDmEhKiSEmNKiUVvawwmMhJFQaZRU58jGv9hybgxEaR0K9Z9M8IOwnCYBnFsECNZ5FPH4cdIQxOsgCf0ttCYo/vlP5qyL8BjSRh3DUEAAA=</data>
-        <length>808</length>
+        <data>fVPva9swEP3cQv8HTfs0sGRJln+2WVnLKIUVBgN/HY6jRqaabWzHSTv2v+9ODmkHo4TTnd57J72TydX14ZcjsxnGpmtXVHJBiWnrbtO02xXdTY8so9efL86vPjBG7kxrhmrqhoJ82XRrQ+6d242Th4hSHLoD8qO8I18PfTdM5Lvbbdl9S7gHy+WSgiRcCHKza9yGiE+EMIbnj/P2rQ1JSbNZ0W/V9ieU4LEdV9ROU1+E4X6/5/uId8M2VEKIEFqPkuLgmvbpf0KZ53noWZCuqOgPlDwv+eL8jMyN2d90SBBBokQSGcNDjNOzMytq2mrtDFtX9dN26HbtpmjNnrxRXvrri7GvapD3gxnNMBvqx8IjyPTcAzGZwxTW44jEGR8n8fuxca74KFIpdXT5B+Sh12NjX02W1K4aYW6QUgKv8aCUCmLlmEy48kvNBI8gNEQGkTDp94lFsIadDASXkHPIuc9qhs6oFsFCAoA/iyD4qj0aKOYZpmoBFSCwKr9GTgTiFpzwBLzwLMBSY6mDxd8LDd+ZQGBfjg69DRZBn2AJmFQ89RmijFK+XJ0e/YMIplSWxRGOrbwbDc4kDI4ZYs5THuMM4B94YIIjg2HTiMvaN+KWHWlsLsGQuvXucz8GvKI3Gbz6fSEPUuc8DnRmleZ61pZhLnV2okCXw/1Wxjy1GYSMeFwmoMTCMoQYknhhDm1KamiTcA68RxLPaMYmcemRV17C4/7LI/LKC/g4Jx4NoATBkyTLFreWaRhoOQcrP0qZZSdhGvN3pcgfPzD+8SD/BTV2ewFDBAAA</data>
+        <length>800</length>
         <position>1</position>
-        <sys_attachment display_value="homepage_image" sys_id="4739da880fb99700f074f77ce1050e3d">4739da880fb99700f074f77ce1050e3d</sys_attachment>
+        <sys_attachment display_value="homepage_image" sys_id="cc837a1b0fda5b00c4ccc9cce1050e27">cc837a1b0fda5b00c4ccc9cce1050e27</sys_attachment>
         <sys_created_by>bnow-ph</sys_created_by>
-        <sys_created_on>2018-04-26 09:24:23</sys_created_on>
-        <sys_id>cf39da880fb99700f074f77ce1050e3d</sys_id>
+        <sys_created_on>2018-05-31 10:10:46</sys_created_on>
+        <sys_id>80837a1b0fda5b00c4ccc9cce1050e28</sys_id>
     </sys_attachment_doc>
 </record_update>

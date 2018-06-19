@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_cph_sec_1202</basic_apply_to>
+        <basic_query_from>x_cph_sec_1202</basic_query_from>
+        <insert_callback/>
+        <name>Registreringer tilknyttet</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	if(!parent.parent.nil())
+		current.addQuery('parent', parent.parent);
+	else
+		current.addQuery('parent', parent.sys_id);
+	
+	current.addNotNullQuery('parent');
+
+})(current, parent);]]></query_with>
+        <reference_field>parent</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-06-01 09:00:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>870def2b0fd2db00c4ccc9cce1050e10</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Registreringer tilknyttet</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_relationship_870def2b0fd2db00c4ccc9cce1050e10</sys_update_name>
+        <sys_updated_by>bnow-ph</sys_updated_by>
+        <sys_updated_on>2018-06-01 09:16:25</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=870def2b0fd2db00c4ccc9cce1050e10"/>
+</record_update>

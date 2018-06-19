@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>test_not_possible</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-06-05 14:16:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>81abd9850fea9340c4ccc9cce1050e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_not_possible</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_ui_policy_action_81abd9850fea9340c4ccc9cce1050e17</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-06-05 14:16:25</sys_updated_on>
+        <table>x_cph_sec_1102_sec_function_test</table>
+        <ui_policy display_value="Show Test not possible">508b59850fea9340c4ccc9cce1050eef</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

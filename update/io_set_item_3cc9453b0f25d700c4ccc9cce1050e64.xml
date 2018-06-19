@@ -2,7 +2,7 @@
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
-        <sc_cat_item display_value="Postkasseseddel">ba7181bb0fe1d700c4ccc9cce1050eba</sc_cat_item>
+        <sc_cat_item display_value="Optælling af overdragne effekter">ba7181bb0fe1d700c4ccc9cce1050eba</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>bnow-ph</sys_created_by>
         <sys_created_on>2018-04-25 08:58:40</sys_created_on>

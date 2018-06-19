@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Zonerekvisition - Security - Returmodtagelse af udlånte kort">c6742b230f5e9f00f074f77ce1050edc</catalog_item>
+        <catalog_variable>IO:dfb2c0ff0f9e9f00f074f77ce1050e16</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-06-01 11:29:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9a1f4cb70f12df00f074f77ce1050ecb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>phonenumber</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_9a1f4cb70f12df00f074f77ce1050ecb</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-06-01 11:29:27</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show fields when Card is selected">c2cec8b70f12df00f074f77ce1050ee0</ui_policy>
+        <variable>phonenumber</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

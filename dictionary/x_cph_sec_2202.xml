@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="x_cph_sec_app" label="Zonerekvisition" max_length="40" name="x_cph_sec_2202" type="collection">
-        <element label="Accepteret Vilkår" max_length="40" name="accept_demands" type="boolean"/>
-        <element label="Firma" max_length="100" name="company" type="string"/>
-        <element label="ID-kortnr." max_length="100" name="id_card_number" type="string"/>
-        <element choice="1" label="ID-kort type" max_length="40" name="id_card_type" type="choice">
+        <element label="Accepteret vilkår - Sikkerhedszone" max_length="40" name="accept_demands" read_only="true" type="boolean"/>
+        <element label="Accepteret vilkår - Crew Safety" max_length="40" name="accept_demands_crew" read_only="true" type="boolean"/>
+        <element label="Airline" max_length="50" name="airline" read_only="true" type="string"/>
+        <element label="Firma" max_length="100" name="company" read_only="true" type="string"/>
+        <element label="ID-kortnr." max_length="100" name="id_card_number" read_only="true" type="string"/>
+        <element choice="1" label="ID-kort type" max_length="40" name="id_card_type" read_only="true" type="choice">
             <choice>
                 <element label="CPH" sequence="0" value="CPH"/>
                 <element label="Visitor" sequence="1" value="Visitor"/>
@@ -12,16 +14,16 @@
                 <element label="Særkort" sequence="3" value="Særkort"/>
                 <element label="Crew" sequence="4" value="Crew"/>
                 <element label="Airline" sequence="5" value="Airline"/>
+                <element label="Crew / BesætningsID" sequence="6" value="Crew / BesætningsID"/>
             </choice>
         </element>
-        <element label="Modtaget" max_length="40" name="modtaget" type="boolean"/>
-        <element label="Modtaget af" max_length="32" name="modtaget_af" reference="sys_user" type="reference"/>
-        <element label="Modtaget dato/tid" max_length="40" name="modtaget_date_time" type="glide_date_time"/>
-        <element label="Modtaget Tj.nr." max_length="100" name="modtaget_tj_nr" type="string"/>
-        <element label="Navn" max_length="100" name="name" type="string"/>
-        <element label="Kontakt tlf.nr." max_length="100" name="phonenumber" type="string"/>
-        <element label="Bemærkninger" max_length="1000" name="remarks" type="string"/>
-        <element choice="1" label="Udlånssted" max_length="40" name="udlaanssted" type="choice">
+        <element label="Navn" max_length="100" name="name" read_only="true" type="string"/>
+        <element label="Kontakt tlf.nr." max_length="100" name="phonenumber" read_only="true" type="string"/>
+        <element label="Udlånt" max_length="40" name="provided" read_only="true" type="boolean"/>
+        <element label="Udlånt af" max_length="32" name="provided_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Udlån Tj.nr." max_length="100" name="provided_by_employee_id" read_only="true" type="string"/>
+        <element label="Udlån Dato, tid" max_length="40" name="provided_date_time" read_only="true" type="glide_date_time"/>
+        <element choice="1" label="Udlånssted" max_length="40" name="provided_place" read_only="true" type="choice">
             <choice>
                 <element label="Hovedvagt" sequence="0" value="Hovedvagt"/>
                 <element label="Syd" sequence="1" value="Syd"/>
@@ -30,18 +32,21 @@
                 <element label="Nord" sequence="4" value="Nord"/>
             </choice>
         </element>
-        <element label="Udlånt" max_length="40" name="udlaant" type="boolean"/>
-        <element label="Udlånt af" max_length="32" name="udlaant_af" reference="sys_user" type="reference"/>
-        <element label="Udlån Dato, tid" max_length="40" name="udlaan_date_time" type="glide_date_time"/>
-        <element label="Udlån Tj.nr." max_length="100" name="udlan_tj_nr" type="string"/>
-        <element label="Udleveret Vilkår for Bagageområde" max_length="40" name="vilkaar_bagageomraade" type="boolean"/>
-        <element label="Udleveret Crew vilkår" max_length="40" name="vilkaar_crew" type="boolean"/>
-        <element label="Zonekortnr." max_length="100" name="zonekortnr" type="string"/>
+        <element label="Modtaget" max_length="40" name="received" read_only="true" type="boolean"/>
+        <element label="Modtaget af" max_length="32" name="received_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Modtaget Tj.nr." max_length="100" name="received_by_employee_id" read_only="true" type="string"/>
+        <element label="Modtaget dato/tid" max_length="40" name="received_date_time" read_only="true" type="glide_date_time"/>
+        <element label="Remarks" max_length="100" name="received_remarks" read_only="true" type="string"/>
+        <element label="Bemærkninger" max_length="1000" name="remarks" read_only="true" type="string"/>
+        <element label="Ønsket udlånstidspunkt" max_length="40" name="requested_date_time" read_only="true" type="glide_date_time"/>
+        <element label="Udleveret Vilkår for Bagageområde" max_length="40" name="terms_area" read_only="true" type="boolean"/>
+        <element label="Udleveret Crew vilkår" max_length="40" name="terms_crew" read_only="true" type="boolean"/>
+        <element label="Zonekortnr." max_length="100" name="zonecardnumber" read_only="true" type="string"/>
         <index name="index">
-            <element name="udlaant_af"/>
+            <element name="received_by"/>
         </index>
         <index name="index2">
-            <element name="modtaget_af"/>
+            <element name="provided_by"/>
         </index>
     </element>
 </database>

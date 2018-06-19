@@ -2,7 +2,7 @@
 <record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <availability>on_desktop</availability>
+        <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Blanketter">e6120d7b0fe1d700c4ccc9cce1050e5c</category>
@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Zonerekvisition - Rekvirent</name>
+        <name>Zonerekvisition - Rekvirent - Anmodning om kort</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -53,15 +53,15 @@
         <sys_created_on>2018-05-16 10:58:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a34e61ea0f42df00f074f77ce1050eba</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Zonerekvisition - Rekvirent</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Zonerekvisition - Rekvirent - Anmodning om kort</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_a34e61ea0f42df00f074f77ce1050eba</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-05-16 11:03:01</sys_updated_on>
+        <sys_updated_on>2018-06-01 08:32:40</sys_updated_on>
         <table_name>x_cph_sec_2202</table_name>
         <template/>
         <type>item</type>

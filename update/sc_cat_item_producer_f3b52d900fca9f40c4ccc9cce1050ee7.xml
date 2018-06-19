@@ -44,7 +44,58 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script/>
+        <script><![CDATA[if(producer.register_new_test == 'true'){
+
+	var createTest = new GlideRecord('x_cph_sec_1102_sec_function_test');
+	createTest.initialize();
+	createTest.testtype = producer.new_testtype;
+	createTest.checktype = producer.new_checktype;
+	createTest.location = producer.new_location;
+	createTest.new_remarks = producer.remarks;
+	createTest.insert();
+}
+
+
+
+if(producer.register_new_test == 'false'){
+	var tableFields = [
+
+		'filled_out_by',
+		'filled_out_date_time',
+		'employee_number',
+		'test_not_possible',
+		'test_1_number_of_green_stars',
+		'test_a_neck_1',
+		'test_a_neck_2',
+		'test_b_pants_right_1',
+		'test_b_pants_right_2',
+		'test_c_pants_middle_1',
+		'test_c_pants_middle_2',
+		'test_d_pants_left_1',
+		'test_d_pants_left_2',
+		'test_e_ankle_right_1',
+		'test_e_ankle_right_2',
+		'test_f_ankle_left_1',
+		'test_f_ankle_left_2',
+		'remarks'
+	];
+
+	var updateTest = new GlideRecord('x_cph_sec_1102_sec_function_test');
+	updateTest.addQuery('sys_id',producer.functiontest);
+	updateTest.query();
+
+	if(updateTest.next()){
+
+		for (var i=0; i< tableFields.length; i++) {
+
+			updateTest[tableFields[i]] = producer[tableFields[i]];
+		}
+		updateTest.completed = 'true';
+		updateTest.update();
+	}
+}
+
+current.setAbortAction(true);]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -53,7 +104,7 @@
         <sys_created_on>2018-05-09 10:35:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f3b52d900fca9f40c4ccc9cce1050ee7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Daglig funktionstest: Detektorkarme</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -61,7 +112,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_f3b52d900fca9f40c4ccc9cce1050ee7</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-05-09 10:35:20</sys_updated_on>
+        <sys_updated_on>2018-06-08 08:19:46</sys_updated_on>
         <table_name>x_cph_sec_1102</table_name>
         <template/>
         <type>item</type>
@@ -70,7 +121,7 @@
         <u_email_body/>
         <u_individual_approval/>
         <u_manager_approval>false</u_manager_approval>
-        <u_name_eng/>
+        <u_name_eng>Daglig funktionstest: Detektorkarme</u_name_eng>
         <u_product_link/>
         <u_required_attachment>false</u_required_attachment>
         <u_short_description_eng/>

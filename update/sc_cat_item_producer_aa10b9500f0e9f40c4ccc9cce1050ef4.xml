@@ -2,7 +2,7 @@
 <record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <availability>on_desktop</availability>
+        <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Blanketter">e6120d7b0fe1d700c4ccc9cce1050e5c</category>
@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Zonerekvisition - Security</name>
+        <name>Zonerekvisition - Security - Godkendelse af udlån</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -44,7 +44,47 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script/>
+        <script><![CDATA[var gr = new GlideRecord('x_cph_sec_2202');
+gr.addQuery('sys_id',producer.blanket);
+gr.query();
+
+if(gr.next()){
+
+	gr.provided = 'true';
+	gr.provided_by = producer.provided_by;
+	gr.provided_by_employee_id = producer.employee_number;
+	gr.provided_date_time = producer.provided_date_time;
+	gr.id_card_type = producer.id_card_type;
+	gr.id_card_number = producer.id_card_number;
+	gr.zonecardnumber = producer.zonecardnumber;
+	gr.provided_place = producer.provided_place;
+	gr.remarks = producer.remarks;
+	gr.terms_area = producer.terms_area;
+	gr.terms_crew = producer.terms_crew;
+
+
+
+
+	if(producer.change_rek_information == 'true'){
+		gr.name = producer.rek_name;
+		gr.id_card_type = producer.id_card_type;
+		gr.id_card_number = producer.id_card_number;
+
+		if(producer.rek_company){
+			gr.company = producer.rek_company;
+			gr.airline = '';
+		}
+
+		if(producer.airline){
+			gr.airline = producer.airline;
+			gr.company = '';
+		}	
+
+	}
+
+	gr.update();
+}
+current.setAbortAction(true);]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -53,15 +93,15 @@
         <sys_created_on>2018-05-09 11:19:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>aa10b9500f0e9f40c4ccc9cce1050ef4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Zonerekvisition - Security</sys_name>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Zonerekvisition - Security - Godkendelse af udlån</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_aa10b9500f0e9f40c4ccc9cce1050ef4</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-05-16 11:02:33</sys_updated_on>
+        <sys_updated_on>2018-06-04 10:30:47</sys_updated_on>
         <table_name>x_cph_sec_2202</table_name>
         <template/>
         <type>item</type>
@@ -70,7 +110,7 @@
         <u_email_body/>
         <u_individual_approval/>
         <u_manager_approval>false</u_manager_approval>
-        <u_name_eng>Zonerekvisition - Security</u_name_eng>
+        <u_name_eng>Zonerekvisition - Anmodninger om udlån</u_name_eng>
         <u_product_link/>
         <u_required_attachment>false</u_required_attachment>
         <u_short_description_eng/>

@@ -8,7 +8,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Zonerekvisition - Security">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
+        <cat_item display_value="Zonerekvisition - Security - Godkendelse af udlån">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
         <cat_variable>IO:6c41bda20fca9b80c4ccc9cce1050eed</cat_variable>
         <condition/>
         <description/>
@@ -28,65 +28,12 @@
 		if(gr.next())   
 		g_form.setValue('rek_name',gr.getValue('name'));
 		g_form.setValue('rek_company',gr.getValue('company'));
+		g_form.setValue('airline',gr.getValue('airline'));
+		g_form.setValue('id_card_type',gr.getValue('id_card_type'));
+		g_form.setValue('id_card_number',gr.getValue('id_card_number'));
 		g_form.setValue('rek_date',gr.getValue('sys_created_on'));
-		
-		if(gr.getValue('udlaant') == 'true'){
-			g_form.setValue('udlaant','true');
-		}
-		else{
-			g_form.setValue('udlaant','false');
-		}
-		
-		if(gr.getValue('modtaget') == 'true'){
-			g_form.setValue('modtaget','true');
-		}
-		
-		
-		
-		if(gr.getValue('udlaant_af')){
-			g_form.setValue('udlaant_af',gr.getValue('udlaant_af'));
-		}
-		
-		
-		
-		if(gr.getValue('udlaan_date_time')){
-			g_form.setValue('udlaan_date_time',gr.getValue('udlaan_date_time'));
-		}
-		
-		
-			if(gr.getValue('udlaanssted')){
-			g_form.setValue('udlaanssted',gr.getValue('udlaanssted'));
-		}
-		
-		
-			if(gr.getValue('vilkaar_bagageomraade')){
-			g_form.setValue('vilkaar_bagageomraade',gr.getValue('vilkaar_bagageomraade'));
-		}
-		
-		
-		if(gr.getValue('vilkaar_crew')){
-			g_form.setValue('vilkaar_crew',gr.getValue('vilkaar_crew'));
-		}
-		
-		
-		if(gr.getValue('id_card_type')){
-			g_form.setValue('id_card_type',gr.getValue('id_card_type'));
-		}
-		
-		
-		if(gr.getValue('id_card_number')){
-			g_form.setValue('id_card_number',gr.getValue('id_card_number'));
-		}
-		
-		if(gr.getValue('zonekortnr')){
-			g_form.setValue('zonekortnr',gr.getValue('zonekortnr'));
-		}
-		
-		if(gr.getValue('remarks')){
-			g_form.setValue('remarks',gr.getValue('remarks'));
-		}
-		
-		
+		g_form.setValue('provided_place',gr.getValue('provided_place'));		
+
 	});  
 
 }]]></script>
@@ -96,7 +43,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9995fde60fca9b80c4ccc9cce1050e8a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Set form details when Blanket is selecte</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -105,7 +52,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_9995fde60fca9b80c4ccc9cce1050e8a</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-05-17 09:08:43</sys_updated_on>
+        <sys_updated_on>2018-06-04 11:09:00</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

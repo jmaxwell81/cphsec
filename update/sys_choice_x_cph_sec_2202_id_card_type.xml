@@ -109,6 +109,24 @@
             <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
             <value>Airline</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Crew / BesætningsID</label>
+            <language>en</language>
+            <name>x_cph_sec_2202</name>
+            <sequence>6</sequence>
+            <sys_created_by>bnow-rs</sys_created_by>
+            <sys_created_on>2018-06-01 08:11:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d3c1a3af0f1e9f00f074f77ce1050eae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-rs</sys_updated_by>
+            <sys_updated_on>2018-06-01 08:11:33</sys_updated_on>
+            <value>Crew / BesætningsID</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>id_card_type</element>
             <name>x_cph_sec_2202</name>
@@ -116,7 +134,7 @@
             <sys_created_by>bnow-rs</sys_created_by>
             <sys_created_on>2018-05-17 09:05:22</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>1d4e96fa0fc21f80c4ccc9cce1050e94</sys_id>
+            <sys_id>7d9178130f8e1300c4ccc9cce1050eb9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>id_card_type</sys_name>
             <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>

@@ -8,26 +8,34 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Zonerekvisition - Security">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
+        <cat_item display_value="Zonerekvisition - Security - Godkendelse af udlån">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
         <cat_variable>IO:82e8cbb40fce5380c4ccc9cce1050eb5</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <messages/>
-        <name>Set Employee Number based on Udlaant_af</name>
+        <name>Set Employee Number based on provided_by</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-	if (isLoading || newValue == '') {
+	if (isLoading) {
 		return;
 	}
 
+	if( newValue == ''){
+		g_form.clearValue('employee_number');
+		return;
+	}
+	
 	var gr = new GlideRecord('sys_user');
 	gr.addQuery('sys_id',newValue);
-	gr.query(function(gr) {    
-		if(gr.next())   
+	gr.query(function (gr){
+
+		if(gr.next()){
+
 			g_form.setValue('employee_number',gr.getValue('employee_number'));
-	});    
+		}
+	});
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>bnow-rs</sys_created_by>
@@ -35,8 +43,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>177b0da60fce9f00f074f77ce1050e1e</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Set Employee Number based on Udlaant_af</sys_name>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Set Employee Number based on provided_by</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -44,7 +52,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_177b0da60fce9f00f074f77ce1050e1e</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-05-16 08:52:16</sys_updated_on>
+        <sys_updated_on>2018-06-01 13:16:24</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

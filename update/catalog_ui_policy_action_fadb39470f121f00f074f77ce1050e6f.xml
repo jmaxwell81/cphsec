@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Daglig funktionstest: Detektorkarme">f3b52d900fca9f40c4ccc9cce1050ee7</catalog_item>
+        <catalog_variable>IO:4a78f1830f121f00f074f77ce1050e06</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-05-30 11:29:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fadb39470f121f00f074f77ce1050e6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_d_pants_left_2</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_fadb39470f121f00f074f77ce1050e6f</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-05-30 11:29:10</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show fields when functiontest is selected">f8df610b0fdedb00f074f77ce1050e55</ui_policy>
+        <variable>test_d_pants_left_2</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
