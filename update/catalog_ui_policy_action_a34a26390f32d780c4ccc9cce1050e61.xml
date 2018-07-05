@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Bilpas kontroldokument - Returmodtagelse">08a892750ffe9780c4ccc9cce1050eec</catalog_item>
+        <catalog_variable>IO:b0e7ea750f32d780c4ccc9cce1050eca</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-06-20 14:11:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a34a26390f32d780c4ccc9cce1050e61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>received_date_time</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a34a26390f32d780c4ccc9cce1050e61</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-06-20 14:11:07</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Received details">a11a26390f32d780c4ccc9cce1050e5c</ui_policy>
+        <variable>received_date_time</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

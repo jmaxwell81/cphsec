@@ -48,8 +48,9 @@
         <record/>
         <record_producer_table>x_cph_sec_2202</record_producer_table>
         <reference>x_cph_sec_2202</reference>
-        <reference_qual>provided=false^EQ</reference_qual>
-        <reference_qual_condition table="x_cph_sec_2202">provided=false^EQ<item endquery="false" field="provided" goto="false" newquery="false" operator="=" or="false" value="false"/>
+        <reference_qual>provided=false^denied=false^EQ</reference_qual>
+        <reference_qual_condition table="x_cph_sec_2202">provided=false^denied=false^EQ<item endquery="false" field="provided" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="denied" goto="false" newquery="false" operator="=" or="false" value="false"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <scale_max>5</scale_max>
@@ -63,7 +64,7 @@
         <sys_created_on>2018-05-16 11:11:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6c41bda20fca9b80c4ccc9cce1050eed</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Hent udfyldt blanket - Vælg fra listen, eller indtast ID kortnr.</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -71,7 +72,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_6c41bda20fca9b80c4ccc9cce1050eed</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-04 11:27:44</sys_updated_on>
+        <sys_updated_on>2018-06-27 07:21:32</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

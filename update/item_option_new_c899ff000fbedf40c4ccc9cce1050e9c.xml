@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Bilpas kontroldokument - Rekvirent">4ef7127f0fe69f40c4ccc9cce1050e0f</cat_item>
+        <cat_item display_value="Bilpas kontroldokument - Register">4ef7127f0fe69f40c4ccc9cce1050e0f</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>security_location</name>
-        <order>50</order>
+        <order>850</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Security checkpoint</question_text>
@@ -61,7 +61,7 @@
         <sys_created_on>2018-06-15 10:01:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c899ff000fbedf40c4ccc9cce1050e9c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Security checkpoint</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_c899ff000fbedf40c4ccc9cce1050e9c</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-15 10:27:19</sys_updated_on>
+        <sys_updated_on>2018-06-20 13:27:14</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

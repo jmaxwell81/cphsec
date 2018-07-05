@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope, $rootScope, $window, spModal) {
+	var c = this;
+
+
+	$scope.viewArticle = function(output) {
+		spModal.open({
+			title: output.emne,
+			message: output.text,
+			size: 'lg'
+		});
+	};
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>CPH SEC 2202 - Safety South</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	
+	data.articles = [];
+	var gr = new GlideRecord('kb_knowledge');
+	gr.addQuery('sys_id','01958a960f4b9300f074f77ce1050ece');
+	gr.query();
+
+	if(gr.next()){
+
+		var obj = {};
+		
+		obj.emne = gr.getValue('short_description');
+		obj.text = gr.getValue('text');
+		data.articles.push(obj);
+
+		}
+	
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-04 11:05:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a1606d60f4b9300f074f77ce1050e95</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>CPH SEC 2202 - Safety South</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sp_widget_3a1606d60f4b9300f074f77ce1050e95</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-04 11:18:33</sys_updated_on>
+        <template><![CDATA[<div ng-repeat="obj in data.articles"  ng-click="viewArticle(obj)" ng-class="{mouseOver: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false" class="pointer">
+  <u>Klik her for at åbne Safetykrav - Sydområde</u>
+</div>]]></template>
+    </sp_widget>
+</record_update>

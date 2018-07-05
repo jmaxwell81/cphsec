@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>300</order>
-        <question display_value="Udlånssted">261563e00f6ad340f074f77ce1050eee</question>
+        <question display_value="Hvilken vagt lånes kortet fra">261563e00f6ad340f074f77ce1050eee</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>bnow-rs</sys_created_by>

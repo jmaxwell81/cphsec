@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope, $rootScope, spUtil) {
+	var c = this;
+
+	c.boundingBox = {
+		width: 700,
+		height: 300
+	};
+	
+	c.sign = function() {
+		c.signature = c.accept();
+		c.data.op = 'insertAttachment';
+		c.data.signatureBase64 = c.signature.dataUrl;
+		c.data.attachID = $rootScope.attachGUID;
+		console.log(c.data.attachID);
+		spUtil.update(c).then(function(response) {
+			console.log(response);
+			$rootScope.$broadcast("sp.signature.attached");
+			c.data.op = undefined; // Prevents duplicates
+		});
+	};
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.signature {&#13;
+  cursor: pointer;&#13;
+  margin-bottom:10px;&#13;
+}&#13;
+.signature canvas {&#13;
+  border: 1px solid #999;&#13;
+  margin: 0 auto;&#13;
+  cursor: pointer;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>cph-sec-signature</id>
+        <internal>false</internal>
+        <link/>
+        <name>CPH SEC Signature</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+
+	if(input && input.op == 'insertAttachment') {
+		//var stringUtil = new GlideStringUtil();  
+		var encoded_image = input.signatureBase64.split(",")[1];
+		//var imgdata = stringUtil.base64DecodeAsBytes(encoded_image);
+		var imgdata = gs.base64Decode(encoded_image);
+
+		// Step 1. Create placeholder attachment (needed for step 2).
+		var placeholderGR = placeholderAttachment(input.attachID);
+		
+		// Step 2. Attach real attachment.
+		var sa = new GlideSysAttachment();
+		var attachmentId = sa.write(placeholderGR, "signature.jpg", "image/jpeg", imgdata);
+		
+		// Step 3. Set attributes on real attachment and delete placeholder attachment
+		data.insertStatus = updateAttachedRecord(attachmentId, input.attachID, placeholderGR.getUniqueValue());
+	}
+
+	function updateAttachedRecord(attachID, spGUID, placeholderSysID) {
+		var gr = new GlideRecord('sys_attachment');
+		gr.get(attachID);
+		gr.table_name = "sp_portal";
+		gr.table_sys_id = spGUID;
+		gr.update();
+		deleteAttachment(placeholderSysID);
+		return 'Updated: ' + attachID + ' new table_name: sp_portal, table_sys_id: ' + spGUID + ' | Deleted: ' + placeholderSysID;
+	}
+
+	function placeholderAttachment(attachID) {
+		var gr = new GlideRecord('sys_attachment');
+		gr.initialize();
+		gr.table_name = "sp_portal";
+		gr.table_sys_id = attachID;
+		gr.insert();
+		return gr;
+	}
+
+	function deleteAttachment(attachID) {
+		var gr = new GlideRecord('sys_attachment');
+		gr.addQuery('sys_id', attachID);
+		gr.setLimit(1);
+		gr.query();
+		while(gr.next()) {
+			gr.deleteRecord();
+		}
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-06-21 06:47:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9d6e8e820f3ed780c4ccc9cce1050e39</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CPH SEC Signature</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sp_widget_9d6e8e820f3ed780c4ccc9cce1050e39</sys_update_name>
+        <sys_updated_by>bnow-ph</sys_updated_by>
+        <sys_updated_on>2018-06-21 06:54:26</sys_updated_on>
+        <template><![CDATA[<section class="deck deck--white" style="padding-top:10px"> 
+  <div class="w--wider" style="height:400px">
+
+    
+    <signature-pad accept="c.accept" clear="c.clear" height="220" width="568" disabled="false"></signature-pad>
+      <button class="btn btn-warning" ng-click="c.clear()">Clear signature</button>
+      <button class="btn btn-primary" ng-click="c.sign()">Sign</button>
+  </div>
+
+</section>]]></template>
+    </sp_widget>
+</record_update>

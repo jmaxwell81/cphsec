@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Zonerekvisition - Rekvirent - Anmodning om kort">a34e61ea0f42df00f074f77ce1050eba</cat_item>
+        <cat_item display_value="Zonerekvisition - Anmodning om kort">a34e61ea0f42df00f074f77ce1050eba</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -37,7 +37,7 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>Space2</name>
+        <name>Space3</name>
         <order>850</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -61,15 +61,15 @@
         <sys_created_on>2018-06-04 07:40:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6267b2e80f26d340f074f77ce1050e54</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name> </sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Space3</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_6267b2e80f26d340f074f77ce1050e54</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-04 07:40:57</sys_updated_on>
+        <sys_updated_on>2018-07-04 11:20:22</sys_updated_on>
         <table/>
         <tooltip/>
         <type>14</type>

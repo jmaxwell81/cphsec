@@ -6,7 +6,7 @@
             <element>id_card_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>CPH</label>
+            <label>CPH ID-kort</label>
             <language>en</language>
             <name>x_cph_sec_2202</name>
             <sequence>0</sequence>
@@ -14,28 +14,10 @@
             <sys_created_on>2018-05-17 09:05:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>594e96fa0fc21f80c4ccc9cce1050e93</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
-            <value>CPH</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>id_card_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Visitor</label>
-            <language>en</language>
-            <name>x_cph_sec_2202</name>
-            <sequence>1</sequence>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-17 09:05:22</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>514e96fa0fc21f80c4ccc9cce1050e95</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
-            <value>Visitor</value>
+            <sys_updated_on>2018-06-27 06:34:43</sys_updated_on>
+            <value>CPH ID-kort / CPH ID Card</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -54,24 +36,6 @@
             <sys_updated_by>bnow-rs</sys_updated_by>
             <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
             <value>Staff</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>id_card_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Særkort</label>
-            <language>en</language>
-            <name>x_cph_sec_2202</name>
-            <sequence>3</sequence>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-17 09:05:22</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>d14e5efa0fc21f80c4ccc9cce1050e96</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
-            <value>Særkort</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -114,7 +78,7 @@
             <element>id_card_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Crew / BesætningsID</label>
+            <label>Crew / Besætnings-ID</label>
             <language>en</language>
             <name>x_cph_sec_2202</name>
             <sequence>6</sequence>
@@ -122,10 +86,28 @@
             <sys_created_on>2018-06-01 08:11:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>d3c1a3af0f1e9f00f074f77ce1050eae</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-06-21 07:18:01</sys_updated_on>
+            <value>Crew / Besætnings-ID</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_card_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ved ikke / Unknown</label>
+            <language>en</language>
+            <name>x_cph_sec_2202</name>
+            <sequence>7</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-06-21 07:25:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>74079aca0f3ed780c4ccc9cce1050e6a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-06-01 08:11:33</sys_updated_on>
-            <value>Crew / BesætningsID</value>
+            <sys_updated_on>2018-06-27 06:34:59</sys_updated_on>
+            <value>Ved ikke / Unknown</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>id_card_type</element>

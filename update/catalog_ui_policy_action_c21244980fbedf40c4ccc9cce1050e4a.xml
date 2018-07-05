@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Bilpas kontroldokument - Rekvirent">4ef7127f0fe69f40c4ccc9cce1050e0f</catalog_item>
+        <catalog_item display_value="Bilpas kontroldokument - Register">4ef7127f0fe69f40c4ccc9cce1050e0f</catalog_item>
         <catalog_variable>IO:3dd8bfcc0f7edf40c4ccc9cce1050e05</catalog_variable>
         <disabled>ignore</disabled>
         <field/>

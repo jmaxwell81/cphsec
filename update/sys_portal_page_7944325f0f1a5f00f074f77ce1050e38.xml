@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2018-06-19 17:03:34">
+<record_update node_type="sys_portal_page" unload_date="2018-07-05 10:02:42">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_ci_dashboard">e8232411d75012002f6d69418e610327</layout>
         <order/>

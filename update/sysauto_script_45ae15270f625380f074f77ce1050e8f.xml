@@ -13,55 +13,56 @@
         <run_start>2018-06-13 08:54:11</run_start>
         <run_time>1969-12-31 23:00:00</run_time>
         <run_type>daily</run_type>
-        <script><![CDATA[var checktypeArray = [];
+        <script><![CDATA[//Declare variables
+var checktypeArray = [];
+var parm1 = '';
+var parm2 = '';
 
+//Find checktypes
 var checktypeLookup = new GlideRecord('x_cph_sec_1102_sec_check_lookup');
 checktypeLookup.query();
 
 while(checktypeLookup.next()){
-	
+
 	checktypeArray.push(checktypeLookup.getValue('checktype'));
 }
- 
+
+//Define unique checktypes
 var uniqueTypes = new global.ArrayUtil().unique(checktypeArray);
 
-
+//Set parm1 (Information about uncompleted daily tests) & parm2 (responsible e-mail address)
 for(var i = 0; i < uniqueTypes.length; i++){
-	
-	var parm1 = '';
-	var parm2 = '';
-	
+
 	var getEmail = new GlideRecord('x_cph_sec_1102_sec_check_lookup');
 	getEmail.addQuery('checktype',uniqueTypes[i]);
 	getEmail.query();
-	
+
 	if(getEmail.next()){
 
 		parm2 = getEmail.getValue('reply_emailaddress');
 	}	
-	
-	
+
+	//Find function tests that are not completed - (data for parm1)
 	var notCompleted = new GlideRecord('x_cph_sec_1102_sec_function_test');
 	notCompleted.addQuery('checktype',uniqueTypes[i].toString());
 	notCompleted.addQuery('completed',false);
+	notCompleted.orderBy('order');
 	notCompleted.query();
-	
-	
+
 	while(notCompleted.next()){
-		
-		parm1 += notCompleted.getValue('number') + ' - ' + notCompleted.getValue('checktype') + ' - ' + notCompleted.getValue('location');
-		
+
+		parm1 += notCompleted.getValue('number') + ' - ' + notCompleted.getValue('checktype') + ' - ' + notCompleted.getValue('location') + '<br>';
 	}
-	
+
+	//Trigger event for email notification
 	gs.eventQueue('x_cph_sec.bnow.1102.daily.test.not.compl',current,parm1,parm2);
-	
 }]]></script>
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>bnow-rs</sys_created_by>
         <sys_created_on>2018-06-13 09:01:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>45ae15270f625380f074f77ce1050e8f</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>BNOW - CPH SEC - Daily Detektorkarme Alert if Daily test is not completed</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -69,7 +70,7 @@ for(var i = 0; i < uniqueTypes.length; i++){
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sysauto_script_45ae15270f625380f074f77ce1050e8f</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-13 13:37:24</sys_updated_on>
+        <sys_updated_on>2018-07-04 12:48:48</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

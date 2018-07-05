@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:b8b777c80f7edf40c4ccc9cce1050ea4=Crew / BesætningsID^EQ</catalog_conditions>
-        <catalog_item display_value="Bilpas kontroldokument - Rekvirent">4ef7127f0fe69f40c4ccc9cce1050e0f</catalog_item>
+        <catalog_item display_value="Bilpas kontroldokument - Register">4ef7127f0fe69f40c4ccc9cce1050e0f</catalog_item>
         <conditions/>
         <description/>
         <global>true</global>

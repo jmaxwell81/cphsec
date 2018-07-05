@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Bilpas kontroldokument - Rekvirent">4ef7127f0fe69f40c4ccc9cce1050e0f</cat_item>
+        <cat_item display_value="Bilpas kontroldokument - Register">4ef7127f0fe69f40c4ccc9cce1050e0f</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -19,7 +19,7 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <example_text/>
-        <field/>
+        <field>requested_date_time</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -34,14 +34,14 @@
         <lookup_value/>
         <macro/>
         <mandatory>true</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>Requested_for_datetime</name>
+        <name>requested_date_time</name>
         <order>1100</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Requested for date/time</question_text>
+        <question_text>Requested for date &amp; time</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -61,15 +61,15 @@
         <sys_created_on>2018-06-15 10:26:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>08c680dc0fbedf40c4ccc9cce1050eb1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Requested_for_datetime</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>requested_date_time</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_08c680dc0fbedf40c4ccc9cce1050eb1</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-15 11:46:42</sys_updated_on>
+        <sys_updated_on>2018-06-20 08:54:01</sys_updated_on>
         <table/>
         <tooltip/>
         <type>10</type>
