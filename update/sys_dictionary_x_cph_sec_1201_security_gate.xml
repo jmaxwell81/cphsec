@@ -53,7 +53,7 @@
         <sys_created_by>bnow-ph</sys_created_by>
         <sys_created_on>2018-05-30 06:41:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>48f9f0870f921b00c4ccc9cce1050eed</sys_id>
+        <sys_id>c9d283620f0fd300f074f77ce1050ecc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Security gate</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -61,8 +61,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sys_dictionary_x_cph_sec_1201_security_gate</sys_update_name>
-        <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-05-30 06:41:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-05 10:09:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

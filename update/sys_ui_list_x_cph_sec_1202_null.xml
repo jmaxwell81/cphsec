@@ -108,12 +108,12 @@
             <sys_domain>global</sys_domain>
             <sys_id>33c4ebef0f92db00c4ccc9cce1050eeb</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package/>
+            <sys_name>x_cph_sec_1202</sys_name>
+            <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_x_cph_sec_1202_null</sys_update_name>
             <sys_updated_by>bnow-ph</sys_updated_by>
             <sys_updated_on>2018-06-01 08:24:41</sys_updated_on>
             <sys_user display_value="Peter Hansen">cfe3740fdb418300340efb9dae961904</sys_user>
