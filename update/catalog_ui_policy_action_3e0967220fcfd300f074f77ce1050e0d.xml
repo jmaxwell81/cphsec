@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Våbenregistrering - HANDLER">f02e42c20f3ed780c4ccc9cce1050e89</catalog_item>
+        <catalog_variable>IO:b388abae0f8fd300f074f77ce1050e2e</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>extbuspeha</sys_created_by>
+        <sys_created_on>2018-07-05 12:56:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3e0967220fcfd300f074f77ce1050e0d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>handler_number</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3e0967220fcfd300f074f77ce1050e0d</sys_update_name>
+        <sys_updated_by>extbuspeha</sys_updated_by>
+        <sys_updated_on>2018-07-05 13:01:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mandatory fields when record is selected">6de8e3220fcfd300f074f77ce1050e04</ui_policy>
+        <variable>handler_number</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

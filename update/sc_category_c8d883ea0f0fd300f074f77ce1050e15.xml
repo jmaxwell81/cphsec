@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="">Default</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>300</order>
+        <parent display_value="CPH Security">d50281fb0fe1d700c4ccc9cce1050e6e</parent>
+        <roles/>
+        <sc_catalog display_value="Services">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>extbuspeha</sys_created_by>
+        <sys_created_on>2018-07-05 10:35:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c8d883ea0f0fd300f074f77ce1050e15</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SPR</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sc_category_c8d883ea0f0fd300f074f77ce1050e15</sys_update_name>
+        <sys_updated_by>extbuspeha</sys_updated_by>
+        <sys_updated_on>2018-07-05 10:35:59</sys_updated_on>
+        <title>SPR</title>
+        <u_description_eng/>
+        <u_note/>
+        <u_title_eng>SPR</u_title_eng>
+    </sc_category>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>homepage_image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2093</size_bytes>
+        <size_compressed>1025</size_compressed>
+        <sys_created_by>extbuspeha</sys_created_by>
+        <sys_created_on>2018-07-05 12:38:06</sys_created_on>
+        <sys_id>abd4e3ea0f8fd300f074f77ce1050ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>extbuspeha</sys_updated_by>
+        <sys_updated_on>2018-07-05 12:38:06</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>c8d883ea0f0fd300f074f77ce1050e15</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="abd4e3ea0f8fd300f074f77ce1050ea8">abd4e3ea0f8fd300f074f77ce1050ea8</sys_attachment>
+        <sys_created_by>extbuspeha</sys_created_by>
+        <sys_created_on>2018-07-05 12:38:06</sys_created_on>
+        <sys_id>ebd4e3ea0f8fd300f074f77ce1050ea8</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>fVXbjts2EH3eAPkHVn0qQNIkRerixA2aoEgDJECBAH4tvLJiGVFlw5Jl7xb9954ZMrsbYBssZFJz4Zwzc6h9/eb6dy/m9jTuD8Mqs9pkoh2aw3Y/7FbZefqiquzNry9fvP5JKfG+HdrTZjqcluK37eG2FR/6/jxObBLOaWRL8Xn9Xvx+PR5Ok/izP+/Uh0FoNq5jkaUotDHi7Xnfb4X5RQil6Pxx3j2FYTOx366yj5vdX9gC4zCusm6ajsvF4nK56EuuD6fdwhljFkhNIctrvx++Phdo67pesBehq8wcr5m4i+vLFzdi3reXtwdyCCPywgob0IhxuuvbVdYOm9u+Vbeb5uvudDgP2+XQXsSTyFdcfjkeNw3Cj6d2bE9zmzEtOkJMd0c4pvY6LZpxJMeNHifzz5d93y9/NqW1Pn/1L8IXHE+Jx83UiabfjOCN0EygG5+cczK4XtlCO/5plNE5Ho+nwlMoy+9FR8YGb1YabbHWWGte3YzMvDEyOmGgv46MwNWwVTrFHuUagx0s+HX8m/dGmndAogtg0ZWkraetlxHffbb4AQNDeTUhZBgqR55RBUA6XfKKZ52XOpYuE34EgaXrVMiJtmM0HsgsiNOKZ65LHYgD8MMPj0weeroy17bhRHpVyU3JawBy7xh9zTTQRQYpH/Hei0/W1zpIX3XOaz/7TtG69tWDC3E16nc26LKr8Nhch3WBSNp0ikyKnFSwRpqzHmkW56AfRZgJTFeENVse/RbN/d5Plke/wXDIv67yCMCTBBgd+x4iy6CrCLtTFBMPfIwmfxrfjlT6/BAtwrysQ9QQKQ1KsWgsJjgqNJ6HarGFIFEer7SWM8kJ7YSIJIUbws7KLEfquElDw4raGCPtYfEqebCG0cTDZFI7qyRwGVI47XH2qCKyEhhyMtBdcOwFVBgpqhg5Il4Zikxl07XxfF0sKzOMsXwtcz63bpgAGAemkzOgqmdkVpdNqh/oVD495pVNxK4if1IhHeC5MHcyXmgylio2CE3jGnwPuX2UWjfxnfZepgxupeGWUiZjauI7BsK5uLB8a+zI7SW4VIMAfE6D9RScZhzV8H9CqKBlWUH6LIU8SoEbRy1hBXAtsK9o7cgzexYhrh3Siw6taxiadAyIMgtpI6BYoKLxP9Si61bWiKsxnw6npm+W5fE7BoA+ET9FHaroqsePCcvk27wtqfVBFXFcBDCs6eB7+sdw80PyjCEHoUDMnhAqGu49kNRP1FGPlmVcyHhXKm4aiZlmQvoLiPQ90acPCAysi561gxp/cEmiXyX6BeiHJpIvE3mbbkmp4uCJaPEdfZfoF8/S90S/SF+BxY5/8S8W63+3Z9vZLQgAAA==</data>
+        <length>1356</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="abd4e3ea0f8fd300f074f77ce1050ea8">abd4e3ea0f8fd300f074f77ce1050ea8</sys_attachment>
+        <sys_created_by>extbuspeha</sys_created_by>
+        <sys_created_on>2018-07-05 12:38:06</sys_created_on>
+        <sys_id>6fd4e3ea0f8fd300f074f77ce1050ea8</sys_id>
+    </sys_attachment_doc>
+</record_update>

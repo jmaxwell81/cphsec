@@ -5,7 +5,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Blanketter">e6120d7b0fe1d700c4ccc9cce1050e5c</category>
+        <category display_value="SPS">e6120d7b0fe1d700c4ccc9cce1050e5c</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -74,6 +74,7 @@
         <u_product_link/>
         <u_required_attachment>false</u_required_attachment>
         <u_short_description_eng/>
+        <u_sp_attachment_button>true</u_sp_attachment_button>
         <u_special_requirements/>
         <u_special_requirements_eng/>
         <u_stakeholder/>

@@ -10,12 +10,12 @@
         <element label="Passagernavn" mandatory="true" max_length="75" name="passenger_name" type="string"/>
         <element label="Afhentet, klokken" max_length="20" name="picked_at" type="string"/>
         <element label="Pistolpatroner, antal" mandatory="true" max_length="40" name="pistol_bullets_count" type="integer"/>
-        <element label="Pistol, antal" mandatory="true" max_length="40" name="pistol_count" type="integer"/>
-        <element label="Riffelpatroner, antal" mandatory="true" max_length="40" name="rifle_bullets_count" type="integer"/>
-        <element label="Riffel, antal" mandatory="true" max_length="40" name="rifle_count" type="integer"/>
+        <element default="0" label="Pistol, antal" mandatory="true" max_length="40" name="pistol_count" type="integer"/>
+        <element default="0" label="Riffelpatroner, antal" mandatory="true" max_length="40" name="rifle_bullets_count" type="integer"/>
+        <element default="0" label="Riffel, antal" mandatory="true" max_length="40" name="rifle_count" type="integer"/>
         <element label="Rute nummer" mandatory="true" max_length="12" name="route_number" type="string"/>
-        <element label="Haglgeværpatroner, antal" mandatory="true" max_length="40" name="shotgun_bullets_count" type="integer"/>
-        <element label="Haglgevær, antal" mandatory="true" max_length="40" name="shotgun_count" type="integer"/>
+        <element default="0" label="Haglgeværpatroner, antal" mandatory="true" max_length="40" name="shotgun_bullets_count" type="integer"/>
+        <element default="0" label="Haglgevær, antal" mandatory="true" max_length="40" name="shotgun_count" type="integer"/>
         <element label="Tag nummer" mandatory="true" max_length="30" name="tag_number" type="string"/>
         <index name="index">
             <element name="parent"/>

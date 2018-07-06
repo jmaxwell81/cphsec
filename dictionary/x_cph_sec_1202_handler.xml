@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Våbenregistrering handler" max_length="40" name="x_cph_sec_1202_handler" type="collection">
+        <element label="Tjenestenummer" mandatory="true" max_length="50" name="handler_number" type="string"/>
+        <element label="Handlers ID-kortnr." mandatory="true" max_length="20" name="id_card" type="string"/>
+        <element label="Afhentet" mandatory="true" max_length="40" name="picked_at" type="glide_date_time"/>
+        <element label="Våbenregistrering" max_length="32" name="registered_to" reference="x_cph_sec_1202" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="registered_to"/>
+        </index>
+    </element>
+</database>

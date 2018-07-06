@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="1102_dataload" max_length="40" name="x_cph_sec_1102_dataload" type="collection">
+        <element attributes="import_attribute_name=Checktype,edge_encryption_enabled=true" label="Checktype" max_length="40" name="u_checktype" type="string"/>
+        <element attributes="import_attribute_name=fredag,edge_encryption_enabled=true" label="fredag" max_length="40" name="u_fredag" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="lørdag" max_length="40" name="u_lørdag" type="string"/>
+        <element attributes="import_attribute_name=mandag,edge_encryption_enabled=true" label="mandag" max_length="40" name="u_mandag" type="string"/>
+        <element attributes="import_attribute_name=note,edge_encryption_enabled=true" label="note" max_length="40" name="u_note" type="string"/>
+        <element attributes="import_attribute_name=onsdag,edge_encryption_enabled=true" label="onsdag" max_length="40" name="u_onsdag" type="string"/>
+        <element attributes="import_attribute_name=Placering,edge_encryption_enabled=true" label="Placering" max_length="40" name="u_placering" type="string"/>
+        <element label="røkkefølge på liste" max_length="40" name="u_røkkefølge_på_liste" type="integer"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=sv mailadresse,edge_encryption_enabled=true" label="sv mailadresse" max_length="40" name="u_sv_mailadresse" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="søndag" max_length="40" name="u_søndag" type="string"/>
+        <element attributes="import_attribute_name=tirsdag,edge_encryption_enabled=true" label="tirsdag" max_length="40" name="u_tirsdag" type="string"/>
+        <element attributes="import_attribute_name=torsdag,edge_encryption_enabled=true" label="torsdag" max_length="40" name="u_torsdag" type="string"/>
+    </element>
+</database>

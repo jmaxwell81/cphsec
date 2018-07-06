@@ -5,7 +5,7 @@
         <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Blanketter">e6120d7b0fe1d700c4ccc9cce1050e5c</category>
+        <category display_value="SSA">8ec8cf6a0f0fd300f074f77ce1050e7a</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -97,7 +97,7 @@ current.setAbortAction(true);]]></script>
         <sys_created_on>2018-05-09 11:19:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>aa10b9500f0e9f40c4ccc9cce1050ef4</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>Zonerekvisition - Security - Godkendelse af udlån</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -105,7 +105,7 @@ current.setAbortAction(true);]]></script>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_aa10b9500f0e9f40c4ccc9cce1050ef4</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-27 07:22:05</sys_updated_on>
+        <sys_updated_on>2018-07-06 09:27:00</sys_updated_on>
         <table_name>x_cph_sec_2202</table_name>
         <template/>
         <type>item</type>
@@ -118,6 +118,7 @@ current.setAbortAction(true);]]></script>
         <u_product_link/>
         <u_required_attachment>false</u_required_attachment>
         <u_short_description_eng/>
+        <u_sp_attachment_button>true</u_sp_attachment_button>
         <u_special_requirements/>
         <u_special_requirements_eng/>
         <u_stakeholder/>
@@ -139,6 +140,71 @@ current.setAbortAction(true);]]></script>
         <workflow/>
     </sc_cat_item_producer>
     <sys_translated_text action="delete_multiple" query="documentkey=aa10b9500f0e9f40c4ccc9cce1050ef4"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>aa10b9500f0e9f40c4ccc9cce1050ef4</documentkey>
+        <fieldname>description</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-06 08:16:18</sys_created_on>
+        <sys_id>9682b7fa0f0f1700f074f77ce1050e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-06 08:16:18</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>aa10b9500f0e9f40c4ccc9cce1050ef4</documentkey>
+        <fieldname>name</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-06 08:16:18</sys_created_on>
+        <sys_id>5682b7fa0f0f1700f074f77ce1050e4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-06 08:16:18</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Zonerekvisition - Security - Godkendelse af udlån</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>aa10b9500f0e9f40c4ccc9cce1050ef4</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-06 08:16:18</sys_created_on>
+        <sys_id>5282b7fa0f0f1700f074f77ce1050e51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-06 08:16:18</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>aa10b9500f0e9f40c4ccc9cce1050ef4</documentkey>
+        <fieldname>u_description_eng</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-06 08:16:19</sys_created_on>
+        <sys_id>d682b7fa0f0f1700f074f77ce1050e63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-06 08:16:19</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>aa10b9500f0e9f40c4ccc9cce1050ef4</documentkey>
+        <fieldname>u_special_requirements</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-06 08:16:18</sys_created_on>
+        <sys_id>1a82b7fa0f0f1700f074f77ce1050e4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-06 08:16:18</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=aa10b9500f0e9f40c4ccc9cce1050ef4"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

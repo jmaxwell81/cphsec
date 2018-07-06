@@ -14,7 +14,7 @@
         <mobile_picture/>
         <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
         <module/>
-        <order>0</order>
+        <order>100</order>
         <parent display_value="CPH Security">d50281fb0fe1d700c4ccc9cce1050e6e</parent>
         <roles/>
         <sc_catalog display_value="Services">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
@@ -24,19 +24,19 @@
         <sys_created_on>2018-04-25 08:25:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e6120d7b0fe1d700c4ccc9cce1050e5c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Blanketter</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SPS</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_category_e6120d7b0fe1d700c4ccc9cce1050e5c</sys_update_name>
-        <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-04-25 08:25:36</sys_updated_on>
-        <title>Blanketter</title>
+        <sys_updated_by>extbuspeha</sys_updated_by>
+        <sys_updated_on>2018-07-05 10:35:12</sys_updated_on>
+        <title>SPS</title>
         <u_description_eng/>
         <u_note/>
-        <u_title_eng>Forms</u_title_eng>
+        <u_title_eng>SPS</u_title_eng>
     </sc_category>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
@@ -45,14 +45,14 @@
         <file_name>homepage_image</file_name>
         <image_height/>
         <image_width/>
-        <size_bytes>1091</size_bytes>
-        <size_compressed>610</size_compressed>
-        <sys_created_by>bnow-ph</sys_created_by>
-        <sys_created_on>2018-05-31 10:10:46</sys_created_on>
-        <sys_id>cc837a1b0fda5b00c4ccc9cce1050e27</sys_id>
+        <size_bytes>2368</size_bytes>
+        <size_compressed>991</size_compressed>
+        <sys_created_by>extbuspeha</sys_created_by>
+        <sys_created_on>2018-07-05 12:37:50</sys_created_on>
+        <sys_id>63c423aa0f8fd300f074f77ce1050e4d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-05-31 10:10:46</sys_updated_on>
+        <sys_updated_by>extbuspeha</sys_updated_by>
+        <sys_updated_on>2018-07-05 12:37:50</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>e6120d7b0fe1d700c4ccc9cce1050e5c</table_sys_id>
     </sys_attachment>
@@ -60,18 +60,18 @@
         <data>H4sIAAAAAAAAAA==</data>
         <length>16</length>
         <position>0</position>
-        <sys_attachment display_value="homepage_image" sys_id="cc837a1b0fda5b00c4ccc9cce1050e27">cc837a1b0fda5b00c4ccc9cce1050e27</sys_attachment>
-        <sys_created_by>bnow-ph</sys_created_by>
-        <sys_created_on>2018-05-31 10:10:46</sys_created_on>
-        <sys_id>00837a1b0fda5b00c4ccc9cce1050e28</sys_id>
+        <sys_attachment display_value="homepage_image" sys_id="63c423aa0f8fd300f074f77ce1050e4d">63c423aa0f8fd300f074f77ce1050e4d</sys_attachment>
+        <sys_created_by>extbuspeha</sys_created_by>
+        <sys_created_on>2018-07-05 12:37:50</sys_created_on>
+        <sys_id>a3c423aa0f8fd300f074f77ce1050e4d</sys_id>
     </sys_attachment_doc>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
-        <data>fVPva9swEP3cQv8HTfs0sGRJln+2WVnLKIUVBgN/HY6jRqaabWzHSTv2v+9ODmkHo4TTnd57J72TydX14ZcjsxnGpmtXVHJBiWnrbtO02xXdTY8so9efL86vPjBG7kxrhmrqhoJ82XRrQ+6d242Th4hSHLoD8qO8I18PfTdM5Lvbbdl9S7gHy+WSgiRcCHKza9yGiE+EMIbnj/P2rQ1JSbNZ0W/V9ieU4LEdV9ROU1+E4X6/5/uId8M2VEKIEFqPkuLgmvbpf0KZ53noWZCuqOgPlDwv+eL8jMyN2d90SBBBokQSGcNDjNOzMytq2mrtDFtX9dN26HbtpmjNnrxRXvrri7GvapD3gxnNMBvqx8IjyPTcAzGZwxTW44jEGR8n8fuxca74KFIpdXT5B+Sh12NjX02W1K4aYW6QUgKv8aCUCmLlmEy48kvNBI8gNEQGkTDp94lFsIadDASXkHPIuc9qhs6oFsFCAoA/iyD4qj0aKOYZpmoBFSCwKr9GTgTiFpzwBLzwLMBSY6mDxd8LDd+ZQGBfjg69DRZBn2AJmFQ89RmijFK+XJ0e/YMIplSWxRGOrbwbDc4kDI4ZYs5THuMM4B94YIIjg2HTiMvaN+KWHWlsLsGQuvXucz8GvKI3Gbz6fSEPUuc8DnRmleZ61pZhLnV2okCXw/1Wxjy1GYSMeFwmoMTCMoQYknhhDm1KamiTcA68RxLPaMYmcemRV17C4/7LI/LKC/g4Jx4NoATBkyTLFreWaRhoOQcrP0qZZSdhGvN3pcgfPzD+8SD/BTV2ewFDBAAA</data>
-        <length>800</length>
+        <data>tVbvi9tGEP2cQP6HrfqpoF3vrn47cUNzlBBooBDw1+KTFctElY0ly3cX+r/3vVnlLoVrSOHKsZrdnZmdNzNvzL16ffNnp6bmNOwP/Spyxkaq6evDdt/vVtF5/KjL6PXPL56/+kFr9bbpm9NmPJyW6pft4bpR77ruPIxypbw38I7Vh/Vb9evN8XAa1e/deaff9crI5ToEWarcWKvenPfdVtmflNKa7w/T7msYLlL77Sr6bbP7A1tg7IdV1I7jcblYXC4Xc0nM4bRbeGvtAq6zyfKm2/efHjN0VVUtRAvTVWSPN5G6DfLF82dq2jeXNwcqlFVJ7pTLUIhhvO2aVdT0m+uu0deb+tPudDj322XfXNRXli8l/HI4bmqYH0/N0JymJpK0+IQab49QjM3NuKiHgYpnZhjt54/7rlv+aAvn0uTlXzBfiD0dj5uxVXW3GZA3TCOFarz33seZ77TLjZdPra1JsFKsEivXTs55y8saJxdb4yAryEqkn+CZ1DYOSlzwr+UlcNVyG3stGu1rix1u8PXyTTob2ysgMTmwmDLmNuU2jQO+u2jxjQws/SoiFBg6gZ/VOUB6U4jEWieFCaGLGT+MkKVvdZYwbS9oUiBzSJwSa6oKkzEH4IcemnjWcLVFYlwtjjzqWU3nNQD5K0FfSRqoooCMH/DeqfcurUwWp2XrU5NOaasp12l5r4Jdhfity0zRllguMdk6hyU3reaVppIBK7h5l8LN4R3UI88mgmnzbC03D3qH4v5Tz5sHvUVzqF+XSQCQkgKCTnT3lkVmygC71bQJDz5YUz+3b0eWPt5EV+RxlQUGkWfgiUNZ0b9Bo+zSUoct6IjgOFIWE8mEYoJCMc0tkQsvizr0mS1LZllSAgGayT1uUj1rIBFczrTOZ5YI94UzmYQl37lHrEEHpAUwJbzgZHjRAjouaZUPYhEGiJZz+HmIUhkeJzzNhgCjihN5t6olIVQgk/QSAVR2gswhvzl+xlfl9eBX1AG7DvUgJ/lAysBEw0OhQ6FQvDgkTDS5lAmRByujIZZcg5WS0kMw1OGMhogPxlVmxg1SVsLj2x+kpSnNpLd3RCA8+DcKlDneKysTaJAEGkiRmL50X+Ig05KypWZKhX4YuDID5VCmWmDFXsDQM48dY18xgI/LgmQJsUp2/z4sZ65kDSq0pUWA+YfLSde9YEGZmKZmwUrOe/hFEXZ8abMjae/JELpEAMSbrfn43TfrUBHmkw7DTPpHB+J/GQYJ+F0D8STD8CXcfxmIJxqGubTfNRChsTISc4/nH8bFTr74rwPyb+qiNQBACQAA</data>
+        <length>1308</length>
         <position>1</position>
-        <sys_attachment display_value="homepage_image" sys_id="cc837a1b0fda5b00c4ccc9cce1050e27">cc837a1b0fda5b00c4ccc9cce1050e27</sys_attachment>
-        <sys_created_by>bnow-ph</sys_created_by>
-        <sys_created_on>2018-05-31 10:10:46</sys_created_on>
-        <sys_id>80837a1b0fda5b00c4ccc9cce1050e28</sys_id>
+        <sys_attachment display_value="homepage_image" sys_id="63c423aa0f8fd300f074f77ce1050e4d">63c423aa0f8fd300f074f77ce1050e4d</sys_attachment>
+        <sys_created_by>extbuspeha</sys_created_by>
+        <sys_created_on>2018-07-05 12:37:50</sys_created_on>
+        <sys_id>27c423aa0f8fd300f074f77ce1050e4d</sys_id>
     </sys_attachment_doc>
 </record_update>
