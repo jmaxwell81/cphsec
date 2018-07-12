@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cph_sec_app" label="Kontrolliste" max_length="40" name="x_cph_sec_3109_kontrolliste" type="collection">
+        <element label="Fødselsdato" max_length="6" name="guest_birthday_01" type="string"/>
+        <element label="Fødselsdato" max_length="6" name="guest_birthday_02" type="string"/>
+        <element label="Fødselsdato" max_length="6" name="guest_birthday_03" type="string"/>
+        <element label="Fødeby" max_length="30" name="guest_city_01" type="string"/>
+        <element label="Fødeby" max_length="30" name="guest_city_02" type="string"/>
+        <element label="Fødeby&#9;" max_length="30" name="guest_city_03" type="string"/>
+        <element label="Land" max_length="30" name="guest_country_01" type="string"/>
+        <element label="Land" max_length="30" name="guest_country_02" type="string"/>
+        <element label="Land" max_length="30" name="guest_country_03" type="string"/>
+        <element label="CPR-nr." max_length="11" name="guest_cpr_01" type="string"/>
+        <element label="CPR-nr." max_length="11" name="guest_cpr_02" type="string"/>
+        <element label="CPR-nr." max_length="11" name="guest_cpr_03" type="string"/>
+        <element label="Fulde navn" mandatory="true" max_length="70" name="guest_fullname_01" type="string"/>
+        <element label="Fulde navn" max_length="70" name="guest_fullname_02" type="string"/>
+        <element label="Fulde navn" max_length="70" name="guest_fullname_03" type="string"/>
+        <element label="Retur" max_length="40" name="guest_returned_01" type="boolean"/>
+        <element label="Retur" max_length="40" name="guest_returned_02" type="boolean"/>
+        <element label="Retur" max_length="40" name="guest_returned_03" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Firma" mandatory="true" max_length="50" name="host_company" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="CPH ID-kort nr." mandatory="true" max_length="12" name="host_cph_card" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Afdeling" max_length="50" name="host_department" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Navn" mandatory="true" max_length="50" name="host_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Telefonnummer" mandatory="true" max_length="20" name="host_phone" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Aflevering Tj.nr." max_length="12" name="returned_id" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Vagt" max_length="25" name="sec_guard" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Udlån Tj.nr." max_length="12" name="sec_id" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Udlånt dato/tid" max_length="40" name="sec_loaned" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Afleveret dato/tid" max_length="40" name="sec_returned" type="glide_date_time"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Dato" mandatory="true" max_length="40" name="visit_date" type="glide_date" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Besøgssted" mandatory="true" max_length="60" name="visit_location" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Formål" mandatory="true" max_length="120" name="visit_purpose" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Deltagerantal" mandatory="true" max_length="40" name="visit_visitors" type="integer"/>
+    </element>
+</database>

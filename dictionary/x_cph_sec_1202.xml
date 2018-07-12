@@ -2,8 +2,7 @@
 <database>
     <element extends="x_cph_sec_app" label="Våbenregistrering" max_length="40" name="x_cph_sec_1202" type="collection">
         <element label="Opkald til selskab, klokken" mandatory="true" max_length="12" name="company_called" type="string"/>
-        <element label="Handlers ID-kortnr" max_length="12" name="handler_idcard" type="string"/>
-        <element label="Handler tjenestenummer" max_length="12" name="handler_number" type="string"/>
+        <element label="Handler underskrift" max_length="40" name="handler_signature" type="boolean"/>
         <element label="Andre våben, antal" mandatory="true" max_length="40" name="other_weapon_count" type="integer"/>
         <element label="Andre våben, typer" max_length="30" name="other_weapon_types" type="string"/>
         <element label="Tilknyttet registrering" max_length="32" name="parent" reference="x_cph_sec_1202" type="reference"/>

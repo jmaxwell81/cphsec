@@ -18,16 +18,23 @@
         <name>Alert - Testneutral</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading || newValue == '') {
+   if (isLoading) {
       return;
    }
 
   if(newValue > 0){
 	  
-	  alert('Er du sikker på at du er testneutral?');
-	  return;
+	  g_form.hideFieldMsg('test_1_number_of_green_stars');
+	  g_form.showFieldMsg('test_1_number_of_green_stars','Er du sikker på at du er testneutral?','error');
   }
-   
+	else{
+		
+		 g_form.hideFieldMsg('test_1_number_of_green_stars');
+	}
+	
+	
+	
+	
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>bnow-rs</sys_created_by>
@@ -35,7 +42,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5fbecc010f269340c4ccc9cce1050ece</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Alert - Testneutral</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -44,7 +51,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_5fbecc010f269340c4ccc9cce1050ece</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-20 14:36:03</sys_updated_on>
+        <sys_updated_on>2018-07-06 13:38:29</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

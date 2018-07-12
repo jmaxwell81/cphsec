@@ -4,152 +4,77 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
+            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">c9cc74cf0f435700f074f77ce1050e8c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>daf4c13c0fda5700c4ccc9cce1050e1b</sys_id>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-06 13:40:37</sys_created_on>
+            <sys_id>41cc74cf0f435700f074f77ce1050e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-06 13:40:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
+            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">c9cc74cf0f435700f074f77ce1050e8c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>d2f4c13c0fda5700c4ccc9cce1050e1c</sys_id>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-06 13:40:37</sys_created_on>
+            <sys_id>c1cc74cf0f435700f074f77ce1050e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-06 13:40:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>attributes</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
+            <element>type</element>
+            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">c9cc74cf0f435700f074f77ce1050e8c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>56f4c13c0fda5700c4ccc9cce1050e1c</sys_id>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-06 13:40:37</sys_created_on>
+            <sys_id>45cc74cf0f435700f074f77ce1050e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-06 13:40:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>cat_item</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
+            <element>default_value</element>
+            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">c9cc74cf0f435700f074f77ce1050e8c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>d6f4c13c0fda5700c4ccc9cce1050e1c</sys_id>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-06 13:40:37</sys_created_on>
+            <sys_id>c5cc74cf0f435700f074f77ce1050e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-06 13:40:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>category</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
+            <element>order</element>
+            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">c9cc74cf0f435700f074f77ce1050e8c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>5af4c13c0fda5700c4ccc9cce1050e1c</sys_id>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-06 13:40:37</sys_created_on>
+            <sys_id>49cc74cf0f435700f074f77ce1050e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>choice_direction</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>daf4c13c0fda5700c4ccc9cce1050e1c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>choice_field</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>5ef4c13c0fda5700c4ccc9cce1050e1c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>choice_table</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>7</position>
-            <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>def4c13c0fda5700c4ccc9cce1050e1c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>create_roles</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>8</position>
-            <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>52f4c13c0fda5700c4ccc9cce1050e1d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>default_html_value</element>
-            <list_id display_value="item_option_new" element="NULL" name="item_option_new" parent="sc_cat_item_producer" relationship="NULL" sys_domain="global" view="Default view">5ef4c13c0fda5700c4ccc9cce1050e1a</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>9</position>
-            <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-23 07:43:04</sys_created_on>
-            <sys_id>d2f4c13c0fda5700c4ccc9cce1050e1d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-23 07:43:04</sys_updated_on>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-06 13:40:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -163,10 +88,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-07-06 08:51:03</sys_created_on>
+            <sys_created_on>2018-07-12 07:34:07</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>df7a7f760f4f1700f074f77ce1050e80</sys_id>
+            <sys_id>be6222bc0fdbdb00f074f77ce1050e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_package/>
@@ -175,7 +100,7 @@
             <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
             <sys_update_name/>
             <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-07-06 08:51:03</sys_updated_on>
+            <sys_updated_on>2018-07-12 07:34:07</sys_updated_on>
             <sys_user display_value="Rasmus Stentoft">ba18d76a0f399300f074f77ce1050ea7</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

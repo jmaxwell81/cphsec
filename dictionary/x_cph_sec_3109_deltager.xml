@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cph_sec_app" label="Deltager/Gæst" max_length="40" name="x_cph_sec_3109_deltager" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Fødselsdato" max_length="6" name="birthday" type="string"/>
+        <element label="Fødeby" max_length="30" name="city" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Kontrolliste" max_length="32" name="controllist" read_only="true" reference="x_cph_sec_3109_kontrolliste" type="reference"/>
+        <element label="Land" max_length="30" name="country" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="CPR-nr." max_length="11" name="cpr" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Fulde navn" mandatory="true" max_length="70" name="full_name" type="string"/>
+        <element label="Retur" max_length="40" name="retur" type="boolean"/>
+        <index name="index">
+            <element name="controllist"/>
+        </index>
+    </element>
+</database>

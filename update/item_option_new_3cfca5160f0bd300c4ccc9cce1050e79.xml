@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Zonerekvisition - Anmodning om kort">a34e61ea0f42df00f074f77ce1050eba</cat_item>
+        <cat_item display_value="Zonerekvisition - Anmodning om zonekort">a34e61ea0f42df00f074f77ce1050eba</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>

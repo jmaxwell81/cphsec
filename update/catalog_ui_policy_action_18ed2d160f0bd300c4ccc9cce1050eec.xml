@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Zonerekvisition - Anmodning om kort">a34e61ea0f42df00f074f77ce1050eba</catalog_item>
+        <catalog_item display_value="Zonerekvisition - Anmodning om zonekort">a34e61ea0f42df00f074f77ce1050eba</catalog_item>
         <catalog_variable>IO:e6afd9de0f87d300c4ccc9cce1050ea7</catalog_variable>
         <disabled>ignore</disabled>
         <field/>

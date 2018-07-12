@@ -48,8 +48,10 @@
         <record/>
         <record_producer_table>x_cph_sec_1202_handler</record_producer_table>
         <reference>x_cph_sec_1202</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>handler_signature=false^EQ</reference_qual>
+        <reference_qual_condition table="x_cph_sec_1202">handler_signature=false^EQ<item endquery="false" field="handler_signature" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
@@ -61,7 +63,7 @@
         <sys_created_on>2018-07-05 12:49:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6b17632e0f8fd300f074f77ce1050ef8</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Våbenregistrering</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -69,7 +71,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_6b17632e0f8fd300f074f77ce1050ef8</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-07-06 10:19:48</sys_updated_on>
+        <sys_updated_on>2018-07-06 13:57:34</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>
