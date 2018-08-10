@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_cph_sec.SEC Admin" name="x_cph_sec.SEC Admin">d3d868dd0f135340c4ccc9cce1050ec1</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-13 12:00:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5419e0dd0f135340c4ccc9cce1050e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d3d868dd0f135340c4ccc9cce1050ec1</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_embedded_help_role_5419e0dd0f135340c4ccc9cce1050e5f</sys_update_name>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-13 12:00:53</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

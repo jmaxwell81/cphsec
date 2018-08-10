@@ -2,7 +2,7 @@
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
-        <sc_cat_item display_value="Arbejdsseddel">2e845e480fb99700f074f77ce1050e6d</sc_cat_item>
+        <sc_cat_item display_value="Arbejdsseddel for SPS">2e845e480fb99700f074f77ce1050e6d</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>bnow-ph</sys_created_by>
         <sys_created_on>2018-04-26 09:06:37</sys_created_on>

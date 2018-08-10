@@ -3,12 +3,12 @@
     <element extends="x_cph_sec_app" label="Våbenregistrering" max_length="40" name="x_cph_sec_1202" type="collection">
         <element label="Opkald til selskab, klokken" mandatory="true" max_length="12" name="company_called" type="string"/>
         <element label="Handler underskrift" max_length="40" name="handler_signature" type="boolean"/>
-        <element label="Andre våben, antal" mandatory="true" max_length="40" name="other_weapon_count" type="integer"/>
+        <element default="0" label="Andre våben, antal" mandatory="true" max_length="40" name="other_weapon_count" type="integer"/>
         <element label="Andre våben, typer" max_length="30" name="other_weapon_types" type="string"/>
         <element label="Tilknyttet registrering" max_length="32" name="parent" reference="x_cph_sec_1202" type="reference"/>
         <element label="Passagernavn" mandatory="true" max_length="75" name="passenger_name" type="string"/>
         <element label="Afhentet, klokken" max_length="20" name="picked_at" type="string"/>
-        <element label="Pistolpatroner, antal" mandatory="true" max_length="40" name="pistol_bullets_count" type="integer"/>
+        <element default="0" label="Pistolpatroner, antal" mandatory="true" max_length="40" name="pistol_bullets_count" type="integer"/>
         <element default="0" label="Pistol, antal" mandatory="true" max_length="40" name="pistol_count" type="integer"/>
         <element default="0" label="Riffelpatroner, antal" mandatory="true" max_length="40" name="rifle_bullets_count" type="integer"/>
         <element default="0" label="Riffel, antal" mandatory="true" max_length="40" name="rifle_count" type="integer"/>

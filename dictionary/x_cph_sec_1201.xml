@@ -2,7 +2,6 @@
 <database>
     <element extends="x_cph_sec_app" label="Arbejdsseddel" max_length="40" name="x_cph_sec_1201" type="collection">
         <element label="Boarding påbegyndt klokken" mandatory="true" max_length="20" name="boarding_started" type="string"/>
-        <element label="Mandskabsforbrug" mandatory="true" max_length="40" name="crew_consumption" type="integer"/>
         <element label="Destination" mandatory="true" max_length="60" name="destination" type="string"/>
         <element label="1. selectee klokken" mandatory="true" max_length="20" name="first_selectee" type="string"/>
         <element label="Flys afgangstid" mandatory="true" max_length="20" name="flights_departuretime" type="string"/>
@@ -14,6 +13,7 @@
         <element label="Tjenestenummer" mandatory="true" max_length="80" name="personnel_number" type="string"/>
         <element label="Pushback tid" mandatory="true" max_length="20" name="pushback_time" type="string"/>
         <element label="Antal random" mandatory="true" max_length="40" name="random_count" type="integer"/>
+        <element label="Bemærkning" max_length="200" name="remark" type="string"/>
         <element label="Security gate" mandatory="true" max_length="20" name="security_gate" type="string"/>
         <element label="Antal selectees" mandatory="true" max_length="40" name="selectees_count" type="integer"/>
     </element>

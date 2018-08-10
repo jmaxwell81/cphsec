@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="place" table="x_cph_sec_1101" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>V.V</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>100</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:25:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7dd277b00f171f00f074f77ce1050ed5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:28:54</sys_updated_on>
+            <value>vv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A.V</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>200</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:25:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cbe2b3b00f171f00f074f77ce1050ebc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:28:57</sys_updated_on>
+            <value>av</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPIRIT</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>300</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:26:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3823b3b00f171f00f074f77ce1050e2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:26:47</sys_updated_on>
+            <value>spirit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>F.T</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>400</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:26:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bf23b7b00f171f00f074f77ce1050e73</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:32:13</sys_updated_on>
+            <value>ft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C23</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>500</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:27:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fd33f7700f171f00f074f77ce1050ed0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:27:07</sys_updated_on>
+            <value>c23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSC</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>600</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:27:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fb333fb00f171f00f074f77ce1050e26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:27:15</sys_updated_on>
+            <value>csc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSRA Øst</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>700</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:27:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c55377b00f171f00f074f77ce1050e43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:27:37</sys_updated_on>
+            <value>csra_øst</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSRA Vest</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>800</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:27:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5753b3f00f171f00f074f77ce1050eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:27:46</sys_updated_on>
+            <value>csra_vest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BF2</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>900</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:27:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0a63f3f00f171f00f074f77ce1050e80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:27:58</sys_updated_on>
+            <value>bf2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>place</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BF3</label>
+            <language>en</language>
+            <name>x_cph_sec_1101</name>
+            <sequence>1000</sequence>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:28:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>14733fb00f171f00f074f77ce1050e30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:28:06</sys_updated_on>
+            <value>bf3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>place</element>
+            <name>x_cph_sec_1101</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>bnow-ph</sys_created_by>
+            <sys_created_on>2018-07-12 13:25:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ece2b7b00f171f00f074f77ce1050e21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>place</sys_name>
+            <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+            <sys_update_name>sys_choice_x_cph_sec_1101_place</sys_update_name>
+            <sys_updated_by>bnow-ph</sys_updated_by>
+            <sys_updated_on>2018-07-12 13:25:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Zonerekvisition - Security - Godkendelse af udlån">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
+        <cat_item display_value="Zonerekvisition - Godkend anmodning">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -41,7 +41,7 @@
         <order>212</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Telefonnummer</question_text>
+        <question_text>Phone number</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -61,15 +61,15 @@
         <sys_created_on>2018-06-27 06:49:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b94845c80fc313c0c4ccc9cce1050e26</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Telefonnummer</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Phone number</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_b94845c80fc313c0c4ccc9cce1050e26</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-27 06:50:00</sys_updated_on>
+        <sys_updated_on>2018-07-12 08:13:47</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

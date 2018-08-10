@@ -61,7 +61,7 @@
         <sys_created_on>2018-06-04 11:14:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>afa7ef240f6ad340f074f77ce1050ef1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Requested time</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_afa7ef240f6ad340f074f77ce1050ef1</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-07-12 07:24:27</sys_updated_on>
+        <sys_updated_on>2018-07-12 07:48:25</sys_updated_on>
         <table/>
         <tooltip/>
         <type>10</type>
@@ -87,6 +87,32 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=afa7ef240f6ad340f074f77ce1050ef1"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>afa7ef240f6ad340f074f77ce1050ef1</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-12 07:48:25</sys_created_on>
+        <sys_id>d8b522f80f1fdb00f074f77ce1050ee6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 07:48:25</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>afa7ef240f6ad340f074f77ce1050ef1</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-12 07:48:25</sys_created_on>
+        <sys_id>dcb522f80f1fdb00f074f77ce1050ee3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 07:48:25</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=afa7ef240f6ad340f074f77ce1050ef1"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="x_cph_sec_app" label="Kontrolliste" max_length="40" name="x_cph_sec_3109_kontrolliste" type="collection">
+    <element extends="x_cph_sec_app" label="Kontrolliste - TO BE DELETED" max_length="40" name="x_cph_sec_3109_kontrolliste" type="collection">
         <element label="Fødselsdato" max_length="6" name="guest_birthday_01" type="string"/>
         <element label="Fødselsdato" max_length="6" name="guest_birthday_02" type="string"/>
         <element label="Fødselsdato" max_length="6" name="guest_birthday_03" type="string"/>
+        <element label="Fødselsdato" max_length="6" name="guest_birthday_04" type="string"/>
         <element label="Fødeby" max_length="30" name="guest_city_01" type="string"/>
         <element label="Fødeby" max_length="30" name="guest_city_02" type="string"/>
         <element label="Fødeby&#9;" max_length="30" name="guest_city_03" type="string"/>
+        <element label="Fødeby&#9;" max_length="30" name="guest_city_04" type="string"/>
         <element label="Land" max_length="30" name="guest_country_01" type="string"/>
         <element label="Land" max_length="30" name="guest_country_02" type="string"/>
         <element label="Land" max_length="30" name="guest_country_03" type="string"/>
+        <element label="Land" max_length="30" name="guest_country_04" type="string"/>
         <element label="CPR-nr." max_length="11" name="guest_cpr_01" type="string"/>
         <element label="CPR-nr." max_length="11" name="guest_cpr_02" type="string"/>
         <element label="CPR-nr." max_length="11" name="guest_cpr_03" type="string"/>
+        <element label="CPR-nr.&#9;" max_length="11" name="guest_cpr_04" type="string"/>
         <element label="Fulde navn" mandatory="true" max_length="70" name="guest_fullname_01" type="string"/>
         <element label="Fulde navn" max_length="70" name="guest_fullname_02" type="string"/>
         <element label="Fulde navn" max_length="70" name="guest_fullname_03" type="string"/>
+        <element label="Fulde navn" max_length="70" name="guest_fullname_04" type="string"/>
         <element label="Retur" max_length="40" name="guest_returned_01" type="boolean"/>
         <element label="Retur" max_length="40" name="guest_returned_02" type="boolean"/>
         <element label="Retur" max_length="40" name="guest_returned_03" type="boolean"/>

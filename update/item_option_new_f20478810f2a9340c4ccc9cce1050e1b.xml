@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>register_new_test</name>
-        <order>1</order>
+        <order>200</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Registrering af ny test</question_text>
@@ -61,7 +61,7 @@
         <sys_created_on>2018-06-05 11:23:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f20478810f2a9340c4ccc9cce1050e1b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Registrering af ny test</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_f20478810f2a9340c4ccc9cce1050e1b</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-05 14:09:11</sys_updated_on>
+        <sys_updated_on>2018-07-13 09:15:04</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>
@@ -87,6 +87,32 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=f20478810f2a9340c4ccc9cce1050e1b"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>f20478810f2a9340c4ccc9cce1050e1b</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-13 09:03:00</sys_created_on>
+        <sys_id>a250401d0f575f00f074f77ce1050e82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-13 09:03:00</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>f20478810f2a9340c4ccc9cce1050e1b</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-13 09:02:59</sys_created_on>
+        <sys_id>6e5080990f575f00f074f77ce1050ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-13 09:02:59</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=f20478810f2a9340c4ccc9cce1050e1b"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

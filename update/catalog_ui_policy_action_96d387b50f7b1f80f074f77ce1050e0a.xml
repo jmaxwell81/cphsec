@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Daglig funktionstest: Security scanner">3e6d9a610f3b57c0c4ccc9cce1050e24</catalog_item>
+        <catalog_variable>IO:57953ee50f7b57c0c4ccc9cce1050e82</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-08-09 09:05:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>96d387b50f7b1f80f074f77ce1050e0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>functiontest</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_96d387b50f7b1f80f074f77ce1050e0a</sys_update_name>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-08-09 09:05:40</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide list of test if Register new test is selected">b8f243750f7b1f80f074f77ce1050e9e</ui_policy>
+        <variable>functiontest</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

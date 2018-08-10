@@ -5,7 +5,7 @@
         <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="SSA">8ec8cf6a0f0fd300f074f77ce1050e7a</category>
+        <category display_value="Security Staff &amp; Area Service">8ec8cf6a0f0fd300f074f77ce1050e7a</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Zonerekvisition - Security - Returmodtagelse af udlånte kort</name>
+        <name>Zonerekvisition - Returmodtagelse af udlånte kort</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -69,15 +69,15 @@ current.setAbortAction(true);]]></script>
         <sys_created_on>2018-06-01 08:23:43</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c6742b230f5e9f00f074f77ce1050edc</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Zonerekvisition - Security - Returmodtagelse af udlånte kort</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Zonerekvisition - Returmodtagelse af udlånte kort</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_c6742b230f5e9f00f074f77ce1050edc</sys_update_name>
-        <sys_updated_by>extbuspeha</sys_updated_by>
-        <sys_updated_on>2018-07-05 10:44:35</sys_updated_on>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 08:43:29</sys_updated_on>
         <table_name>x_cph_sec_2202</table_name>
         <template/>
         <type>item</type>
@@ -86,7 +86,7 @@ current.setAbortAction(true);]]></script>
         <u_email_body/>
         <u_individual_approval/>
         <u_manager_approval>false</u_manager_approval>
-        <u_name_eng>Zonerekvisition - Returmodtagelse af udlånte kort</u_name_eng>
+        <u_name_eng>Zone requisition - Return handler</u_name_eng>
         <u_product_link/>
         <u_required_attachment>false</u_required_attachment>
         <u_short_description_eng/>
@@ -112,6 +112,71 @@ current.setAbortAction(true);]]></script>
         <workflow/>
     </sc_cat_item_producer>
     <sys_translated_text action="delete_multiple" query="documentkey=c6742b230f5e9f00f074f77ce1050edc"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c6742b230f5e9f00f074f77ce1050edc</documentkey>
+        <fieldname>description</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-12 08:43:29</sys_created_on>
+        <sys_id>cf4232f40f9fdb00f074f77ce1050ea5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 08:43:29</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c6742b230f5e9f00f074f77ce1050edc</documentkey>
+        <fieldname>name</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-12 08:43:29</sys_created_on>
+        <sys_id>474232f40f9fdb00f074f77ce1050ea0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 08:43:29</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Zonerekvisition - Returmodtagelse af udlånte kort</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c6742b230f5e9f00f074f77ce1050edc</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-12 08:43:29</sys_created_on>
+        <sys_id>434232f40f9fdb00f074f77ce1050ea3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 08:43:29</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c6742b230f5e9f00f074f77ce1050edc</documentkey>
+        <fieldname>u_description_eng</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-12 08:43:29</sys_created_on>
+        <sys_id>034232f40f9fdb00f074f77ce1050ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 08:43:29</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c6742b230f5e9f00f074f77ce1050edc</documentkey>
+        <fieldname>u_special_requirements</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-12 08:43:29</sys_created_on>
+        <sys_id>8342beb40f9fdb00f074f77ce1050ec5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 08:43:29</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=c6742b230f5e9f00f074f77ce1050edc"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

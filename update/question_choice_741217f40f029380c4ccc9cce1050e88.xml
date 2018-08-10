@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>400</order>
-        <question display_value="Udlånssted">7da11b300f029380c4ccc9cce1050ea7</question>
+        <question display_value="Security">7da11b300f029380c4ccc9cce1050ea7</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>bnow-rs</sys_created_by>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Zonerekvisition - Security - Godkendelse af udlån">aa10b9500f0e9f40c4ccc9cce1050ef4</catalog_item>
+        <catalog_item display_value="Zonerekvisition - Godkend anmodning">aa10b9500f0e9f40c4ccc9cce1050ef4</catalog_item>
         <catalog_variable>IO:bee35fb80f029380c4ccc9cce1050e10</catalog_variable>
         <disabled>true</disabled>
         <field/>

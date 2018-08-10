@@ -8,7 +8,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Zonerekvisition - Security - Godkendelse af udlån">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
+        <cat_item display_value="Zonerekvisition - Godkend anmodning">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
         <cat_variable>IO:6c41bda20fca9b80c4ccc9cce1050eed</cat_variable>
         <condition/>
         <description/>

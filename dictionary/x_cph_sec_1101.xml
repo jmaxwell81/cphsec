@@ -4,6 +4,20 @@
         <element default="0" label="Farligt gods" max_length="40" name="dangerous_goods" type="integer"/>
         <element default="0" label="Knive / dolke" max_length="40" name="knives" type="integer"/>
         <element default="0" label="Andet" max_length="40" name="other" type="integer"/>
+        <element choice="1" label="Sted" mandatory="true" max_length="40" name="place" type="choice">
+            <choice>
+                <element label="V.V" sequence="100" value="vv"/>
+                <element label="A.V" sequence="200" value="av"/>
+                <element label="SPIRIT" sequence="300" value="spirit"/>
+                <element label="F.T" sequence="400" value="ft"/>
+                <element label="C23" sequence="500" value="c23"/>
+                <element label="CSC" sequence="600" value="csc"/>
+                <element label="CSRA Øst" sequence="700" value="csra_øst"/>
+                <element label="CSRA Vest" sequence="800" value="csra_vest"/>
+                <element label="BF2" sequence="900" value="bf2"/>
+                <element label="BF3" sequence="1000" value="bf3"/>
+            </choice>
+        </element>
         <element label="Bemærkning" max_length="4000" name="remark" type="string"/>
         <element default="0" label="Våben efterligninger" max_length="40" name="replica_weapon" type="integer"/>
         <element default="0" label="Sakse" max_length="40" name="scissors" type="integer"/>

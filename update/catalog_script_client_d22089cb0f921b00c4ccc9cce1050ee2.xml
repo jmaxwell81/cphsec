@@ -8,7 +8,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Arbejdsseddel">2e845e480fb99700f074f77ce1050e6d</cat_item>
+        <cat_item display_value="Arbejdsseddel for SPS">2e845e480fb99700f074f77ce1050e6d</cat_item>
         <cat_variable>IO:5b2dfc0b0f921b00c4ccc9cce1050e14</cat_variable>
         <condition/>
         <description/>

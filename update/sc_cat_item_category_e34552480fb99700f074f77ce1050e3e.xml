@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Arbejdsseddel">2e845e480fb99700f074f77ce1050e6d</sc_cat_item>
-        <sc_category display_value="SPS">e6120d7b0fe1d700c4ccc9cce1050e5c</sc_category>
+        <sc_cat_item display_value="Arbejdsseddel for SPS">2e845e480fb99700f074f77ce1050e6d</sc_cat_item>
+        <sc_category display_value="Security Passenger Service">e6120d7b0fe1d700c4ccc9cce1050e5c</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>bnow-ph</sys_created_by>
         <sys_created_on>2018-04-26 09:07:12</sys_created_on>

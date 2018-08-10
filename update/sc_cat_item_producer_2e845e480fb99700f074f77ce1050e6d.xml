@@ -5,7 +5,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="SPS">e6120d7b0fe1d700c4ccc9cce1050e5c</category>
+        <category display_value="Security Passenger Service">e6120d7b0fe1d700c4ccc9cce1050e5c</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Arbejdsseddel</name>
+        <name>Arbejdsseddel for SPS</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -53,15 +53,15 @@
         <sys_created_on>2018-04-26 09:04:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2e845e480fb99700f074f77ce1050e6d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Arbejdsseddel</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Arbejdsseddel for SPS</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_2e845e480fb99700f074f77ce1050e6d</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-05-30 07:08:12</sys_updated_on>
+        <sys_updated_on>2018-08-10 06:02:43</sys_updated_on>
         <table_name>x_cph_sec_1201</table_name>
         <template/>
         <type>item</type>
@@ -70,11 +70,11 @@
         <u_email_body/>
         <u_individual_approval/>
         <u_manager_approval>false</u_manager_approval>
-        <u_name_eng>Arbejdsseddel</u_name_eng>
+        <u_name_eng>Arbejdsseddel for SPS</u_name_eng>
         <u_product_link/>
         <u_required_attachment>false</u_required_attachment>
         <u_short_description_eng/>
-        <u_sp_attachment_button>true</u_sp_attachment_button>
+        <u_sp_attachment_button>false</u_sp_attachment_button>
         <u_special_requirements/>
         <u_special_requirements_eng/>
         <u_stakeholder/>

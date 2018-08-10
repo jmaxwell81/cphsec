@@ -8,7 +8,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Zonerekvisition - Security - Returmodtagelse af udlånte kort">c6742b230f5e9f00f074f77ce1050edc</cat_item>
+        <cat_item display_value="Zonerekvisition - Returmodtagelse af udlånte kort">c6742b230f5e9f00f074f77ce1050edc</cat_item>
         <cat_variable>IO:5eeb67e70f5e9f00f074f77ce1050e62</cat_variable>
         <condition/>
         <description/>

@@ -3,7 +3,7 @@
     <sys_ui_related sys_domain="global" table="x_cph_sec_3109_kontrolliste" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Kontrolliste - Default view" name="x_cph_sec_3109_kontrolliste" related_list="NULL" sys_domain="global" view="Default view">69a366a40f1b9b00f074f77ce1050e03</list_id>
+            <list_id display_value="Kontrolliste - TO BE DELETED - Default view" name="x_cph_sec_3109_kontrolliste" related_list="NULL" sys_domain="global" view="Default view">69a366a40f1b9b00f074f77ce1050e03</list_id>
             <order_by/>
             <position>0</position>
             <related_list/>
@@ -16,7 +16,7 @@
             <sys_updated_on>2018-07-11 13:01:00</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Kontrolliste - Default view</calculated_name>
+            <calculated_name>Kontrolliste - TO BE DELETED - Default view</calculated_name>
             <filter/>
             <name>x_cph_sec_3109_kontrolliste</name>
             <order_by/>

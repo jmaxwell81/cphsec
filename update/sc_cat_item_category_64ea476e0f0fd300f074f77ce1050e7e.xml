@@ -2,7 +2,7 @@
 <record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Bilpas kontroldokument - Register">4ef7127f0fe69f40c4ccc9cce1050e0f</sc_cat_item>
-        <sc_category display_value="SSA">8ec8cf6a0f0fd300f074f77ce1050e7a</sc_category>
+        <sc_category display_value="Security Staff &amp; Area Service">8ec8cf6a0f0fd300f074f77ce1050e7a</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>extbuspeha</sys_created_by>
         <sys_created_on>2018-07-05 10:44:34</sys_created_on>

@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Zonerekvisition - Security - Godkendelse af udlån">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
+        <cat_item display_value="Zonerekvisition - Godkend anmodning">aa10b9500f0e9f40c4ccc9cce1050ef4</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -41,7 +41,7 @@
         <order>1500</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Bemærkning</question_text>
+        <question_text>Remarks</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -61,15 +61,15 @@
         <sys_created_on>2018-05-11 07:53:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f42453b80f029380c4ccc9cce1050e47</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Bemærkning</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Remarks</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_f42453b80f029380c4ccc9cce1050e47</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-05-24 11:08:12</sys_updated_on>
+        <sys_updated_on>2018-07-12 08:19:08</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>
@@ -87,6 +87,32 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=f42453b80f029380c4ccc9cce1050e47"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>f42453b80f029380c4ccc9cce1050e47</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-12 08:19:08</sys_created_on>
+        <sys_id>12bc66380f5fdb00f074f77ce1050e1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 08:19:08</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>f42453b80f029380c4ccc9cce1050e47</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-rs</sys_created_by>
+        <sys_created_on>2018-07-12 08:19:08</sys_created_on>
+        <sys_id>d2bc66380f5fdb00f074f77ce1050e1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-rs</sys_updated_by>
+        <sys_updated_on>2018-07-12 08:19:08</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=f42453b80f029380c4ccc9cce1050e47"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

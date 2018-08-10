@@ -41,7 +41,7 @@
         <order>300</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Name</question_text>
+        <question_text>Full name</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -61,15 +61,15 @@
         <sys_created_on>2018-05-09 13:03:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>46b782140f8e9f40c4ccc9cce1050e40</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Name</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Full name</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_46b782140f8e9f40c4ccc9cce1050e40</sys_update_name>
         <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-07-06 13:17:32</sys_updated_on>
+        <sys_updated_on>2018-07-12 07:55:51</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

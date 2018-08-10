@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Daglig funktionstest: Security scanner - Check Opslag</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Daglig funktionstest: Security scanner - Check Opslag</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="CPH SEC" name="CPH SEC">288ff0af0f2d1700f074f77ce1050e6b</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-08-06 12:59:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>638c98450fb75b80f074f77ce1050e2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Daglig funktionstest: Security scanner - Check Opslag</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_wizard_answer_638c98450fb75b80f074f77ce1050e2a</sys_update_name>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-08-06 12:59:07</sys_updated_on>
+        <table/>
+        <target_url>x_cph_sec_1104_sec_check_lookup.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

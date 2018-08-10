@@ -2,7 +2,7 @@
 <record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Våbenregistrering - SECURITY">9a3d80cd0fe29340c4ccc9cce1050e26</sc_cat_item>
-        <sc_category display_value="SPS">e6120d7b0fe1d700c4ccc9cce1050e5c</sc_category>
+        <sc_category display_value="Security Passenger Service">e6120d7b0fe1d700c4ccc9cce1050e5c</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>bnow-ph</sys_created_by>
         <sys_created_on>2018-06-05 08:34:50</sys_created_on>

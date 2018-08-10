@@ -766,6 +766,90 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fulde_navn</element>
+            <position>46</position>
+            <sys_created_by>bnow-tt</sys_created_by>
+            <sys_created_on>2018-07-12 07:48:47</sys_created_on>
+            <sys_id>e5c566bc0fdbdf00c4ccc9cce1050e08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_3109_kontrolliste" sys_domain="global" view="Default view">ad22d0d40fd35f00c4ccc9cce1050eef</sys_ui_section>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-07-12 07:48:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>guest_fullname_04</element>
+            <position>47</position>
+            <sys_created_by>bnow-tt</sys_created_by>
+            <sys_created_on>2018-07-12 07:49:35</sys_created_on>
+            <sys_id>1df566bc0fdbdf00c4ccc9cce1050e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_3109_kontrolliste" sys_domain="global" view="Default view">ad22d0d40fd35f00c4ccc9cce1050eef</sys_ui_section>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-07-12 07:49:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>guest_cpr_04</element>
+            <position>48</position>
+            <sys_created_by>bnow-tt</sys_created_by>
+            <sys_created_on>2018-07-12 07:50:17</sys_created_on>
+            <sys_id>27166ebc0fdbdf00c4ccc9cce1050e38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_3109_kontrolliste" sys_domain="global" view="Default view">ad22d0d40fd35f00c4ccc9cce1050eef</sys_ui_section>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-07-12 07:50:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>guest_birthday_04</element>
+            <position>49</position>
+            <sys_created_by>bnow-tt</sys_created_by>
+            <sys_created_on>2018-07-12 07:50:58</sys_created_on>
+            <sys_id>e546a2fc0fdbdf00c4ccc9cce1050ef4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_3109_kontrolliste" sys_domain="global" view="Default view">ad22d0d40fd35f00c4ccc9cce1050eef</sys_ui_section>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-07-12 07:50:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>guest_city_04</element>
+            <position>50</position>
+            <sys_created_by>bnow-tt</sys_created_by>
+            <sys_created_on>2018-07-12 07:51:37</sys_created_on>
+            <sys_id>0f66a6fc0fdbdf00c4ccc9cce1050eae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_3109_kontrolliste" sys_domain="global" view="Default view">ad22d0d40fd35f00c4ccc9cce1050eef</sys_ui_section>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-07-12 07:51:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>guest_country_04</element>
+            <position>51</position>
+            <sys_created_by>bnow-tt</sys_created_by>
+            <sys_created_on>2018-07-12 07:52:14</sys_created_on>
+            <sys_id>4096aafc0fdbdf00c4ccc9cce1050e3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_3109_kontrolliste" sys_domain="global" view="Default view">ad22d0d40fd35f00c4ccc9cce1050eef</sys_ui_section>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-07-12 07:52:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
