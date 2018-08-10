@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Våbenregistrering - HANDLER</name>
+        <name>Våbenregi. udlevering til handler</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -44,7 +44,7 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script/>
+        <script><![CDATA[gs.addInfoMessage('Submitted');]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -53,15 +53,15 @@
         <sys_created_on>2018-06-21 06:46:31</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f02e42c20f3ed780c4ccc9cce1050e89</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Våbenregistrering - HANDLER</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Våbenregi. udlevering til handler</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_f02e42c20f3ed780c4ccc9cce1050e89</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-07-06 10:24:14</sys_updated_on>
+        <sys_updated_on>2018-08-10 11:18:48</sys_updated_on>
         <table_name>x_cph_sec_1202_handler</table_name>
         <template/>
         <type>item</type>
@@ -70,7 +70,7 @@
         <u_email_body/>
         <u_individual_approval/>
         <u_manager_approval>false</u_manager_approval>
-        <u_name_eng>Våbenregistrering - HANDLER</u_name_eng>
+        <u_name_eng>Våbenregi. udlevering til handler</u_name_eng>
         <u_product_link/>
         <u_required_attachment>true</u_required_attachment>
         <u_short_description_eng/>

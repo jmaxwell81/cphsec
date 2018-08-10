@@ -24,7 +24,13 @@
             </choice>
         </element>
         <element label="Bemærkning" max_length="250" name="remarks" type="string"/>
-        <element label="Status" max_length="20" name="status" read_only="true" type="string"/>
+        <element choice="1" label="Status" max_length="20" name="status" read_only="true" type="choice">
+            <choice>
+                <element label="Aktiv" sequence="10" value="active"/>
+                <element label="Ude af drift" sequence="20" value="inoperative"/>
+                <element label="Nedtaget" sequence="30" value="dismantled"/>
+            </choice>
+        </element>
         <element default="Daglig" label="Testtype" max_length="10" name="testtype" read_only="true" type="string"/>
         <element label="Test ikke mulig" max_length="40" name="test_not_possible" type="boolean"/>
         <index name="index">

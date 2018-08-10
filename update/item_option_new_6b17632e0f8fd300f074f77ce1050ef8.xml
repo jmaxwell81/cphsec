@@ -2,8 +2,8 @@
 <record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
-        <cat_item display_value="Våbenregistrering - HANDLER">f02e42c20f3ed780c4ccc9cce1050e89</cat_item>
+        <attributes>ref_auto_completer=AJAXTableCompleter,ref_ac_columns=number;tag_number;route_number;filled_by,ref_ac_columns_search=true</attributes>
+        <cat_item display_value="Våbenregi. udlevering til handler">f02e42c20f3ed780c4ccc9cce1050e89</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -64,7 +64,7 @@
         <sys_created_on>2018-07-05 12:49:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6b17632e0f8fd300f074f77ce1050ef8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Våbenregistrering</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -72,7 +72,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_6b17632e0f8fd300f074f77ce1050ef8</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-07-12 08:25:05</sys_updated_on>
+        <sys_updated_on>2018-08-10 14:06:45</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

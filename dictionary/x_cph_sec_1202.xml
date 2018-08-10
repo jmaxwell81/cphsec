@@ -2,6 +2,14 @@
 <database>
     <element extends="x_cph_sec_app" label="Våbenregistrering" max_length="40" name="x_cph_sec_1202" type="collection">
         <element label="Opkald til selskab, klokken" mandatory="true" max_length="12" name="company_called" type="string"/>
+        <element choice="1" label="Handler" mandatory="true" max_length="40" name="handler" type="choice">
+            <choice>
+                <element label="Aviator" sequence="1" value="aviator"/>
+                <element label="CFS" sequence="2" value="cfs"/>
+                <element label="Menzies" sequence="3" value="menzies"/>
+                <element label="SGH" sequence="4" value="sgh"/>
+            </choice>
+        </element>
         <element label="Handler underskrift" max_length="40" name="handler_signature" type="boolean"/>
         <element default="0" label="Andre våben, antal" mandatory="true" max_length="40" name="other_weapon_count" type="integer"/>
         <element label="Andre våben, typer" max_length="30" name="other_weapon_types" type="string"/>

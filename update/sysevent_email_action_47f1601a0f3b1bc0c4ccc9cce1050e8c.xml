@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_cph_sec_1104</collection>
+        <condition table="x_cph_sec_1104">houlberg_seal_intact=no^ORalarm_testobject=no^ORprogram_completed=no^EQ<item endquery="false" field="houlberg_seal_intact" goto="false" newquery="false" operator="=" or="false" value="no"/>
+            <item endquery="false" field="alarm_testobject" goto="false" newquery="false" operator="=" or="true" value="no"/>
+            <item endquery="false" field="program_completed" goto="false" newquery="false" operator="=" or="true" value="no"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>afhent_pareringskort</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<table>
+<tbody>
+<tr>
+<td>Medarbejder nummer:</td>
+<td>${employee_number}</td>
+</tr>
+<tr>
+<td>Houlberg forsegling intakt:</td>
+<td>${houlberg_seal_intact}</td>
+</tr>
+<tr>
+<td>Alarm ved gennemgang med testobjekt:</td>
+<td>${alarm_testobject}</td>
+</tr>
+<tr>
+<td>Program "Dgl Fkttest" i main menu er udf&oslash;rt:</td>
+<td>${program_completed}</td>
+</tr>
+</tbody>
+</table>
+<p>Bem&aelig;rkning:</p>
+<p>${remarks}</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>BNOW - CPH SEC - 1104 Notification 2</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>908b3e360fe69f40f074f77ce1050e14</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Overskrift: SEC-scanner kunne ikke overholde ét eller flere krav: ${location}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-08-10 10:43:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>47f1601a0f3b1bc0c4ccc9cce1050e8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BNOW - CPH SEC - 1104 Notification 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sysevent_email_action_47f1601a0f3b1bc0c4ccc9cce1050e8c</sys_update_name>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-08-10 10:43:27</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

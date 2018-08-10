@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Våbenregistrering - HANDLER">f02e42c20f3ed780c4ccc9cce1050e89</catalog_item>
+        <catalog_item display_value="Våbenregi. udlevering til handler">f02e42c20f3ed780c4ccc9cce1050e89</catalog_item>
         <catalog_variable>IO:cf2e46c20f3ed780c4ccc9cce1050ecf</catalog_variable>
         <disabled>ignore</disabled>
         <field/>

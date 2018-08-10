@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>150</order>
+        <sc_cat_item display_value="Våbenregi. udlevering til handler">f02e42c20f3ed780c4ccc9cce1050e89</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-10 11:07:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f54960de0f3b1bc0c4ccc9cce1050ed5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CPH SEC.Våbenregi. udlevering til handler</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>io_set_item_f54960de0f3b1bc0c4ccc9cce1050ed5</sys_update_name>
+        <sys_updated_by>bnow-ph</sys_updated_by>
+        <sys_updated_on>2018-08-10 11:07:40</sys_updated_on>
+        <variable_set display_value="CPH SEC">ff298df70f25d700c4ccc9cce1050e18</variable_set>
+    </io_set_item>
+</record_update>

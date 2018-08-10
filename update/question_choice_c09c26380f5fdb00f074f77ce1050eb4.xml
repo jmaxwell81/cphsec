@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>200</order>
-        <question display_value="Skal denne blanket tilknyttes en eksisterende blanket?">5b0ceaf40f5fdb00f074f77ce1050e20</question>
+        <question display_value="Skal denne blanket tilknyttes en eksisterende bagage?">5b0ceaf40f5fdb00f074f77ce1050e20</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>bnow-ph</sys_created_by>

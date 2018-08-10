@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1ecf6c960f7b1bc0c4ccc9cce1050e85</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_attachment">
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</content_type>
+        <file_name>Ammu omregner.xlsx</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>12506</size_bytes>
+        <size_compressed>9810</size_compressed>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-10 11:35:33</sys_created_on>
+        <sys_id>1ecf6c960f7b1bc0c4ccc9cce1050e85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-ph</sys_updated_by>
+        <sys_updated_on>2018-08-10 11:35:33</sys_updated_on>
+        <table_name>sc_cat_item_producer</table_name>
+        <table_sys_id>9a3d80cd0fe29340c4ccc9cce1050e26</table_sys_id>
+    </sys_attachment>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-10 11:37:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2320f4d20f7b1bc0c4ccc9cce1050e97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ammu omregner.xlsx</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_metadata_link_2320f4d20f7b1bc0c4ccc9cce1050e97</sys_update_name>
+        <sys_updated_by>bnow-ph</sys_updated_by>
+        <sys_updated_on>2018-08-10 11:37:17</sys_updated_on>
+        <tablename>sys_attachment</tablename>
+    </sys_metadata_link>
+</record_update>
