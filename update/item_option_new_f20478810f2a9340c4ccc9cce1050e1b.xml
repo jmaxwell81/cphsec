@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>register_new_test</name>
-        <order>200</order>
+        <order>1</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Registrering af ny test</question_text>
@@ -61,15 +61,15 @@
         <sys_created_on>2018-06-05 11:23:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f20478810f2a9340c4ccc9cce1050e1b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Registrering af ny test</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_f20478810f2a9340c4ccc9cce1050e1b</sys_update_name>
-        <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-07-13 09:15:04</sys_updated_on>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-08-14 08:16:04</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>

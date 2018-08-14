@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>BNOW - CPH SEC - Daily Security Scanner Alert if Daily test is not completed</name>
+        <run_as display_value="Rasmus Stentoft">ba18d76a0f399300f074f77ce1050ea7</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-06-13 08:54:11</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[//Declare variables
+var checktypeArray = [];
+var parm1 = '';
+//var parm2 = '';
+
+//Find checktypes
+var checktypeLookup = new GlideRecord('x_cph_sec_1104_sec_check_lookup');
+checktypeLookup.query();
+
+while(checktypeLookup.next()){
+
+	checktypeArray.push(checktypeLookup.getValue('checktype'));
+}
+
+//Define unique checktypes
+var uniqueTypes = new global.ArrayUtil().unique(checktypeArray);
+
+//Set parm1 (Information about uncompleted daily tests) & parm2 (responsible e-mail address)
+for(var i = 0; i < uniqueTypes.length; i++){
+	
+	parm1 = '';
+/*	parm2 = '';
+
+	var getEmail = new GlideRecord('x_cph_sec_1102_sec_check_lookup');
+	getEmail.addQuery('checktype',uniqueTypes[i]);
+	getEmail.query();
+
+	if(getEmail.next()){
+
+		parm2 = getEmail.getValue('reply_emailaddress');
+	}	
+*/
+	//Find function tests that are not completed - (data for parm1)
+	var notCompleted = new GlideRecord('x_cph_sec_1104');
+	notCompleted.addQuery('checktype',uniqueTypes[i].toString());
+	notCompleted.addQuery('completed',false);
+	notCompleted.orderBy('location');
+	notCompleted.query();
+
+	while(notCompleted.next()){
+
+		parm1 += notCompleted.getValue('number') + ' - ' + notCompleted.getValue('checktype') + ' - ' + notCompleted.getValue('location') + '<br>';
+	}
+}
+
+//Trigger event for email notification
+gs.eventQueue('x_cph_sec.bnow.1104.daily.test.not.compl',current,parm1);
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-08-13 13:13:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c9036cdf0f3753c0f074f77ce1050e3c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>BNOW - CPH SEC - Daily Security Scanner Alert if Daily test is not completed</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sysauto_script_c9036cdf0f3753c0f074f77ce1050e3c</sys_update_name>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-08-13 14:12:15</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
