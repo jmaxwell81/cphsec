@@ -72,7 +72,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>47f1601a0f3b1bc0c4ccc9cce1050e8c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>BNOW - CPH SEC - 1104 Notification 2</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -81,9 +81,9 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sysevent_email_action_47f1601a0f3b1bc0c4ccc9cce1050e8c</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-10 10:43:27</sys_updated_on>
+        <sys_updated_on>2018-08-15 12:08:38</sys_updated_on>
         <sys_version>2</sys_version>
-        <template/>
+        <template display_value="CPH Template">22ac2d380f4c5b00f074f77ce1050edf</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

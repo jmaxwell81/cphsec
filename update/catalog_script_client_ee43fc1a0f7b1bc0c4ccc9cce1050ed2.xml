@@ -18,20 +18,29 @@
         <name>Ensure shotgun count is valid</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading || newValue == '') {
-      return;
-   }
+	if (isLoading || newValue == '') {
+		return;
+	}
 
-   var pattern =/^[0-9]*$/;
+	var pattern =/^[0-9]*$/;
 
 	if (pattern.test(newValue) == false) {
+		g_form.hideFieldMsg('shotgun_count', true);
 		g_form.setValue('shotgun_count', '');
-		alert("Kun numeriske værdier er tilladt - only numeric values are allowed");
+		g_form.showFieldMsg('shotgun_count', 'Kun numeriske værdier er tilladt - only numeric values are allowed', 'error');
+		top.window.document.getElementById('sp_formfield_IO:3e2958c50f669340c4ccc9cce1050e94').focus();
 		return;
 	} else {
+		g_form.hideFieldMsg('shotgun_count', true);
 		var intValue = parseInt(newValue);
 		if(intValue > 3) {
-			alert("Verficer at det indtastet antal til haglgevær stemmers overens.");
+			var answer = confirm("Verficer at det indtastet antal haglgeværer er korrekt\nVerify that the the number of shotguns is correct");
+			if(!answer) {
+				g_form.showFieldMsg('shotgun_count', 'Du har verificeret at indtastet tal ikke stemte overens - you have verified that the number did not match', 'info');
+				g_form.setValue('shotgun_count', '');
+				top.window.document.getElementById('sp_formfield_IO:3e2958c50f669340c4ccc9cce1050e94').focus();
+
+			}
 		}
 	}
 
@@ -43,7 +52,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>ee43fc1a0f7b1bc0c4ccc9cce1050ed2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Ensure shotgun count is valid</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -52,7 +61,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_ee43fc1a0f7b1bc0c4ccc9cce1050ed2</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-08-10 11:50:52</sys_updated_on>
+        <sys_updated_on>2018-08-16 14:09:38</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

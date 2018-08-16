@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="replica_weapon" label="Våben efterligninger" language="en" table="x_cph_sec_1101">
+    <sys_documentation element="replica_weapon" label="Våbenefterligninger" language="en" table="x_cph_sec_1101">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>replica_weapon</element>
             <help/>
             <hint/>
-            <label>Våben efterligninger</label>
+            <label>Våbenefterligninger</label>
             <language>en</language>
             <name>x_cph_sec_1101</name>
-            <plural>Våben efterligningers</plural>
+            <plural>Våbenefterligninger</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>bnow-ph</sys_created_by>
             <sys_created_on>2018-05-04 07:20:35</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>73994b260ff19740c4ccc9cce1050e22</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Våben efterligninger</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Våbenefterligninger</sys_name>
             <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
             <sys_update_name>sys_documentation_x_cph_sec_1101_replica_weapon_en</sys_update_name>
             <sys_updated_by>bnow-ph</sys_updated_by>
-            <sys_updated_on>2018-05-04 07:20:35</sys_updated_on>
+            <sys_updated_on>2018-08-16 10:36:44</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

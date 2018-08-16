@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="CPH SEC" max_length="40" name="x_cph_sec_app" type="collection">
-        <element default="javascript:gs.getUser().getRecord().getValue('employee_number');" label="Medarbejder nummer" max_length="200" name="employee_number" read_only="true" type="string"/>
+        <element default="javascript:gs.getUser().getRecord().getValue('employee_number');" label="Tjenestenr" max_length="200" name="employee_number" read_only="true" type="string"/>
         <element default="javascript:gs.getUserDisplayName()" label="Udfyldt af" max_length="200" name="filled_by" reference="sys_user" type="reference"/>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Udfyldt dato" max_length="40" name="filled_out_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Nummer" max_length="40" name="number" read_only="true" type="string"/>

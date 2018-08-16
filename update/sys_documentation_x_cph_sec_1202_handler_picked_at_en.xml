@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="picked_at" label="Afhentet" language="en" table="x_cph_sec_1202_handler">
+    <sys_documentation element="picked_at" label="Udleveret" language="en" table="x_cph_sec_1202_handler">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>picked_at</element>
             <help/>
             <hint/>
-            <label>Afhentet</label>
+            <label>Udleveret</label>
             <language>en</language>
             <name>x_cph_sec_1202_handler</name>
-            <plural>Afhentets</plural>
+            <plural>Udleverets</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>bnow-ph</sys_created_by>
-            <sys_created_on>2018-07-06 10:22:06</sys_created_on>
+            <sys_created_on>2018-08-16 14:23:30</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>455f80c70f8f1700f074f77ce1050eaa</sys_id>
+            <sys_id>7ccfcc900fc46304c4ccc9cce1050e48</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Afhentet</sys_name>
+            <sys_name>Udleveret</sys_name>
             <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
             <sys_update_name>sys_documentation_x_cph_sec_1202_handler_picked_at_en</sys_update_name>
             <sys_updated_by>bnow-ph</sys_updated_by>
-            <sys_updated_on>2018-07-06 10:22:06</sys_updated_on>
+            <sys_updated_on>2018-08-16 14:23:30</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

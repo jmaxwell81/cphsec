@@ -31,6 +31,8 @@
 <p>Testtype: ${testtype}</p>
 <p>Checktype: ${checktype}</p>
 <p>Placering: ${location}</p>
+<p>Medarbejder nummer: ${employee_number}</p>
+<p>Udfyldt tidspunkt: ${filled_out_date_time}</p>
 <p>Bem&aelig;rkninger: ${remarks}</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
@@ -46,7 +48,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>BNOW - CPH SEC - 1102 Notification 4</subject>
+        <subject>CPH SEC: Daglig funktionstest – Detektorkarme – Test på 'Ude af drift' – ${location}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>bnow-rs</sys_created_by>
@@ -54,7 +56,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>4b5ddde30f625380f074f77ce1050e36</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>BNOW - CPH SEC - 1102 Notification 4</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -62,10 +64,10 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sysevent_email_action_4b5ddde30f625380f074f77ce1050e36</sys_update_name>
-        <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-07-04 12:27:15</sys_updated_on>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-08-15 13:56:30</sys_updated_on>
         <sys_version>2</sys_version>
-        <template/>
+        <template display_value="CPH Template">22ac2d380f4c5b00f074f77ce1050edf</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

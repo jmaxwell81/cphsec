@@ -63,6 +63,7 @@ if(producer.register_new_test == 'false'){
 		'filled_out_by',
 		'filled_out_date_time',
 		'employee_number',
+		//'doorwayno',
 		'test_not_possible',
 		'test_1_number_of_green_stars',
 		'test_a_neck_1',
@@ -90,6 +91,7 @@ if(producer.register_new_test == 'false'){
 
 			updateTest[tableFields[i]] = producer[tableFields[i]];
 		}
+		updateTest.doorwayno = producer.doorwayno.getDisplayValue();
 		updateTest.completed = 'true';
 		updateTest.update();
 	}
@@ -104,15 +106,15 @@ current.setAbortAction(true);]]></script>
         <sys_created_on>2018-05-09 10:35:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f3b52d900fca9f40c4ccc9cce1050ee7</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>Daglig funktionstest: Detektorkarme</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_f3b52d900fca9f40c4ccc9cce1050ee7</sys_update_name>
-        <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-07-13 09:15:06</sys_updated_on>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-08-15 11:35:27</sys_updated_on>
         <table_name>x_cph_sec_1102</table_name>
         <template/>
         <type>item</type>
@@ -247,4 +249,40 @@ current.setAbortAction(true);]]></script>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1077</size_bytes>
+        <size_compressed>615</size_compressed>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-16 11:28:50</sys_created_on>
+        <sys_id>96c7a3cc0fc06304c4ccc9cce1050e0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-ph</sys_updated_by>
+        <sys_updated_on>2018-08-16 11:28:50</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>f3b52d900fca9f40c4ccc9cce1050ee7</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="96c7a3cc0fc06304c4ccc9cce1050e0a">96c7a3cc0fc06304c4ccc9cce1050e0a</sys_attachment>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-16 11:28:50</sys_created_on>
+        <sys_id>d6c7a3cc0fc06304c4ccc9cce1050e0a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>dVNda9tAEHxOIP/hqj4VdKf70HfihqaUOJBAoaDXosiKJaJKRpJlO6X/vbMn102hwaz2bmb2dvYkX13vfzRsKvuh7tqFo4R0WNkW3apu1wtnOz7x2Ln+eHF+9Y5zdlu2ZZ+PXZ+yT6vusWR3TbMdRgsxrQWqXfYtu2Vf9puuH9nXZrvmdy0TFszmJikLhZTsZls3KyY/MMY5nT9M69c2lMPq1cK5z9ffsYTHdlg41ThuUs/b7XZiZ0TXrz0tpfRQepSk+6Zun/8nVEmSeJaFdOHIzd5hhzlfnJ+xqS53Nx0RTDLlIwwuYhgPTblwyjZ/bEr+mBfP677btqu0LXfslfLStk+HTV5AvunLoeyn0rFj0RFsPGxAjOV+9IphIOJMDKP8+VQ3TfpeRkr55vIX5J7VU+EmHytWNPmAuSF1GG7jQSnp6uQ+MSJ2lRZxwaUwCB8RI0Ku7D6sCCywU64UCjlBTmzWkwqFKaQ7kwDoVxEIW4VFXc0tw3UhsQKCp7ZP00hXfoYREcIK+cDSp6XvzvZeHO/tAWSMOhOKcJlouOAGZZKH8KhFZDMiU76YO0dH+xBhSL00hsbS1osPXwpjU0ZMSSQCmgAewINxjwxFFRmhCltIW36kqTiDHU0TkS8MIRNhrEX3r9sX9mBwvKuDSvvCz3SypH2mgz8MVAm6VyoQURUjlBHBhOOXIW694oDmEhKiSEmNKiUVvawwmMhJFQaZRU58jGv9hybgxEaR0K9Z9M8IOwnCYBnFsECNZ5FPH4cdIQxOsgCf0ttCYo/vlP5qyL8BjSRh3DUEAAA=</data>
+        <length>808</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="96c7a3cc0fc06304c4ccc9cce1050e0a">96c7a3cc0fc06304c4ccc9cce1050e0a</sys_attachment>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-16 11:28:50</sys_created_on>
+        <sys_id>5ac7a3cc0fc06304c4ccc9cce1050e0a</sys_id>
+    </sys_attachment_doc>
 </record_update>

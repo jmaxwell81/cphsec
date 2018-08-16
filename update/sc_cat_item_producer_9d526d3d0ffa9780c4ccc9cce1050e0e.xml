@@ -169,4 +169,40 @@ current.setAbortAction(true);]]></script>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1077</size_bytes>
+        <size_compressed>615</size_compressed>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-16 11:30:23</sys_created_on>
+        <sys_id>8928a3000f046304c4ccc9cce1050e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-ph</sys_updated_by>
+        <sys_updated_on>2018-08-16 11:30:23</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>9d526d3d0ffa9780c4ccc9cce1050e0e</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="8928a3000f046304c4ccc9cce1050e43">8928a3000f046304c4ccc9cce1050e43</sys_attachment>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-16 11:30:23</sys_created_on>
+        <sys_id>c928a3000f046304c4ccc9cce1050e43</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>dVNda9tAEHxOIP/hqj4VdKf70HfihqaUOJBAoaDXosiKJaJKRpJlO6X/vbMn102hwaz2bmb2dvYkX13vfzRsKvuh7tqFo4R0WNkW3apu1wtnOz7x2Ln+eHF+9Y5zdlu2ZZ+PXZ+yT6vusWR3TbMdRgsxrQWqXfYtu2Vf9puuH9nXZrvmdy0TFszmJikLhZTsZls3KyY/MMY5nT9M69c2lMPq1cK5z9ffsYTHdlg41ThuUs/b7XZiZ0TXrz0tpfRQepSk+6Zun/8nVEmSeJaFdOHIzd5hhzlfnJ+xqS53Nx0RTDLlIwwuYhgPTblwyjZ/bEr+mBfP677btqu0LXfslfLStk+HTV5AvunLoeyn0rFj0RFsPGxAjOV+9IphIOJMDKP8+VQ3TfpeRkr55vIX5J7VU+EmHytWNPmAuSF1GG7jQSnp6uQ+MSJ2lRZxwaUwCB8RI0Ku7D6sCCywU64UCjlBTmzWkwqFKaQ7kwDoVxEIW4VFXc0tw3UhsQKCp7ZP00hXfoYREcIK+cDSp6XvzvZeHO/tAWSMOhOKcJlouOAGZZKH8KhFZDMiU76YO0dH+xBhSL00hsbS1osPXwpjU0ZMSSQCmgAewINxjwxFFRmhCltIW36kqTiDHU0TkS8MIRNhrEX3r9sX9mBwvKuDSvvCz3SypH2mgz8MVAm6VyoQURUjlBHBhOOXIW694oDmEhKiSEmNKiUVvawwmMhJFQaZRU58jGv9hybgxEaR0K9Z9M8IOwnCYBnFsECNZ5FPH4cdIQxOsgCf0ttCYo/vlP5qyL8BjSRh3DUEAAA=</data>
+        <length>808</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="8928a3000f046304c4ccc9cce1050e43">8928a3000f046304c4ccc9cce1050e43</sys_attachment>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-16 11:30:23</sys_created_on>
+        <sys_id>4d28a3000f046304c4ccc9cce1050e43</sys_id>
+    </sys_attachment_doc>
 </record_update>

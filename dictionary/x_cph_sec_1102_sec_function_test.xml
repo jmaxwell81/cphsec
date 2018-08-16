@@ -3,6 +3,7 @@
     <element extends="x_cph_sec_app" label="Daglig funktionstest: Detektorkarme - Funktionstest" max_length="40" name="x_cph_sec_1102_sec_function_test" type="collection">
         <element display="true" label="Checktype" max_length="100" name="checktype" read_only="true" type="string"/>
         <element label="Udført" max_length="40" name="completed" read_only="true" type="boolean"/>
+        <element label="Doorway nr." max_length="30" name="doorwayno" read_only="true" type="string"/>
         <element label="Udfyldt af" max_length="32" name="filled_out_by" read_only="true" reference="sys_user" type="reference"/>
         <element label="Udfyldt tidspunkt" max_length="40" name="filled_out_date_time" read_only="true" type="glide_date_time"/>
         <element label="Placering" max_length="100" name="location" read_only="true" type="string"/>

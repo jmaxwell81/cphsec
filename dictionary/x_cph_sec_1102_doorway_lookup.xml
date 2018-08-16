@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="x_cph_sec_app" label="Daglig funktionstest: Detektorkarme - Doorway Opslag" max_length="40" name="x_cph_sec_1102_doorway_lookup" type="collection">
-        <element label="Checktype" mandatory="true" max_length="32" name="checktype" reference="x_cph_sec_1102_sec_check_lookup" type="reference"/>
-        <element label="Doorwaynr." mandatory="true" max_length="10" name="doorwayno" type="string"/>
+        <element choice="1" choice_field="testtype" label="Checktype" mandatory="true" max_length="32" name="checktype" type="choice">
+            <choice>
+                <element label="CSC" sequence="10" value="CSC"/>
+                <element label="SCS" sequence="20" value="SCS"/>
+                <element label="SSC" sequence="30" value="SSC"/>
+            </choice>
+        </element>
+        <element display="true" label="Doorwaynr." mandatory="true" max_length="10" name="doorwayno" type="string"/>
         <element label="Serienr." mandatory="true" max_length="25" name="serialno" type="string"/>
         <element label="Årgang" mandatory="true" max_length="4" name="year" type="string"/>
         <index name="index">

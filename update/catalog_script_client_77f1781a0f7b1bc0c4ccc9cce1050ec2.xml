@@ -18,20 +18,29 @@
         <name>Ensure other weapon count is valid</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading || newValue == '') {
-      return;
-   }
+	if (isLoading || newValue == '') {
+		return;
+	}
 
-   var pattern =/^[0-9]*$/;
+	var pattern =/^[0-9]*$/;
 
 	if (pattern.test(newValue) == false) {
+		g_form.hideFieldMsg('other_weapon_count', true);
 		g_form.setValue('other_weapon_count', '');
-		alert("Kun numeriske værdier er tilladt - only numeric values are allowed");
+		g_form.showFieldMsg('other_weapon_count', 'Kun numeriske værdier er tilladt - only numeric values are allowed', 'error');
+		top.window.document.getElementById('sp_formfield_IO:da89d4090f669340c4ccc9cce1050eba').focus();
 		return;
 	} else {
+		g_form.hideFieldMsg('other_weapon_count', true);
 		var intValue = parseInt(newValue);
 		if(intValue > 3) {
-			alert("Verficer at det indtastet antal til andre våben stemmers overens.");
+			var answer = confirm("Verficer at det indtastet antal andre våben er korrekt\nVerify that the the number of other weapons is correct");
+			if(!answer) {
+				g_form.showFieldMsg('other_weapon_count', 'Du har verificeret at indtastet tal ikke stemte overens - you have verified that the number did not match', 'info');
+				g_form.setValue('other_weapon_count', '');
+				top.window.document.getElementById('sp_formfield_IO:da89d4090f669340c4ccc9cce1050eba').focus();
+
+			}
 		}
 	}
 
@@ -43,7 +52,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>77f1781a0f7b1bc0c4ccc9cce1050ec2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Ensure other weapon count is valid</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -52,7 +61,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_77f1781a0f7b1bc0c4ccc9cce1050ec2</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-08-10 11:49:55</sys_updated_on>
+        <sys_updated_on>2018-08-16 14:09:52</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

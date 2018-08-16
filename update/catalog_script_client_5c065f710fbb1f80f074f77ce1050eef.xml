@@ -21,103 +21,34 @@
 	if (isLoading || newValue == '') {
 		return;
 	}
+	
+	var pattern =/^[0-9]*$/;
 
-	var validFirstChar = ["0", "1", "2"];
-	var validSecondChar = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-	var validThirdChar = ["0", "1", "2", "3", "4", "5"];
-	var validFourthChar = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-
-	if(newValue.length > 4) {
-		g_form.setValue('boarding_started', oldValue);
-		return;
-	} else if(newValue.length < 4) {
+	if((newValue.length > 4 || newValue.length < 4) || pattern.test(newValue) == false) {
 		g_form.hideFieldMsg('boarding_started', true);
-		g_form.setValue('boarding_started', '');
-		g_form.showFieldMsg('boarding_started', 'Indtast klokkeslæt i følgende format: XXXX', 'error', true);
+		g_form.setValue('boarding_started', oldValue);
+		g_form.showFieldMsg('boarding_started', 'Indast klokkeslæt tal i følgende format', 'error');
 		g_form.showFieldMsg('boarding_started', 'Eksempel 1: 0630', 'error');
 		g_form.showFieldMsg('boarding_started', 'Eksempel 2: 1417', 'error');
 		g_form.showFieldMsg('boarding_started', 'Eksempel 3: 2359', 'error');
+		top.window.document.getElementById('sp_formfield_IO:170dbc0b0f921b00c4ccc9cce1050e1d').focus();
 		return;
 	} else {
 		g_form.hideFieldMsg('boarding_started', true);
 	}
-
-	var testFirstInt = newValue.split("", 1);
-
-	if(validFirstChar.indexOf(testFirstInt[0]) == -1) {
+	
+	var hours = parseInt(newValue.substring(0,2));
+	var minutes = parseInt(newValue.substring(2,4));
+	
+	if((hours < 0 || hours > 23) || (minutes < 0 || minutes > 59)) {
+		g_form.hideFieldMsg('boarding_started', true);
 		g_form.setValue('boarding_started', oldValue);
-		return;
+		g_form.showFieldMsg('boarding_started', 'Indast klokkeslæt tal i følgende format', 'error');
+		g_form.showFieldMsg('boarding_started', 'Eksempel 1: 0630', 'error');
+		g_form.showFieldMsg('boarding_started', 'Eksempel 2: 1417', 'error');
+		g_form.showFieldMsg('boarding_started', 'Eksempel 3: 2359', 'error');
+		top.window.document.getElementById('sp_formfield_IO:170dbc0b0f921b00c4ccc9cce1050e1d').focus();
 	}
-
-	if(newValue.length < 2)
-		return;
-
-	if(testFirstInt[0] == '0' || testFirstInt[0] == '1') {
-		validatorFunctionOne();
-	} else if(testFirstInt[0] == '2') {
-		validatorFunctionTwo();
-	}
-
-
-
-	function validatorFunctionOne() {
-
-		var testSecondInt = newValue.split("", 2);
-		if(validSecondChar.indexOf(testSecondInt[1]) == -1) {
-			g_form.setValue('boarding_started', oldValue);
-			return;
-		}
-		if(newValue.length < 3)
-			return;
-		
-		
-		var testThirdInt = newValue.split("", 3);
-		if(validThirdChar.indexOf(testThirdInt[2]) == -1) {
-			g_form.setValue('boarding_started', oldValue);
-			return;
-		}
-		if(newValue.length < 4)
-			return;
-		
-		
-		var testFourthInt = newValue.split("", 4);
-		if(validFourthChar.indexOf(testFourthInt[3]) == -1) {
-			g_form.setValue('boarding_started', oldValue);
-			return;
-		}
-		
-	}
-
-	function validatorFunctionTwo() {
-		
-		var validSecondChar = ["0", "1", "2", "3"];
-		
-		var testSecondInt = newValue.split("", 2);
-		if(validSecondChar.indexOf(testSecondInt[1]) == -1) {
-			g_form.setValue('boarding_started', oldValue);
-			return;
-		}
-		if(newValue.length < 3)
-			return;
-		
-		
-		var testThirdInt = newValue.split("", 3);
-		if(validThirdChar.indexOf(testThirdInt[2]) == -1) {
-			g_form.setValue('boarding_started', oldValue);
-			return;
-		}
-		if(newValue.length < 4)
-			return;
-		
-		
-		var testFourthInt = newValue.split("", 4);
-		if(validFourthChar.indexOf(testFourthInt[3]) == -1) {
-			g_form.setValue('boarding_started', oldValue);
-			return;
-		}
-		
-	}
-
 
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -126,7 +57,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5c065f710fbb1f80f074f77ce1050eef</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Boarding påbegyndt prevent error</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -135,7 +66,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_5c065f710fbb1f80f074f77ce1050eef</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-08-09 11:04:26</sys_updated_on>
+        <sys_updated_on>2018-08-16 13:06:14</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

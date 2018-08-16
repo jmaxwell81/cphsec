@@ -26,7 +26,6 @@
 	
 	function serverResponse(response) {
 		g_form.setValue('route_number', response.route_number);
-		g_form.setValue('tag_number', response.tag_number);
 		g_form.setValue('passenger_name', response.passenger_name);
 		g_form.setValue('company_called', response.company_called);
 		g_form.setValue('handler', response.handler);
@@ -40,7 +39,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0517581e0ff71bc0c4ccc9cce1050e72</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Auto populate field if parent is chosed</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -49,7 +48,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_0517581e0ff71bc0c4ccc9cce1050e72</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-08-10 14:11:23</sys_updated_on>
+        <sys_updated_on>2018-08-16 14:08:36</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
