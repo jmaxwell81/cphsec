@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function handlerCtrl($scope, $rootScope) {
+	var c = this;
+
+	c.onChange = function() { 
+		$rootScope.$broadcast("varertilfojet", $scope.data.records);
+	};
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* The customcheck */&#13;
+.customcheck {&#13;
+    display: block;&#13;
+    position: relative;&#13;
+    padding-left: 35px;&#13;
+    margin-bottom: 12px;&#13;
+    cursor: pointer;&#13;
+    font-size: 22px;&#13;
+    -webkit-user-select: none;&#13;
+    -moz-user-select: none;&#13;
+    -ms-user-select: none;&#13;
+    user-select: none;&#13;
+}&#13;
+&#13;
+/* Hide the browser's default checkbox */&#13;
+.customcheck input {&#13;
+    position: absolute;&#13;
+    opacity: 0;&#13;
+    cursor: pointer;&#13;
+}&#13;
+&#13;
+/* Create a custom checkbox */&#13;
+.checkmark {&#13;
+    position: absolute;&#13;
+    top: 0;&#13;
+    left: 0;&#13;
+    height: 25px;&#13;
+    width: 25px;&#13;
+    background-color: #eee;&#13;
+    border-radius: 5px;&#13;
+}&#13;
+&#13;
+/* On mouse-over, add a grey background color */&#13;
+.customcheck:hover input ~ .checkmark {&#13;
+    background-color: #ccc;&#13;
+}&#13;
+&#13;
+/* When the checkbox is checked, add a blue background */&#13;
+.customcheck input:checked ~ .checkmark {&#13;
+    background-color: #02cf32;&#13;
+    border-radius: 5px;&#13;
+}&#13;
+&#13;
+/* Create the checkmark/indicator (hidden when not checked) */&#13;
+.checkmark:after {&#13;
+    content: "";&#13;
+    position: absolute;&#13;
+    display: none;&#13;
+}&#13;
+&#13;
+/* Show the checkmark when checked */&#13;
+.customcheck input:checked ~ .checkmark:after {&#13;
+    display: block;&#13;
+}&#13;
+&#13;
+/* Style the checkmark/indicator */&#13;
+.customcheck .checkmark:after {&#13;
+    left: 9px;&#13;
+    top: 6px;&#13;
+    width: 7px;&#13;
+    height: 10px;&#13;
+    border: solid white;&#13;
+    border-width: 0 3px 3px 0;&#13;
+    -webkit-transform: rotate(45deg);&#13;
+    -ms-transform: rotate(45deg);&#13;
+    transform: rotate(45deg);&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>CPHSEC-Handler-widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+	data.records = [];
+	
+	var gr = new GlideRecord('x_cph_sec_1202');
+	gr.addEncodedQuery('handler_signature=false^parent!=NULL');
+	gr.query();
+	while(gr.next()) {
+		var obj = {};
+		obj.number = gr.getValue('number') || '';
+		obj.employee_number = gr.getValue('employee_number') || '';
+		obj.tag_number = gr.getValue('tag_number') || '';
+		obj.route_number = gr.getValue('route_number') || '';
+		obj.handler = gr.getValue('handler') || '';
+		obj.handler_dv = gr.getDisplayValue('handler') || '';
+		obj.checked = false;
+		obj.sys_id = gr.getUniqueValue();
+		data.records.push(obj);
+	}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>bnow-ph</sys_created_by>
+        <sys_created_on>2018-08-17 07:38:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1818fb500f08a304c4ccc9cce1050e53</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>CPHSEC-Handler-widget</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sp_widget_1818fb500f08a304c4ccc9cce1050e53</sys_update_name>
+        <sys_updated_by>bnow-ph</sys_updated_by>
+        <sys_updated_on>2018-08-17 11:57:39</sys_updated_on>
+        <template><![CDATA[<div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Nummer</th>
+        <th>Tjenestenr</th>
+        <th>Tag nummer</th>
+        <th>Rutenummer</th>
+        <th>Handler</th>
+        <th>Udlever</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="record in data.records track by $index">
+        <td>{{::record.number}}</td>
+        <td>{{::record.employee_number}}</td>
+        <td>{{::record.tag_number}}</td>
+        <td>{{::record.route_number}}</td>
+        <td>{{::record.handler_dv}}</td>
+        <td>
+          <label class="customcheck">
+            <input type="checkbox" ng-model="record.checked" ng-change="c.onChange()">
+            <span class="checkmark"></span>
+          </label>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- can be used for debugging -->
+<!--
+	<pre>{{data.records | json}}</pre>
+-->]]></template>
+    </sp_widget>
+</record_update>

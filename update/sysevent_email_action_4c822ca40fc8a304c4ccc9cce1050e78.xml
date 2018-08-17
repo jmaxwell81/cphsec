@@ -2,32 +2,29 @@
 <record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
-        <action_update>true</action_update>
-        <active>false</active>
+        <action_update>false</action_update>
+        <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_cph_sec_1102_sec_function_test</collection>
-        <condition table="x_cph_sec_1102_sec_function_test">test_1_number_of_green_stars&gt;0^testtype!=Gentest^EQ<item endquery="false" field="test_1_number_of_green_stars" goto="false" newquery="false" operator="&gt;" or="false" value="0"/>
-            <item endquery="false" field="testtype" goto="false" newquery="false" operator="!=" or="false" value="Gentest"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </condition>
+        <condition/>
         <content_type>text/html</content_type>
         <description/>
-        <event_name>afhent_pareringskort</event_name>
+        <event_name>x_cph_sec.bnow.1102.test_not_possible</event_name>
         <event_parm_1>false</event_parm_1>
-        <event_parm_2>false</event_parm_2>
+        <event_parm_2>true</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>engine</generation_type>
+        <generation_type>event</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<div>Daglig Test - Detektorkarme - Notification&nbsp;2 -&nbsp;Antal gr&oslash;nne stjerner er h&oslash;jere end 0</div>
+        <message_html><![CDATA[<div>Daglig Test - Detektorkarme - Notification 1 - Test ikke mulig</div>
 <div>&nbsp;</div>
 <div>Nummer: ${number}</div>
 <div>&nbsp;</div>
@@ -41,42 +38,40 @@
 <div>&nbsp;</div>
 <div>Udfyldt tidspunkt: ${filled_out_date_time}</div>
 <div>&nbsp;</div>
-<div>Test 1: Antal gr&oslash;nne stjerner: ${test_1_number_of_green_stars}</div>
+<div>Bem&aelig;rkninger:</div>
 <div>&nbsp;</div>
-<div>Bem&aelig;rkninger: ${remarks}</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>]]></message_html>
+<div>${remarks}</div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>BNOW - CPH SEC - 1102 Notification 2</name>
+        <name>BNOW - CPH SEC - 1102 Event 1</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>ba18d76a0f399300f074f77ce1050ea7</recipient_users>
+        <recipient_users>sec-support@cph.dk</recipient_users>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>CPH SEC: Daglig funktionstest – Detektorkarme – Antal grønne stjerner &gt; 0 – ${location}</subject>
+        <subject>CPH SEC: Daglig funktionstest – Detektorkarme – Test ikke mulig – ${location}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
-        <sys_created_by>bnow-rs</sys_created_by>
-        <sys_created_on>2018-06-13 07:52:16</sys_created_on>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-08-17 10:24:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>ca10d1670f225380f074f77ce1050ea1</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>BNOW - CPH SEC - 1102 Notification 2</sys_name>
+        <sys_id>4c822ca40fc8a304c4ccc9cce1050e78</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>BNOW - CPH SEC - 1102 Event 1</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
-        <sys_update_name>sysevent_email_action_ca10d1670f225380f074f77ce1050ea1</sys_update_name>
+        <sys_update_name>sysevent_email_action_4c822ca40fc8a304c4ccc9cce1050e78</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-17 13:27:50</sys_updated_on>
+        <sys_updated_on>2018-08-17 12:39:25</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="CPH Template">22ac2d380f4c5b00f074f77ce1050edf</template>
         <type>email</type>

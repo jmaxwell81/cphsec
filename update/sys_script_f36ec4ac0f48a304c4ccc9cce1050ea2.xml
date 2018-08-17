@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cph_sec_1102_sec_function_test</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>BNOW - CPH SEC - Detektorkarme events</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Notification 1
+	if (current.test_not_possible == true && current.testtype != 'Gentest') {
+		var parm11 = '';
+		var parm12 = '';
+
+		parm11 = current.number + ' - ' + current.checktype + ' - ' + current.location;
+		//Get e-mail address from Lookup
+		var getEmail1 = new GlideRecord('x_cph_sec_1102_sec_check_lookup');
+		getEmail1.addQuery('checktype', current.checktype);
+		getEmail1.addQuery('location', current.location);
+		getEmail1.query();
+
+		if(getEmail1.next()){
+			parm12 = getEmail1.getValue('reply_emailaddress');
+		}
+		gs.eventQueue('x_cph_sec.bnow.1102.test_not_possible', current, parm11, parm12);
+	}
+	
+	// Notification 2
+	if (test_1_number_of_green_stars > 0 && current.testtype != 'Gentest') {
+		var parm21 = '';
+		var parm22 = '';
+
+		parm21 = current.number + ' - ' + current.checktype + ' - ' + current.location;
+		//Get e-mail address from Lookup
+		var getEmail2 = new GlideRecord('x_cph_sec_1102_sec_check_lookup');
+		getEmail2.addQuery('checktype', current.checktype);
+		getEmail2.addQuery('location', current.location);
+		getEmail2.query();
+
+		if(getEmail2.next()){
+			parm22 = getEmail2.getValue('reply_emailaddress');
+		}
+		gs.eventQueue('x_cph_sec.bnow.1102.green_stars', current, parm21, parm22);
+	}
+	
+	// Notification 3
+	if (current.testtype != 'Gentest') {
+		if (current.test_a_neck_1 == 'failed' || current.test_a_neck_2 == 'failed' || current.test_b_pants_right_1 == 'failed' || current.test_b_pants_right_2 == 'failed' || current.test_c_pants_middle_1 == 'failed' || current.test_c_pants_middle_2 == 'failed' || current.test_d_pants_left_1 == 'failed' || current.test_d_pants_left_2 == 'failed' || current.test_e_ankle_right_1 == 'failed' || current.test_e_ankle_right_2 == 'failed' || current.test_f_ankle_left_1 == 'failed' || current.test_f_ankle_left_2 == 'failed') {
+			var parm31 = '';
+			var parm32 = '';
+
+			parm31 = current.number + ' - ' + current.checktype + ' - ' + current.location;
+			//Get e-mail address from Lookup
+			var getEmail3 = new GlideRecord('x_cph_sec_1102_sec_check_lookup');
+			getEmail3.addQuery('checktype', current.checktype);
+			getEmail3.addQuery('location', current.location);
+			getEmail3.query();
+
+			if(getEmail3.next()){
+				parm32 = getEmail3.getValue('reply_emailaddress');
+			}
+		
+		gs.eventQueue('x_cph_sec.bnow.1102.test_failed', current, parm31, parm32);
+		}
+			
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-08-17 09:24:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f36ec4ac0f48a304c4ccc9cce1050ea2</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>BNOW - CPH SEC - Detektorkarme events</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_script_f36ec4ac0f48a304c4ccc9cce1050ea2</sys_update_name>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-08-17 13:43:18</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>
