@@ -13,7 +13,7 @@
         <description/>
         <event_name>x_cph_sec.bnow.1102.daily.test.not.compl</event_name>
         <event_parm_1>false</event_parm_1>
-        <event_parm_2>false</event_parm_2>
+        <event_parm_2>true</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
@@ -24,16 +24,10 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Til Supervisor-gruppen for ${checktype}</p>
-<p>Der er endnu ikke udf&oslash;rt daglig funktionstest p&aring; nedenn&aelig;vnte placering.</p>
-<p>Nummer: ${number}</p>
-<p>Testtype: ${testtype}</p>
-<p>Checktype: ${checktype}&nbsp;</p>
-<p>Placering: ${location}</p>
+        <message_html><![CDATA[<p>Til Supervisor-gruppen:</p>
 <p>&nbsp;</p>
-<p>F&oslash;lgende Daglige test er ikke fuldf&oslash;rt i dag:</p>
-<p>${event.parm1}</p>
-<p>${event.parm2}&nbsp;</p>]]></message_html>
+<p>F&oslash;lgende daglige test er ikke fuldf&oslash;rt i dag:</p>
+<p>${event.parm1}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>BNOW - CPH SEC - 1102 Notification 5</name>
@@ -42,12 +36,12 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>ba18d76a0f399300f074f77ce1050ea7</recipient_users>
+        <recipient_users/>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>CPH SEC: Daglig funktionstest – Detektorkarme – Test ikke udført – ${location}</subject>
+        <subject>CPH SEC: Daglig funktionstest – Detektorkarme – Test ikke udført</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>bnow-rs</sys_created_by>
@@ -55,7 +49,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5d6025a70f625380f074f77ce1050ec4</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>BNOW - CPH SEC - 1102 Notification 5</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -64,7 +58,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sysevent_email_action_5d6025a70f625380f074f77ce1050ec4</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-15 13:56:10</sys_updated_on>
+        <sys_updated_on>2018-08-22 08:37:09</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="CPH Template">22ac2d380f4c5b00f074f77ce1050edf</template>
         <type>email</type>

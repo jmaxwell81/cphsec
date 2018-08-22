@@ -35,7 +35,7 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	
+	gs.info('test_a_neck_1: ' + current.test_a_neck_1);
 	// Notification 1
 	if (current.test_not_possible == true && current.testtype != 'Gentest') {
 		var parm11 = '';
@@ -55,10 +55,10 @@
 	}
 	
 	// Notification 2
-	if (test_1_number_of_green_stars > 0 && current.testtype != 'Gentest') {
+	if (current.test_1_number_of_green_stars > 0 && current.testtype != 'Gentest') {
 		var parm21 = '';
 		var parm22 = '';
-
+		//gs.info('Notification 2');
 		parm21 = current.number + ' - ' + current.checktype + ' - ' + current.location;
 		//Get e-mail address from Lookup
 		var getEmail2 = new GlideRecord('x_cph_sec_1102_sec_check_lookup');
@@ -91,7 +91,19 @@
 		
 		gs.eventQueue('x_cph_sec.bnow.1102.test_failed', current, parm31, parm32);
 		}
-			
+		
+		//Insert 'Gentest' record
+		var createTest = new GlideRecord('x_cph_sec_1102_sec_function_test');
+		createTest.initialize();
+		createTest.checktype = current.checktype;
+		createTest.location = current.location;
+		createTest.order = current.order;
+		createTest.testtype = 'Gentest';
+		createTest.note = current.note;
+		createTest.status = current.status;
+		createTest.remarks = 'Gentest af ' + current.number;
+		createTest.insert();
+		
 	}
 	
 })(current, previous);]]></script>
@@ -101,7 +113,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f36ec4ac0f48a304c4ccc9cce1050ea2</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>BNOW - CPH SEC - Detektorkarme events</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -110,7 +122,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sys_script_f36ec4ac0f48a304c4ccc9cce1050ea2</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-17 13:43:18</sys_updated_on>
+        <sys_updated_on>2018-08-20 14:16:27</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
