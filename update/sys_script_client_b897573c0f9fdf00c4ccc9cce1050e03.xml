@@ -18,8 +18,49 @@
 		g_form.setDisplay('guest_returned_03', false);
 		g_form.setDisplay('guest_returned_04', false);
 		g_form.setDisplay('guest_returned_05', false);
+		g_form.setDisplay('guest_returned_06', false);
+		g_form.setDisplay('guest_returned_07', false);
+		g_form.setDisplay('guest_returned_08', false);
+		g_form.setDisplay('guest_returned_09', false);
+		g_form.setDisplay('guest_returned_10', false);
 	}else{
 		g_form.setDisplay('guest_returned_01', true);
+		
+		//If guest 10 empty
+		if(g_form.getValue('guest_fullname_10') == ''){
+			g_form.setDisplay('guest_returned_10', false);
+		}else{
+			g_form.setDisplay('guest_returned_10', true);
+		}
+		
+		//If guest 9 empty
+		if(g_form.getValue('guest_fullname_09') == ''){
+			g_form.setDisplay('guest_returned_09', false);
+		}else{
+			g_form.setDisplay('guest_returned_09', true);
+		}
+		
+		//If guest 8 empty
+		if(g_form.getValue('guest_fullname_08') == ''){
+			g_form.setDisplay('guest_returned_08', false);
+		}else{
+			g_form.setDisplay('guest_returned_08', true);
+		}
+		
+		//If guest 7 empty
+		if(g_form.getValue('guest_fullname_07') == ''){
+			g_form.setDisplay('guest_returned_07', false);
+		}else{
+			g_form.setDisplay('guest_returned_07', true);
+		}
+		
+		//If guest 6 empty
+		if(g_form.getValue('guest_fullname_06') == ''){
+			g_form.setDisplay('guest_returned_06', false);
+		}else{
+			g_form.setDisplay('guest_returned_06', true);
+		}
+		
 		//If guest 5 empty
 		if(g_form.getValue('guest_fullname_05') == ''){
 			g_form.setDisplay('guest_returned_05', false);
@@ -52,7 +93,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b897573c0f9fdf00c4ccc9cce1050e03</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Retur visible</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -61,7 +102,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sys_script_client_b897573c0f9fdf00c4ccc9cce1050e03</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-07-12 12:32:49</sys_updated_on>
+        <sys_updated_on>2018-08-23 12:34:02</sys_updated_on>
         <table>x_cph_sec_3109</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

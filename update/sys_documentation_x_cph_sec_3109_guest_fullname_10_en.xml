@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="registered_to" label="Våbenregistrering" language="en" table="x_cph_sec_1202_handler">
+    <sys_documentation element="guest_fullname_10" label="Fulde navn" language="en" table="x_cph_sec_3109">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>registered_to</element>
+            <element>guest_fullname_10</element>
             <help/>
             <hint/>
-            <label>Våbenregistrering</label>
+            <label>Fulde navn</label>
             <language>en</language>
-            <name>x_cph_sec_1202_handler</name>
-            <plural>Våbenregistrerings</plural>
+            <name>x_cph_sec_3109</name>
+            <plural>Fulde navns</plural>
             <sys_class_name>sys_documentation</sys_class_name>
-            <sys_created_by>bnow-ph</sys_created_by>
-            <sys_created_on>2018-07-06 10:17:16</sys_created_on>
+            <sys_created_by>bnow-tt</sys_created_by>
+            <sys_created_on>2018-08-23 12:19:29</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>523e40470f8f1700f074f77ce1050ea3</sys_id>
+            <sys_id>5886fb960f082300f074f77ce1050e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Våbenregistrering</sys_name>
+            <sys_name>Fulde navn</sys_name>
             <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
-            <sys_update_name>sys_documentation_x_cph_sec_1202_handler_registered_to_en</sys_update_name>
-            <sys_updated_by>bnow-ph</sys_updated_by>
-            <sys_updated_on>2018-07-06 10:17:16</sys_updated_on>
+            <sys_update_name>sys_documentation_x_cph_sec_3109_guest_fullname_10_en</sys_update_name>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-08-23 12:19:29</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

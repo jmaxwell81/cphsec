@@ -13,7 +13,7 @@
         <description/>
         <event_name>x_cph_sec.bnow.1104.daily.test.not.compl</event_name>
         <event_parm_1>false</event_parm_1>
-        <event_parm_2>false</event_parm_2>
+        <event_parm_2>true</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
@@ -24,9 +24,11 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>F&oslash;lgende Daglige test er ikke fuldf&oslash;rt i dag:</p>
-<p>${event.parm1}</p>
-<p>&nbsp;</p>]]></message_html>
+        <message_html><![CDATA[<p>Daglig funktionstest af SEC-scanner er d.d. ikke udf&oslash;rt endnu.</p>
+<p>Bem&aelig;rk, at testen skal v&aelig;re udf&oslash;rt i indev&aelig;rende d&oslash;gn.</p>
+<p>&nbsp;</p>
+<p>F&oslash;lgende Daglige test er ikke fuldf&oslash;rt i dag:</p>
+<p>${event.parm1}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>BNOW - CPH SEC - 1104 Notification 4</name>
@@ -35,12 +37,12 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>908b3e360fe69f40f074f77ce1050e14</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>BNOW - CPH SEC - 1104 Notification 4</subject>
+        <subject>CPH SEC: Daglig funktionstest – Security scanner – Test ikke udført</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>bnow-tt</sys_created_by>
@@ -48,7 +50,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>371924130f7753c0f074f77ce1050e2e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>BNOW - CPH SEC - 1104 Notification 4</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -57,7 +59,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sysevent_email_action_371924130f7753c0f074f77ce1050e2e</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-15 12:09:21</sys_updated_on>
+        <sys_updated_on>2018-08-23 08:23:09</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="CPH Template">22ac2d380f4c5b00f074f77ce1050edf</template>
         <type>email</type>

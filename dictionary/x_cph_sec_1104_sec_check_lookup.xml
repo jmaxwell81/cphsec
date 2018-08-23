@@ -3,6 +3,7 @@
     <element extends="x_cph_sec_app" label="Daglig funktionstest: Security scanner - Check Opslag" max_length="40" name="x_cph_sec_1104_sec_check_lookup" type="collection">
         <element label="Checktype" mandatory="true" max_length="40" name="checktype" type="string"/>
         <element label="Placering" mandatory="true" max_length="20" name="location" type="string"/>
+        <element label="SV mailadresse" mandatory="true" max_length="100" name="reply_emailaddress" type="string"/>
         <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
                 <element label="Aktiv" sequence="10" value="active"/>

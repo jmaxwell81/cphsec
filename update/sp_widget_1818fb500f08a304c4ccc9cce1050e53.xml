@@ -95,7 +95,7 @@
 	data.records = [];
 	
 	var gr = new GlideRecord('x_cph_sec_1202');
-	gr.addEncodedQuery('handler_signature=false^parent!=NULL');
+	gr.addEncodedQuery('handler_signature=false');
 	gr.query();
 	while(gr.next()) {
 		var obj = {};
@@ -117,7 +117,7 @@
         <sys_created_on>2018-08-17 07:38:09</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1818fb500f08a304c4ccc9cce1050e53</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>CPHSEC-Handler-widget</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -125,7 +125,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sp_widget_1818fb500f08a304c4ccc9cce1050e53</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-08-17 11:57:39</sys_updated_on>
+        <sys_updated_on>2018-08-23 14:26:54</sys_updated_on>
         <template><![CDATA[<div>
   <table class="table table-striped">
     <thead>

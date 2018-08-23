@@ -4,107 +4,122 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">827822350ff71f80f074f77ce1050e54</list_id>
+            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d6f5039a0f442300f074f77ce1050e2a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-09 07:05:52</sys_created_on>
-            <sys_id>0e7822350ff71f80f074f77ce1050e54</sys_id>
+            <sys_created_on>2018-08-23 08:47:26</sys_created_on>
+            <sys_id>5ef5039a0f442300f074f77ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-09 07:05:52</sys_updated_on>
+            <sys_updated_on>2018-08-23 08:47:26</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>filled_by</element>
-            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">827822350ff71f80f074f77ce1050e54</list_id>
+            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d6f5039a0f442300f074f77ce1050e2a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-09 07:05:52</sys_created_on>
-            <sys_id>827822350ff71f80f074f77ce1050e55</sys_id>
+            <sys_created_on>2018-08-23 08:47:26</sys_created_on>
+            <sys_id>def5039a0f442300f074f77ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-09 07:05:52</sys_updated_on>
+            <sys_updated_on>2018-08-23 08:47:26</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>filled_out_date</element>
-            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">827822350ff71f80f074f77ce1050e54</list_id>
+            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d6f5039a0f442300f074f77ce1050e2a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-09 07:05:52</sys_created_on>
-            <sys_id>067822350ff71f80f074f77ce1050e55</sys_id>
+            <sys_created_on>2018-08-23 08:47:26</sys_created_on>
+            <sys_id>52f5039a0f442300f074f77ce1050e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-09 07:05:52</sys_updated_on>
+            <sys_updated_on>2018-08-23 08:47:26</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>checktype</element>
-            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">827822350ff71f80f074f77ce1050e54</list_id>
+            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d6f5039a0f442300f074f77ce1050e2a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-09 07:05:52</sys_created_on>
-            <sys_id>867822350ff71f80f074f77ce1050e55</sys_id>
+            <sys_created_on>2018-08-23 08:47:26</sys_created_on>
+            <sys_id>d2f5039a0f442300f074f77ce1050e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-09 07:05:52</sys_updated_on>
+            <sys_updated_on>2018-08-23 08:47:26</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>location</element>
-            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">827822350ff71f80f074f77ce1050e54</list_id>
+            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d6f5039a0f442300f074f77ce1050e2a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-09 07:05:52</sys_created_on>
-            <sys_id>0a7822350ff71f80f074f77ce1050e55</sys_id>
+            <sys_created_on>2018-08-23 08:47:26</sys_created_on>
+            <sys_id>56f5039a0f442300f074f77ce1050e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-09 07:05:52</sys_updated_on>
+            <sys_updated_on>2018-08-23 08:47:26</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>testtype</element>
-            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">827822350ff71f80f074f77ce1050e54</list_id>
+            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d6f5039a0f442300f074f77ce1050e2a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-09 07:05:52</sys_created_on>
-            <sys_id>8a7822350ff71f80f074f77ce1050e55</sys_id>
+            <sys_created_on>2018-08-23 08:47:26</sys_created_on>
+            <sys_id>d6f5039a0f442300f074f77ce1050e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-09 07:05:52</sys_updated_on>
+            <sys_updated_on>2018-08-23 08:47:26</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>equipment_number</element>
-            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">827822350ff71f80f074f77ce1050e54</list_id>
+            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d6f5039a0f442300f074f77ce1050e2a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-09 07:05:52</sys_created_on>
-            <sys_id>0e7822350ff71f80f074f77ce1050e55</sys_id>
+            <sys_created_on>2018-08-23 08:47:26</sys_created_on>
+            <sys_id>5af5039a0f442300f074f77ce1050e2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-09 07:05:52</sys_updated_on>
+            <sys_updated_on>2018-08-23 08:47:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_cph_sec_1104" element="NULL" name="x_cph_sec_1104" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d6f5039a0f442300f074f77ce1050e2a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>bnow-tt</sys_created_by>
+            <sys_created_on>2018-08-23 08:47:26</sys_created_on>
+            <sys_id>daf5039a0f442300f074f77ce1050e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-08-23 08:47:26</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -118,20 +133,20 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-10 12:05:02</sys_created_on>
+            <sys_created_on>2018-08-23 08:47:26</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>b9867c1e0f7b1bc0c4ccc9cce1050ee7</sys_id>
+            <sys_id>d6f5039a0f442300f074f77ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package/>
+            <sys_name>x_cph_sec_1104</sys_name>
+            <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_x_cph_sec_1104_null</sys_update_name>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-10 12:05:02</sys_updated_on>
-            <sys_user display_value="Thomas Thomsen">908b3e360fe69f40f074f77ce1050e14</sys_user>
+            <sys_updated_on>2018-08-23 08:47:26</sys_updated_on>
+            <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

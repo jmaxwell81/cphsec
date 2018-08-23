@@ -4,10 +4,7 @@
         <element label="Tjenestenummer" mandatory="true" max_length="50" name="handler_number" type="string"/>
         <element label="Handlers ID-kortnr." mandatory="true" max_length="20" name="id_card" type="string"/>
         <element label="Udleveret" mandatory="true" max_length="4" name="picked_at" type="string"/>
-        <element label="Våbenregistrering" max_length="32" name="registered_to" reference="x_cph_sec_1202" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <index name="index">
-            <element name="registered_to"/>
-        </index>
+        <element label="Signed to" max_length="4000" name="signed_to" reference="x_cph_sec_1202" type="glide_list"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
     </element>
 </database>

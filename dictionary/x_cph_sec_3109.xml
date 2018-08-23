@@ -6,31 +6,61 @@
         <element label="Fødselsdato" max_length="6" name="guest_birthday_03" type="string"/>
         <element label="Fødselsdato" max_length="6" name="guest_birthday_04" type="string"/>
         <element label="Fødselsdato" max_length="6" name="guest_birthday_05" type="string"/>
-        <element label="Fødeby" max_length="30" name="guest_city_01" type="string"/>
+        <element label="Fødselsdato" max_length="6" name="guest_birthday_06" type="string"/>
+        <element label="Fødselsdato" max_length="6" name="guest_birthday_07" type="string"/>
+        <element label="Fødselsdato" max_length="6" name="guest_birthday_08" type="string"/>
+        <element label="Fødselsdato" max_length="6" name="guest_birthday_09" type="string"/>
+        <element label="Fødselsdato" max_length="6" name="guest_birthday_10" type="string"/>
+        <element label="Fødeby" mandatory="true" max_length="30" name="guest_city_01" type="string"/>
         <element label="Fødeby" max_length="30" name="guest_city_02" type="string"/>
         <element label="Fødeby" max_length="30" name="guest_city_03" type="string"/>
         <element label="Fødeby" max_length="30" name="guest_city_04" type="string"/>
         <element label="Fødeby" max_length="30" name="guest_city_05" type="string"/>
-        <element label="Land" max_length="30" name="guest_country_01" type="string"/>
+        <element label="Fødeby" max_length="30" name="guest_city_06" type="string"/>
+        <element label="Fødeby" max_length="30" name="guest_city_07" type="string"/>
+        <element label="Fødeby" max_length="30" name="guest_city_08" type="string"/>
+        <element label="Fødeby" max_length="30" name="guest_city_09" type="string"/>
+        <element label="Fødeby" max_length="30" name="guest_city_10" type="string"/>
+        <element label="Land" mandatory="true" max_length="30" name="guest_country_01" type="string"/>
         <element label="Land" max_length="30" name="guest_country_02" type="string"/>
         <element label="Land" max_length="30" name="guest_country_03" type="string"/>
         <element label="Land" max_length="30" name="guest_country_04" type="string"/>
         <element label="Land" max_length="30" name="guest_country_05" type="string"/>
+        <element label="Land" max_length="30" name="guest_country_06" type="string"/>
+        <element label="Land" max_length="30" name="guest_country_07" type="string"/>
+        <element label="Land" max_length="30" name="guest_country_08" type="string"/>
+        <element label="Land" max_length="30" name="guest_country_09" type="string"/>
+        <element label="Land" max_length="30" name="guest_country_10" type="string"/>
         <element label="CPR-nr." max_length="11" name="guest_cpr_01" type="string"/>
         <element label="CPR-nr." max_length="11" name="guest_cpr_02" type="string"/>
         <element label="CPR-nr." max_length="11" name="guest_cpr_03" type="string"/>
         <element label="CPR-nr." max_length="11" name="guest_cpr_04" type="string"/>
         <element label="CPR-nr." max_length="11" name="guest_cpr_05" type="string"/>
+        <element label="CPR-nr." max_length="11" name="guest_cpr_06" type="string"/>
+        <element label="CPR-nr." max_length="11" name="guest_cpr_07" type="string"/>
+        <element label="CPR-nr." max_length="11" name="guest_cpr_08" type="string"/>
+        <element label="CPR-nr." max_length="11" name="guest_cpr_09" type="string"/>
+        <element label="CPR-nr." max_length="11" name="guest_cpr_10" type="string"/>
         <element label="Fulde navn" mandatory="true" max_length="70" name="guest_fullname_01" type="string"/>
         <element label="Fulde navn" max_length="70" name="guest_fullname_02" type="string"/>
         <element label="Fulde navn" max_length="70" name="guest_fullname_03" type="string"/>
         <element label="Fulde navn" max_length="70" name="guest_fullname_04" type="string"/>
         <element label="Fulde navn" max_length="70" name="guest_fullname_05" type="string"/>
+        <element label="Fulde navn" max_length="70" name="guest_fullname_06" type="string"/>
+        <element label="Fulde navn" max_length="70" name="guest_fullname_07" type="string"/>
+        <element label="Fulde navn" max_length="70" name="guest_fullname_08" type="string"/>
+        <element label="Fulde navn" max_length="70" name="guest_fullname_09" type="string"/>
+        <element label="Fulde navn" max_length="70" name="guest_fullname_10" type="string"/>
         <element label="Retur" max_length="40" name="guest_returned_01" type="boolean"/>
         <element label="Retur" max_length="40" name="guest_returned_02" type="boolean"/>
         <element label="Retur" max_length="40" name="guest_returned_03" type="boolean"/>
         <element label="Retur" max_length="40" name="guest_returned_04" type="boolean"/>
         <element label="Retur" max_length="40" name="guest_returned_05" type="boolean"/>
+        <element label="Retur" max_length="40" name="guest_returned_06" type="boolean"/>
+        <element label="Retur" max_length="40" name="guest_returned_07" type="boolean"/>
+        <element label="Retur" max_length="40" name="guest_returned_08" type="boolean"/>
+        <element label="Retur" max_length="40" name="guest_returned_09" type="boolean"/>
+        <element label="Retur" max_length="40" name="guest_returned_10" type="boolean"/>
         <element label="Firma" mandatory="true" max_length="50" name="host_company" type="string"/>
         <element label="CPH ID-kort nr." mandatory="true" max_length="12" name="host_cph_card" type="string"/>
         <element label="Afdeling" max_length="50" name="host_department" type="string"/>

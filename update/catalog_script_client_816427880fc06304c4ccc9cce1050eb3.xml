@@ -24,10 +24,13 @@
 
     var pattern =/^[0-9]*$/;
 
-	if (pattern.test(newValue) == false) {
+    if (pattern.test(newValue) == false) {
 		g_form.setValue('knives', '');
-		alert("Kun numeriske værdier er tilladt - only numeric values are allowed");
+		g_form.showFieldMsg('knives', 'Kun numeriske værdier er tilladt - only numeric values are allowed', 'error');
+		top.window.document.getElementById('sp_formfield_IO:cd454d730f25d700c4ccc9cce1050e11').focus();
 		return;
+	} else {
+		g_form.hideFieldMsg('knives', true);
 	}
    
 }]]></script>
@@ -37,7 +40,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>816427880fc06304c4ccc9cce1050eb3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Ensure knvies is valid</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -46,7 +49,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_816427880fc06304c4ccc9cce1050eb3</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-08-16 11:15:04</sys_updated_on>
+        <sys_updated_on>2018-08-23 10:25:27</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

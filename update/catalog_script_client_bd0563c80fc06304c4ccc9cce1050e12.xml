@@ -24,10 +24,13 @@
 
     var pattern =/^[0-9]*$/;
 
-	if (pattern.test(newValue) == false) {
+    if (pattern.test(newValue) == false) {
 		g_form.setValue('tools', '');
-		alert("Kun numeriske værdier er tilladt - only numeric values are allowed");
+		g_form.showFieldMsg('tools', 'Kun numeriske værdier er tilladt - only numeric values are allowed', 'error');
+		top.window.document.getElementById('sp_formfield_IO:72170db30f25d700c4ccc9cce1050ed8').focus();
 		return;
+	} else {
+		g_form.hideFieldMsg('tools', true);
 	}
    
 }]]></script>
@@ -37,7 +40,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>bd0563c80fc06304c4ccc9cce1050e12</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Ensure tools is valid</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -46,7 +49,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_bd0563c80fc06304c4ccc9cce1050e12</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-08-16 11:17:04</sys_updated_on>
+        <sys_updated_on>2018-08-23 10:24:48</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
