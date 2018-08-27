@@ -34,9 +34,9 @@
 		g_form.hideFieldMsg('pistol_count', true);
 		var intValue = parseInt(newValue);
 		if(intValue > 10) {
-			var answer = confirm("Verficer at det indtastet antal pistoler er korrekt\nVerify that the the number of pistols is correct");
+			var answer = confirm("Verficer at det indtastede antal pistoler er korrekt\nVerify that the number of pistols is correct");
 			if(!answer) {
-				g_form.showFieldMsg('pistol_count', 'Du har verificeret at indtastet tal ikke stemte overens - you have verified that the number did not match', 'info');
+				g_form.showFieldMsg('pistol_count', 'Du har verificeret at indtastede tal ikke stemte overens - you have verified that the number did not match', 'info');
 				g_form.setValue('pistol_count', '');
 				top.window.document.getElementById('sp_formfield_IO:c22ad4490f669340c4ccc9cce1050e57').focus();
 
@@ -52,7 +52,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f863781a0f7b1bc0c4ccc9cce1050ec7</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Ensure pistol count is valid</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>catalog_script_client_f863781a0f7b1bc0c4ccc9cce1050ec7</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-08-16 14:10:01</sys_updated_on>
+        <sys_updated_on>2018-08-27 15:25:41</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -20,7 +20,8 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_cph_sec_1202">route_numberISNOTEMPTY^EQ<item endquery="false" field="route_number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <filter_condition table="x_cph_sec_1202">route_numberISNOTEMPTY^company_calledISNOTEMPTY^EQ<item endquery="false" field="route_number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="company_called" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -58,7 +59,7 @@
 
 	var gr = new GlideRecord('x_cph_sec_1202');
 	gr.addQuery('sys_created_on', '>=', gdt.getDisplayValue());
-	gr.addEncodedQuery('company_calledISEMPTY^route_number=' + current.route_number);
+	gr.addEncodedQuery('company_calledISEMPTY^route_number=' + current.route_number + '^handler=' + current.handler);
 	gr.query();
 	while(gr.next()) {
 		gr.autoSysFields(false);
@@ -73,7 +74,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b57d33560fcc2300c4ccc9cce1050e48</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Fill out call on same Flights routes</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -82,7 +83,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sys_script_b57d33560fcc2300c4ccc9cce1050e48</sys_update_name>
         <sys_updated_by>bnow-ph</sys_updated_by>
-        <sys_updated_on>2018-08-23 14:20:18</sys_updated_on>
+        <sys_updated_on>2018-08-27 15:30:04</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
