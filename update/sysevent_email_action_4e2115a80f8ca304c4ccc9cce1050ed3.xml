@@ -34,7 +34,7 @@
 <div>&nbsp;</div>
 <div>Placering: ${location}</div>
 <div>&nbsp;</div>
-<div>Medarbejder nummer: ${employee_number}</div>
+<div>Tjenestenr: ${employee_number}</div>
 <div>&nbsp;</div>
 <div>Udfyldt tidspunkt: ${filled_out_date_time}</div>
 <div>&nbsp;</div>
@@ -77,7 +77,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>4e2115a80f8ca304c4ccc9cce1050ed3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>BNOW - CPH SEC - 1102 Event 3</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -86,7 +86,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sysevent_email_action_4e2115a80f8ca304c4ccc9cce1050ed3</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-17 13:49:30</sys_updated_on>
+        <sys_updated_on>2018-08-28 12:49:42</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="CPH Template">22ac2d380f4c5b00f074f77ce1050edf</template>
         <type>email</type>

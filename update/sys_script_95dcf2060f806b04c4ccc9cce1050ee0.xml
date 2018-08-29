@@ -72,8 +72,7 @@
 			}
 		
 		gs.eventQueue('x_cph_sec.bnow.1104.test_failed', current, parm31, parm32);
-		}
-		
+				
 		//Insert 'Gentest' record
 		var createTest = new GlideRecord('x_cph_sec_1104');
 		createTest.initialize();
@@ -83,7 +82,7 @@
 		createTest.status = current.status;
 		createTest.remarks = 'Gentest af ' + current.number;
 		createTest.insert();
-		
+		}
 	}
 	
 })(current, previous);]]></script>
@@ -93,7 +92,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>95dcf2060f806b04c4ccc9cce1050ee0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>BNOW - CPH SEC - Security scanner events</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -102,7 +101,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sys_script_95dcf2060f806b04c4ccc9cce1050ee0</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-23 09:28:49</sys_updated_on>
+        <sys_updated_on>2018-08-28 12:47:46</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
