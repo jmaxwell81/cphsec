@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="angiv_benyttet_funktionstast_3b" label="Angiv benyttet funktionstast" language="en" table="x_cph_sec_1105">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>angiv_benyttet_funktionstast_3b</element>
+            <help/>
+            <hint/>
+            <label>Angiv benyttet funktionstast</label>
+            <language>en</language>
+            <name>x_cph_sec_1105</name>
+            <plural>Angiv benyttet funktionstasts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bnow-cn</sys_created_by>
+            <sys_created_on>2018-10-08 11:30:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6084201d0f812b80f074f77ce1050e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Angiv benyttet funktionstast</sys_name>
+            <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+            <sys_update_name>sys_documentation_x_cph_sec_1105_angiv_benyttet_funktionstast_3b_en</sys_update_name>
+            <sys_updated_by>bnow-cn</sys_updated_by>
+            <sys_updated_on>2018-10-08 11:30:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

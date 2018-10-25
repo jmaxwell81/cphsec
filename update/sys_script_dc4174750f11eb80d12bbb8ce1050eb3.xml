@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cph_sec_1105</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>BNOW - CPH SEC - X-Ray scanner events</name>
+        <onclick/>
+        <order>200</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Notification 1
+	if (current.test_not_possible == true && current.testtype != 'Gentest') {
+		var parm11 = '';
+		var parm12 = '';
+
+		parm11 = current.number + ' - ' + current.checktype + ' - ' + current.location;
+		//Get e-mail address from Lookup
+		var getEmail1 = new GlideRecord('x_cph_sec_1105_sec_check_lookup');
+		getEmail1.addQuery('checktype', current.checktype);
+		getEmail1.addQuery('placering', current.placering);
+		getEmail1.query();
+
+		if(getEmail1.next()){
+			parm12 = getEmail1.getValue('reply_emailaddress');
+		}
+		gs.eventQueue('x_cph_sec.bnow.1105.test_not_possible', current, parm11, parm12);
+	}
+	
+	// Notification 2
+	if (current.testtype != 'Gentest') {
+		if (current.test_1 != 'Niveau 4 – Godkendt' || current.test_3a != 'Niveau 3 – Godkendt' || current.test_3b != 'Niveau 3 – Godkendt' ||
+		   current.test_4a == 'Niveau 1 - Ej godkendt' || current.test_4b == 'Niv. 1 – 14 mm: Ej godkendt' || 
+		   current.test_4b == 'Niv. 2 – 16 mm: Ej godkendt' || current.test_4b == 'Niv. 3 – 18 mm: Ej godkendt' || 
+		   current.test_4b == 'Niv. 4 – 20 mm: Ej godkendt' || current.test_4b == 'Niv. 5 – 22 mm: Ej godkendt' || 
+		   current.test_4b == 'Niv. 6 – 24 mm: Ej godkendt' || current.test_5_godkendt == false) {
+			var parm31 = '';
+			var parm32 = '';
+
+			parm31 = current.number + ' - ' + current.checktype + ' - ' + current.location;
+			//Get e-mail address from Lookup
+			var getEmail3 = new GlideRecord('x_cph_sec_1105_sec_check_lookup');
+			getEmail3.addQuery('checktype', current.checktype);
+			getEmail3.addQuery('placering', current.placering);
+			getEmail3.query();
+
+			if(getEmail3.next()){
+				parm32 = getEmail3.getValue('reply_emailaddress');
+			}
+		
+		gs.eventQueue('x_cph_sec.bnow.1105.test_failed', current, parm31, parm32);
+				
+		//Insert 'Gentest' record
+		var createTest = new GlideRecord('x_cph_sec_1105');
+		createTest.initialize();
+		createTest.checktype = current.checktype;
+		createTest.placering = current.placering;
+		createTest.testtype = 'Gentest';
+		//createTest.status = current.status;
+		createTest.bemaerkning = 'Gentest af ' + current.number;
+		createTest.insert();
+		}
+	}
+	
+	// Notification 3
+	if (current.testtype != 'Gentest') {
+		if (current.x_ray_lampekontrol == '1 lampe defekt') {
+			var parm41 = '';
+			var parm42 = '';
+
+			parm41 = current.number + ' - ' + current.checktype + ' - ' + current.location;
+			//Get e-mail address from Lookup
+			var getEmail4 = new GlideRecord('x_cph_sec_1105_sec_check_lookup');
+			getEmail4.addQuery('checktype', current.checktype);
+			getEmail4.addQuery('placering', current.placering);
+			getEmail4.query();
+
+			if(getEmail4.next()){
+				parm42 = getEmail4.getValue('reply_emailaddress');
+			}
+		
+		gs.eventQueue('x_cph_sec.bnow.1105.x_ray_1_bulb_defect', current, parm41, parm42);
+				
+		}
+	}
+	
+	// Notification 4
+	if (current.testtype != 'Gentest') {
+		if (current.x_ray_lampekontrol == '2 lamper defekt (Indkørsel)' || current.x_ray_lampekontrol == '2 lamper defekt (Udkørsel)') {
+			var parm51 = '';
+			var parm52 = '';
+
+			parm51 = current.number + ' - ' + current.checktype + ' - ' + current.location;
+			//Get e-mail address from Lookup
+			var getEmail5 = new GlideRecord('x_cph_sec_1105_sec_check_lookup');
+			getEmail5.addQuery('checktype', current.checktype);
+			getEmail5.addQuery('location', current.location);
+			getEmail5.query();
+
+			if(getEmail5.next()){
+				parm52 = getEmail5.getValue('reply_emailaddress');
+			}
+		
+		gs.eventQueue('x_cph_sec.bnow.1105.x_ray_2_bulbs_defect', current, parm51, parm52);
+				
+		}
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>bnow-cn</sys_created_by>
+        <sys_created_on>2018-10-22 11:59:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>dc4174750f11eb80d12bbb8ce1050eb3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>BNOW - CPH SEC - X-Ray scanner events</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>sys_script_dc4174750f11eb80d12bbb8ce1050eb3</sys_update_name>
+        <sys_updated_by>bnow-cn</sys_updated_by>
+        <sys_updated_on>2018-10-23 13:19:06</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

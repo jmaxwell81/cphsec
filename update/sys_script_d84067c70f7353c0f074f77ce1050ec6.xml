@@ -20,8 +20,11 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_cph_sec_1104">status=inoperative^completed=true^EQ<item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="inoperative"/>
+        <filter_condition table="x_cph_sec_1104">status=inoperative^completed=true^alarm_testobject=yes^houlberg_seal_intact=yes^program_completed=yes^EQ<item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="inoperative"/>
             <item endquery="false" field="completed" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="alarm_testobject" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+            <item endquery="false" field="houlberg_seal_intact" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+            <item endquery="false" field="program_completed" goto="false" newquery="false" operator="=" or="false" value="yes"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -59,7 +62,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d84067c70f7353c0f074f77ce1050ec6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>BNOW - 1104 Set Status Active</sys_name>
         <sys_overrides/>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
@@ -68,7 +71,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sys_script_d84067c70f7353c0f074f77ce1050ec6</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-13 11:01:57</sys_updated_on>
+        <sys_updated_on>2018-10-23 07:56:07</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

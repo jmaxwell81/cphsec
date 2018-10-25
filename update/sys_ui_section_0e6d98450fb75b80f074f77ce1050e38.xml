@@ -4,25 +4,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>d4979e060f006b04c4ccc9cce1050e17</sys_id>
+            <sys_created_on>2018-10-16 09:14:26</sys_created_on>
+            <sys_id>d802d5770fc563c0f074f77ce1050e52</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
+            <sys_updated_on>2018-10-16 09:14:26</sys_updated_on>
             <text>Security scanner</text>
             <type display_value="BNOW - Section Annotation">03f259b00f0c5b00f074f77ce1050e2a</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>d4979e060f006b04c4ccc9cce1050e17</element>
+            <element>d802d5770fc563c0f074f77ce1050e52</element>
             <position>0</position>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>dc979e060f006b04c4ccc9cce1050e17</sys_id>
+            <sys_created_on>2018-10-16 09:14:26</sys_created_on>
+            <sys_id>5402d5770fc563c0f074f77ce1050e53</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
+            <sys_updated_on>2018-10-16 09:14:26</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -30,13 +30,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>50979e060f006b04c4ccc9cce1050e18</sys_id>
+            <sys_created_on>2018-10-16 09:14:26</sys_created_on>
+            <sys_id>1c02d5770fc563c0f074f77ce1050e53</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
+            <sys_updated_on>2018-10-16 09:14:26</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -44,13 +44,13 @@
             <element>checktype</element>
             <position>2</position>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>d0979e060f006b04c4ccc9cce1050e18</sys_id>
+            <sys_created_on>2018-10-16 09:14:26</sys_created_on>
+            <sys_id>9c02d5770fc563c0f074f77ce1050e53</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
+            <sys_updated_on>2018-10-16 09:14:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -58,13 +58,13 @@
             <element>location</element>
             <position>3</position>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>54979e060f006b04c4ccc9cce1050e18</sys_id>
+            <sys_created_on>2018-10-16 09:14:26</sys_created_on>
+            <sys_id>1002d5770fc563c0f074f77ce1050e54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
+            <sys_updated_on>2018-10-16 09:14:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -72,13 +72,13 @@
             <element>status</element>
             <position>4</position>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>d4979e060f006b04c4ccc9cce1050e18</sys_id>
+            <sys_created_on>2018-10-16 09:14:26</sys_created_on>
+            <sys_id>9002d5770fc563c0f074f77ce1050e54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
+            <sys_updated_on>2018-10-16 09:14:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -86,13 +86,13 @@
             <element>reply_emailaddress</element>
             <position>5</position>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>58979e060f006b04c4ccc9cce1050e18</sys_id>
+            <sys_created_on>2018-10-16 09:14:26</sys_created_on>
+            <sys_id>1402d5770fc563c0f074f77ce1050e54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
+            <sys_updated_on>2018-10-16 09:14:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -100,69 +100,27 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>d8979e060f006b04c4ccc9cce1050e18</sys_id>
+            <sys_created_on>2018-10-16 09:14:26</sys_created_on>
+            <sys_id>9402d5770fc563c0f074f77ce1050e54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
+            <sys_updated_on>2018-10-16 09:14:26</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>filled_out_date</element>
+            <element>.end_split</element>
             <position>7</position>
             <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>5c979e060f006b04c4ccc9cce1050e18</sys_id>
+            <sys_created_on>2018-10-16 09:14:26</sys_created_on>
+            <sys_id>1802d5770fc563c0f074f77ce1050e54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
             <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>filled_by</element>
-            <position>8</position>
-            <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>dc979e060f006b04c4ccc9cce1050e18</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
-            <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>employee_number</element>
-            <position>9</position>
-            <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>50979e060f006b04c4ccc9cce1050e19</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
-            <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>10</position>
-            <sys_created_by>bnow-tt</sys_created_by>
-            <sys_created_on>2018-08-22 10:46:12</sys_created_on>
-            <sys_id>d0979e060f006b04c4ccc9cce1050e19</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cph_sec_1104_sec_check_lookup" sys_domain="global" view="Default view">0e6d98450fb75b80f074f77ce1050e38</sys_ui_section>
-            <sys_updated_by>bnow-tt</sys_updated_by>
-            <sys_updated_on>2018-08-22 10:46:12</sys_updated_on>
+            <sys_updated_on>2018-10-16 09:14:26</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>

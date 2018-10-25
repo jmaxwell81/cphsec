@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Cph Sec 1102 Doorway Lookup" max_length="40" name="u_imp_tmpl_x_cph_sec_1102_doorway_lookup" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Årgang" max_length="40" name="u_årgang" type="string"/>
+        <element attributes="import_attribute_name=Checktype,edge_encryption_enabled=true" label="Checktype" max_length="32" name="u_checktype" type="string"/>
+        <element attributes="import_attribute_name=Doorwaynr.,edge_encryption_enabled=true" label="Doorwaynr." max_length="10" name="u_doorwaynr_" type="string"/>
+        <element attributes="import_attribute_name=Serienr.,edge_encryption_enabled=true" label="Serienr." max_length="25" name="u_serienr_" type="string"/>
+        <element attributes="import_attribute_name=Tjenestenr,edge_encryption_enabled=true" label="Tjenestenr" max_length="200" name="u_tjenestenr" type="string"/>
+        <element attributes="import_attribute_name=Udfyldt af,edge_encryption_enabled=true" label="Udfyldt af" max_length="200" name="u_udfyldt_af" type="string"/>
+        <element attributes="import_attribute_name=Udfyldt dato" label="Udfyldt dato" max_length="40" name="u_udfyldt_dato" type="glide_date"/>
+    </element>
+</database>

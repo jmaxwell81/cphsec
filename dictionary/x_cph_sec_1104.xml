@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="x_cph_sec_app" label="Daglig funktionstest: Security scanner" max_length="40" name="x_cph_sec_1104" type="collection">
-        <element choice="1" label="Alarm v gennemgang m testobjekt" mandatory="true" max_length="40" name="alarm_testobject" type="choice">
+        <element choice="1" label="Alarm v gennemgang m testobjekt" max_length="40" name="alarm_testobject" read_only="true" type="choice">
             <choice>
                 <element label="Ja" sequence="10" value="yes"/>
                 <element label="Nej" sequence="20" value="no"/>
@@ -9,21 +9,21 @@
         </element>
         <element label="Checktype" max_length="40" name="checktype" read_only="true" type="string"/>
         <element label="Udført" max_length="40" name="completed" read_only="true" type="boolean"/>
-        <element label="Udstyr nummer" mandatory="true" max_length="10" name="equipment_number" type="string"/>
-        <element choice="1" label="Houlberg forsegling intakt" mandatory="true" max_length="40" name="houlberg_seal_intact" type="choice">
+        <element label="Udstyr nummer" max_length="10" name="equipment_number" read_only="true" type="string"/>
+        <element choice="1" label="Houlberg forsegling intakt" max_length="40" name="houlberg_seal_intact" read_only="true" type="choice">
             <choice>
                 <element label="Ja" sequence="10" value="yes"/>
                 <element label="Nej" sequence="20" value="no"/>
             </choice>
         </element>
         <element label="Placering" max_length="20" name="location" read_only="true" type="string"/>
-        <element choice="1" label="Program &quot;Dgl Fkttest&quot; i main menu er udført" mandatory="true" max_length="40" name="program_completed" type="choice">
+        <element choice="1" label="Program &quot;Dgl Fkttest&quot; i main menu er udført" max_length="40" name="program_completed" read_only="true" type="choice">
             <choice>
                 <element label="Ja" sequence="10" value="yes"/>
                 <element label="Nej" sequence="20" value="no"/>
             </choice>
         </element>
-        <element label="Bemærkning" max_length="250" name="remarks" type="string"/>
+        <element label="Bemærkning" max_length="250" name="remarks" read_only="true" type="string"/>
         <element choice="1" label="Status" max_length="20" name="status" read_only="true" type="choice">
             <choice>
                 <element label="Aktiv" sequence="10" value="active"/>
@@ -32,7 +32,7 @@
             </choice>
         </element>
         <element default="Daglig" label="Testtype" max_length="10" name="testtype" read_only="true" type="string"/>
-        <element label="Test ikke mulig" max_length="40" name="test_not_possible" type="boolean"/>
+        <element label="Test ikke mulig" max_length="40" name="test_not_possible" read_only="true" type="boolean"/>
         <index name="index">
             <element name="checktype"/>
         </index>

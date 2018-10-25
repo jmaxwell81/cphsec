@@ -10,9 +10,7 @@
         <element choice="1" label="ID-kort type" max_length="40" name="id_card_type" read_only="true" type="choice">
             <choice>
                 <element label="CPH ID-kort" sequence="0" value="CPH ID-kort / CPH ID Card"/>
-                <element label="Staff" sequence="2" value="Staff"/>
-                <element label="Crew" sequence="4" value="Crew"/>
-                <element label="Airline" sequence="5" value="Airline"/>
+                <element label="CPH Staff-kort / CPH Staff Card" sequence="2" value="CPH Staff-kort / CPH Staff Card"/>
                 <element label="Crew / Besætnings-ID" sequence="6" value="Crew / Besætnings-ID"/>
                 <element label="Ved ikke / Unknown" sequence="7" value="Ved ikke / Unknown"/>
             </choice>

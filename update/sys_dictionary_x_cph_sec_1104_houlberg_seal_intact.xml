@@ -32,12 +32,12 @@
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="Choice">choice</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_cph_sec_1104</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -54,7 +54,7 @@
         <sys_created_on>2018-08-06 14:27:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3e3f2c850ff75b80f074f77ce1050e3d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Houlberg forsegling intakt</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sys_dictionary_x_cph_sec_1104_houlberg_seal_intact</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-06 14:27:59</sys_updated_on>
+        <sys_updated_on>2018-10-23 09:18:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -106,7 +106,7 @@ current.setAbortAction(true);]]></script>
         <sys_created_on>2018-05-09 10:35:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f3b52d900fca9f40c4ccc9cce1050ee7</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>Daglig funktionstest: Detektorkarme</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -114,7 +114,7 @@ current.setAbortAction(true);]]></script>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_f3b52d900fca9f40c4ccc9cce1050ee7</sys_update_name>
         <sys_updated_by>bnow-tt</sys_updated_by>
-        <sys_updated_on>2018-08-15 11:35:27</sys_updated_on>
+        <sys_updated_on>2018-10-16 08:33:41</sys_updated_on>
         <table_name>x_cph_sec_1102</table_name>
         <template/>
         <type>item</type>

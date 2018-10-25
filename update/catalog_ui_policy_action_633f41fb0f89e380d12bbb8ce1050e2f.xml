@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Daglig funktionstest: Detektorkarme">21fab4250f456b80f074f77ce1050e57</catalog_item>
+        <catalog_variable>IO:dcf41af50f4dab80f074f77ce1050ef9</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bnow-cn</sys_created_by>
+        <sys_created_on>2018-10-16 09:02:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>633f41fb0f89e380d12bbb8ce1050e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bemaerkning</sys_name>
+        <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_633f41fb0f89e380d12bbb8ce1050e2f</sys_update_name>
+        <sys_updated_by>bnow-cn</sys_updated_by>
+        <sys_updated_on>2018-10-16 09:02:33</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make comments mandatory if any test fails">db6e09f70f89e380d12bbb8ce1050ee6</ui_policy>
+        <variable>bemaerkning</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

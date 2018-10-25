@@ -24,7 +24,7 @@
             <element>id_card_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Staff</label>
+            <label>CPH Staff-kort / CPH Staff Card</label>
             <language>en</language>
             <name>x_cph_sec_2202</name>
             <sequence>2</sequence>
@@ -32,16 +32,16 @@
             <sys_created_on>2018-05-17 09:05:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>914e5efa0fc21f80c4ccc9cce1050e95</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
-            <value>Staff</value>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-10-08 08:19:57</sys_updated_on>
+            <value>CPH Staff-kort / CPH Staff Card</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>id_card_type</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Crew</label>
             <language>en</language>
             <name>x_cph_sec_2202</name>
@@ -50,16 +50,16 @@
             <sys_created_on>2018-05-17 09:05:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>154e5efa0fc21f80c4ccc9cce1050e97</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-10-08 08:18:26</sys_updated_on>
             <value>Crew</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>id_card_type</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Airline</label>
             <language>en</language>
             <name>x_cph_sec_2202</name>
@@ -68,9 +68,9 @@
             <sys_created_on>2018-05-17 09:05:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>554e5efa0fc21f80c4ccc9cce1050e98</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-17 09:05:22</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-10-08 08:18:31</sys_updated_on>
             <value>Airline</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

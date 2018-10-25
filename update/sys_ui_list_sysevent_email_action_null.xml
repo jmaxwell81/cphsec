@@ -162,11 +162,11 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>bnow-ph</sys_created_by>
-            <sys_created_on>2018-08-22 13:00:14</sys_created_on>
+            <sys_created_by>bnow-cn</sys_created_by>
+            <sys_created_on>2018-10-16 12:46:59</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>63367e8e0f406b04c4ccc9cce1050ed7</sys_id>
+            <sys_id>f1a202f70f8de380d12bbb8ce1050eb5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_package/>
@@ -174,9 +174,9 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
             <sys_update_name/>
-            <sys_updated_by>bnow-ph</sys_updated_by>
-            <sys_updated_on>2018-08-22 13:00:14</sys_updated_on>
-            <sys_user display_value="Peter Hansen">cfe3740fdb418300340efb9dae961904</sys_user>
+            <sys_updated_by>bnow-cn</sys_updated_by>
+            <sys_updated_on>2018-10-16 12:46:59</sys_updated_on>
+            <sys_user display_value="Christian Nørgaard">209673bf0ff46740d12bbb8ce1050e45</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

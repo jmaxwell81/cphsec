@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cph_sec_app" label="Dagli funktionstest: X-Ray - Check Opslag" max_length="40" name="x_cph_sec_1105_sec_check_lookup" type="collection">
+        <element label="Checktype" mandatory="true" max_length="40" name="checktype" type="string"/>
+        <element label="Placering" mandatory="true" max_length="20" name="placering" type="string"/>
+        <element label="SV mailadresse" mandatory="true" max_length="100" name="reply_emailaddress" type="string"/>
+        <element label="Status" mandatory="true" max_length="40" name="status" type="string"/>
+    </element>
+</database>

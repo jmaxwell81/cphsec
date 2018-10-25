@@ -53,15 +53,15 @@
         <sys_created_on>2018-05-16 10:58:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a34e61ea0f42df00f074f77ce1050eba</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Zonerekvisition - Anmodning om zonekort</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sc_cat_item_producer_a34e61ea0f42df00f074f77ce1050eba</sys_update_name>
-        <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-07-12 07:26:21</sys_updated_on>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-10-08 11:37:55</sys_updated_on>
         <table_name>x_cph_sec_2202</table_name>
         <template/>
         <type>item</type>
@@ -70,7 +70,7 @@
         <u_email_body/>
         <u_individual_approval/>
         <u_manager_approval>false</u_manager_approval>
-        <u_name_eng>Zone requisition - Request zone card</u_name_eng>
+        <u_name_eng>Zone Card – Request for zone card</u_name_eng>
         <u_product_link/>
         <u_required_attachment>false</u_required_attachment>
         <u_short_description_eng/>
@@ -96,6 +96,71 @@
         <workflow/>
     </sc_cat_item_producer>
     <sys_translated_text action="delete_multiple" query="documentkey=a34e61ea0f42df00f074f77ce1050eba"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a34e61ea0f42df00f074f77ce1050eba</documentkey>
+        <fieldname>description</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-10-08 11:37:55</sys_created_on>
+        <sys_id>0426e4dd0f8d6b40d12bbb8ce1050e93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-10-08 11:37:55</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a34e61ea0f42df00f074f77ce1050eba</documentkey>
+        <fieldname>name</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-10-08 11:37:55</sys_created_on>
+        <sys_id>0826a89d0f8d6b40d12bbb8ce1050ec5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-10-08 11:37:55</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Zonerekvisition - Anmodning om zonekort</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a34e61ea0f42df00f074f77ce1050eba</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-10-08 11:37:55</sys_created_on>
+        <sys_id>8c26e4dd0f8d6b40d12bbb8ce1050e8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-10-08 11:37:55</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a34e61ea0f42df00f074f77ce1050eba</documentkey>
+        <fieldname>u_description_eng</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-10-08 11:37:55</sys_created_on>
+        <sys_id>5c26e4dd0f8d6b40d12bbb8ce1050e96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-10-08 11:37:55</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a34e61ea0f42df00f074f77ce1050eba</documentkey>
+        <fieldname>u_special_requirements</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-10-08 11:37:55</sys_created_on>
+        <sys_id>8c26a89d0f8d6b40d12bbb8ce1050ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-10-08 11:37:55</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=a34e61ea0f42df00f074f77ce1050eba"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cph_sec_app" label="Daglig funktionstest: EMA - Check Opslag" max_length="40" name="x_cph_sec_1103_sec_check_lookup" type="collection">
+        <element label="Checktype" mandatory="true" max_length="100" name="checktype" type="string"/>
+        <element label="Placering" mandatory="true" max_length="20" name="location" type="string"/>
+        <element label="SV mailadresse" mandatory="true" max_length="100" name="reply_emailaddress" type="string"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Aktiv" sequence="10" value="active"/>
+                <element label="Ude af drift" sequence="20" value="inoperative"/>
+                <element label="Nedtaget" sequence="30" value="dismantled"/>
+            </choice>
+        </element>
+    </element>
+</database>

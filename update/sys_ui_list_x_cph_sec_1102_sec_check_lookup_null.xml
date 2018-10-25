@@ -4,122 +4,167 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>checktype</element>
-            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bbacd4b0f1edb00f074f77ce1050ea7</list_id>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-30 07:54:35</sys_created_on>
-            <sys_id>13bacd4b0f1edb00f074f77ce1050ea8</sys_id>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>21ef2ee40fdceb00c4ccc9cce1050ef5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-30 07:54:35</sys_updated_on>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>location</element>
-            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bbacd4b0f1edb00f074f77ce1050ea7</list_id>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-30 07:54:35</sys_created_on>
-            <sys_id>93bacd4b0f1edb00f074f77ce1050ea8</sys_id>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>a5ef2ee40fdceb00c4ccc9cce1050ef5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-30 07:54:35</sys_updated_on>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>status</element>
-            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bbacd4b0f1edb00f074f77ce1050ea7</list_id>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-30 07:54:35</sys_created_on>
-            <sys_id>17bacd4b0f1edb00f074f77ce1050ea8</sys_id>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>29ef2ee40fdceb00c4ccc9cce1050ef5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-30 07:54:35</sys_updated_on>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>reply_emailaddress</element>
-            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bbacd4b0f1edb00f074f77ce1050ea7</list_id>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-30 07:54:35</sys_created_on>
-            <sys_id>a7bacd4b0f1edb00f074f77ce1050ea8</sys_id>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>a9ef2ee40fdceb00c4ccc9cce1050ef5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-30 07:54:35</sys_updated_on>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bbacd4b0f1edb00f074f77ce1050ea7</list_id>
+            <element>monday</element>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-30 07:54:35</sys_created_on>
-            <sys_id>2bbacd4b0f1edb00f074f77ce1050ea8</sys_id>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>2def2ee40fdceb00c4ccc9cce1050ef5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-30 07:54:35</sys_updated_on>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_by</element>
-            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bbacd4b0f1edb00f074f77ce1050ea7</list_id>
+            <element>tuesday</element>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-30 07:54:35</sys_created_on>
-            <sys_id>abbacd4b0f1edb00f074f77ce1050ea8</sys_id>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>adef2ee40fdceb00c4ccc9cce1050ef5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-30 07:54:35</sys_updated_on>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bbacd4b0f1edb00f074f77ce1050ea7</list_id>
+            <element>wednesday</element>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-30 07:54:35</sys_created_on>
-            <sys_id>2fbacd4b0f1edb00f074f77ce1050ea8</sys_id>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>21ef2ee40fdceb00c4ccc9cce1050ef6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-30 07:54:35</sys_updated_on>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_by</element>
-            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bbacd4b0f1edb00f074f77ce1050ea7</list_id>
+            <element>thursday</element>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
-            <sys_created_by>bnow-rs</sys_created_by>
-            <sys_created_on>2018-05-30 07:54:35</sys_created_on>
-            <sys_id>afbacd4b0f1edb00f074f77ce1050ea8</sys_id>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>a1ef2ee40fdceb00c4ccc9cce1050ef6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>bnow-rs</sys_updated_by>
-            <sys_updated_on>2018-05-30 07:54:35</sys_updated_on>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>friday</element>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>25ef2ee40fdceb00c4ccc9cce1050ef6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>saturday</element>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>a5ef2ee40fdceb00c4ccc9cce1050ef6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sunday</element>
+            <list_id display_value="x_cph_sec_1102_sec_check_lookup" element="NULL" name="x_cph_sec_1102_sec_check_lookup" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ef2ee40fdceb00c4ccc9cce1050ef4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>extchanida</sys_created_by>
+            <sys_created_on>2018-08-30 06:57:19</sys_created_on>
+            <sys_id>29ef2ee40fdceb00c4ccc9cce1050ef6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>extchanida</sys_updated_by>
+            <sys_updated_on>2018-08-30 06:57:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

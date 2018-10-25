@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cph_sec_app" label="Daglig funktionstest: X-Ray" max_length="40" name="x_cph_sec_1105" type="collection">
+        <element label="Angiv benyttet funktionstast" max_length="64" name="angiv_benyttet_funktionstast_1" type="string"/>
+        <element label="Angiv benyttet funktionstast" max_length="64" name="angiv_benyttet_funktionstast_2" type="string"/>
+        <element label="Angiv benyttet funktionstast" max_length="64" name="angiv_benyttet_funktionstast_3a" type="string"/>
+        <element label="Angiv benyttet funktionstast" max_length="64" name="angiv_benyttet_funktionstast_3b" type="string"/>
+        <element label="Angiv benyttet funktionstast" max_length="64" name="angiv_benyttet_funktionstast_4a" type="string"/>
+        <element label="Angiv benyttet funktionstast" max_length="64" name="angiv_benyttet_funktionstast_4b" type="string"/>
+        <element label="Angiv benyttet funktionstast" max_length="64" name="angiv_benyttet_funktionstast_5" type="string"/>
+        <element label="Bemærkning" max_length="250" name="bemaerkning" type="string"/>
+        <element label="Checktype" max_length="40" name="checktype" type="string"/>
+        <element label="Placering" max_length="40" name="placering" type="string"/>
+        <element default="Daglig" label="Testtype" max_length="10" name="testtype" type="string"/>
+        <element label="Test 1" max_length="64" name="test_1" type="string"/>
+        <element label="Test 2" max_length="64" name="test_2" type="string"/>
+        <element label="Test 3a" max_length="64" name="test_3a" type="string"/>
+        <element label="Test 3b" max_length="64" name="test_3b" type="string"/>
+        <element label="Test 4a" max_length="64" name="test_4a" type="string"/>
+        <element label="Test 4b" max_length="64" name="test_4b" type="string"/>
+        <element label="Test 5 Godkendt" max_length="40" name="test_5_godkendt" type="boolean"/>
+        <element label="Test ikke mulig" max_length="40" name="test_ikke_mulig" type="boolean"/>
+        <element label="Udfyldt tidspunkt" max_length="40" name="udfyldt_tidspunkt" type="glide_date_time"/>
+        <element label="X-Ray lampekontrol" max_length="40" name="x_ray_lampekontrol" type="string"/>
+        <index name="index">
+            <element name="checktype"/>
+        </index>
+        <index name="index2">
+            <element name="placering"/>
+        </index>
+    </element>
+</database>

@@ -4,7 +4,7 @@
         <active>true</active>
         <category/>
         <content><![CDATA[ <h1 class="title topictitle1">Review indicators</h1>  <div class="body conbody">  <p class="p"><span class="ph">Indicators are statistics that businesses track to measure   current conditions and to forecast trends. They provide you with key information on how your   business is doing.</span></p>  <p class="p">You can present them in scorecards and in user-friendly dashboards.</p>  <p class="p">An automated indicator is based on an indicator source. You can set                indicator values such as, frequency, direction, and a default time series to                influence the way the data is processed.</p>  <p class="p"><span class="ph">Manual indicators are not associated with an indicator                source. This means that scores for manual indicators are not generated automatically                by a data collection job. Instead, you must populate these indicators by adding                scores manually or by importing data.</span></p>  <p class="p">Review the provided indicators to ensure the metrics you want to track are included.</p> </div>]]></content>
-        <last_sync>2018-08-17 08:58:06</last_sync>
+        <last_sync>2018-10-16 09:01:14</last_sync>
         <modifier>setup</modifier>
         <name>pa_indicators_list-setup</name>
         <page>pa_indicators_list</page>
@@ -18,7 +18,7 @@
         <sys_created_on>2018-07-18 08:56:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c0ce253e0fd71740f074f77ce1050e4a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>pa_indicators_list-setup</sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
@@ -26,7 +26,7 @@
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>sys_embedded_help_content_c0ce253e0fd71740f074f77ce1050e4a</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-17 08:58:06</sys_updated_on>
+        <sys_updated_on>2018-10-16 09:01:14</sys_updated_on>
         <version>j</version>
     </sys_embedded_help_content>
 </record_update>

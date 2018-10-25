@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="location" label="Placering" language="en" table="x_cph_sec_1103_sec_check_lookup">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <help/>
+            <hint/>
+            <label>Placering</label>
+            <language>en</language>
+            <name>x_cph_sec_1103_sec_check_lookup</name>
+            <plural>Placerings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bnow-tt</sys_created_by>
+            <sys_created_on>2018-10-10 08:14:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7aba8af90f0dab80f074f77ce1050ec0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Placering</sys_name>
+            <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
+            <sys_update_name>sys_documentation_x_cph_sec_1103_sec_check_lookup_location_en</sys_update_name>
+            <sys_updated_by>bnow-tt</sys_updated_by>
+            <sys_updated_on>2018-10-10 08:14:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

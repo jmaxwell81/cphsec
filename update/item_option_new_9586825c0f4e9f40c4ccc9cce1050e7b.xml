@@ -62,15 +62,15 @@
         <sys_created_on>2018-05-09 12:57:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9586825c0f4e9f40c4ccc9cce1050e7b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name> </sys_name>
         <sys_package display_value="CPH SEC" source="x_cph_sec">ce7268634f211300656e417da310c780</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CPH SEC">ce7268634f211300656e417da310c780</sys_scope>
         <sys_update_name>item_option_new_9586825c0f4e9f40c4ccc9cce1050e7b</sys_update_name>
-        <sys_updated_by>bnow-rs</sys_updated_by>
-        <sys_updated_on>2018-06-04 07:25:56</sys_updated_on>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-10-08 10:24:46</sys_updated_on>
         <table/>
         <tooltip/>
         <type>17</type>
@@ -88,6 +88,33 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=9586825c0f4e9f40c4ccc9cce1050e7b"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>9586825c0f4e9f40c4ccc9cce1050e7b</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-10-08 10:24:46</sys_created_on>
+        <sys_id>b8655c5d0f4d6b40d12bbb8ce1050ec9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-10-08 10:24:46</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>9586825c0f4e9f40c4ccc9cce1050e7b</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>da</language>
+        <sys_created_by>bnow-tt</sys_created_by>
+        <sys_created_on>2018-10-08 10:24:46</sys_created_on>
+        <sys_id>a8655c5d0f4d6b40d12bbb8ce1050ec6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bnow-tt</sys_updated_by>
+        <sys_updated_on>2018-10-08 10:24:46</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value>&lt;p&gt;&lt;strong&gt;Kun for Crew uden personligt CPH ID-kort:&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;Jeg bekr&amp;aelig;fter hermed at have l&amp;aelig;st og forst&amp;aring;et de skriftlige airside safetykrav og foruds&amp;aelig;tninger for l&amp;aring;n af zonekort.&lt;/p&gt;</value>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=9586825c0f4e9f40c4ccc9cce1050e7b"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
